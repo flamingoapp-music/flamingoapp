@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>FlamingoApp iTunes Charts</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/applemusic.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+<div id="wrapper">
+	<header id="header" class="alt">
+		<a href="index.html" class="logo"><strong>F L A M I N G O  A P P</strong></a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Top Charts</a></li>
+			<li><a href="landing.html">Top Artists</a></li>
+			<li><a href="generic.html">New Music</a></li>
+			<li><a href="elements.html">About Me</a></li>
+		</ul>
+		<ul class="actions stacked">
+			<li><a href="#" class="button primary fit">Get Started</a></li>
+			<li><a href="#" class="button fit">Log In</a></li>
+		</ul>
+	</nav>
+	<section id="banner" class="style2">
+		<div class="inner">
+			<header class="major">
+				<h1>iTunes Charts</h1>
+			</header>
+			<div class="content">
+				<p></p>
+			</div>
+		</div>
+	</section>
+	<div id="main">
+		<section id="one">
+			<div class="tabs">
+				<a href="iTunes_charts.html" class="tab">iTunes</a>
+				<a href="shazam_charts.html" class="tab">Shazam</a>
+				<a href="deezer_charts.html" class="tab">Deezer</a>
+			</div>
+		</section>
+		<section id="two" class="spotlights">
+			<section>
+				<div class="search_bar">
+					<input type="text" id="searchInput" placeholder="Enter search text..." class="search-input">
+					<button id="searchButton" aria-label="Search">🔍</button>
+					<button id="homeButton" aria-label="Home">🏠</button>
+					<select id="displayselect" class="display-select">
+						<option value="index" selected>🌍 Global</option>
+
+							<!-- North America and Central America -->
+							<optgroup label="North America and Central America">
+								<option value="us">🇺🇸 United States</option>
+								<option value="ca">🇨🇦 Canada</option>
+								<option value="mx">🇲🇽 Mexico</option>
+								<option value="bz">🇧🇿 Belize</option>
+								<option value="cr">🇨🇷 Costa Rica</option>
+								<option value="sv">🇸🇻 El Salvador</option>
+								<option value="gt">🇬🇹 Guatemala</option>
+								<option value="hn">🇭🇳 Honduras</option>
+								<option value="ni">🇳🇮 Nicaragua</option>
+								<option value="pa">🇵🇦 Panama</option>
+								<option value="do">🇩🇴 Dominican Republic</option>
+							</optgroup>
+
+							<!-- South America -->
+							<optgroup label="South America">
+								<option value="ar">🇦🇷 Argentina</option>
+								<option value="bo">🇧🇴 Bolivia</option>
+								<option value="br">🇧🇷 Brazil</option>
+								<option value="cl">🇨🇱 Chile</option>
+								<option value="co">🇨🇴 Colombia</option>
+								<option value="ec">🇪🇨 Ecuador</option>
+								<option value="py">🇵🇾 Paraguay</option>
+								<option value="pe">🇵🇪 Peru</option>
+								<option value="uy">🇺🇾 Uruguay</option>
+								<option value="ve">🇻🇪 Venezuela</option>
+							</optgroup>
+
+							<!-- Europe -->
+							<optgroup label="Europe">
+								<option value="de">🇩🇪 Germany</option>
+								<option value="fr">🇫🇷 France</option>
+								<option value="it">🇮🇹 Italy</option>
+								<option value="es">🇪🇸 Spain</option>
+								<option value="pt">🇵🇹 Portugal</option>
+								<option value="be">🇧🇪 Belgium</option>
+								<option value="nl">🇳🇱 Netherlands</option>
+								<option value="pl">🇵🇱 Poland</option>
+								<option value="se">🇸🇪 Sweden</option>
+								<option value="no">🇳🇴 Norway</option>
+								<option value="fi">🇫🇮 Finland</option>
+								<option value="ch">🇨🇭 Switzerland</option>
+								<option value="at">🇦🇹 Austria</option>
+								<option value="ie">🇮🇪 Ireland</option>
+							</optgroup>
+
+							<!-- Asia -->
+							<optgroup label="Asia">
+								<option value="jp">🇯🇵 Japan</option>
+								<option value="in">🇮🇳 India</option>
+								<option value="sg">🇸🇬 Singapore</option>
+								<option value="my">🇲🇾 Malaysia</option>
+								<option value="th">🇹🇭 Thailand</option>
+								<option value="ph">🇵🇭 Philippines</option>
+								<option value="id">🇮🇩 Indonesia</option>
+							</optgroup>
+
+							<!-- Africa -->
+							<optgroup label="Africa">
+								<option value="za">🇿🇦 South Africa</option>
+								<option value="ng">🇳🇬 Nigeria</option>
+								<option value="eg">🇪🇬 Egypt</option>
+								<option value="ke">🇰🇪 Kenya</option>
+								<option value="gh">🇬🇭 Ghana</option>
+							</optgroup>
+
+							<!-- Oceania -->
+							<optgroup label="Oceania">
+								<option value="au">🇦🇺 Australia</option>
+								<option value="nz">🇳🇿 New Zealand</option>
+							</optgroup>
+						</select>
+
+				</div>
+			</section>
+
+			<section>
+				<div class="table">
+					<table>
+						<thead>
+						<tr>
+							<th>#</th>
+							<th>Position</th>
+							<th>Title</th>
+							<th>Artist</th>
+						</tr>
+						</thead>
+						<tbody>
+						<!-- Data will be inserted here by applemusic.js -->
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</section>
+	</div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/iTunes.js"></script>
+</body>
+</html>

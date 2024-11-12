@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>FlamingoApp Youtube Insights</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/spotify.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+<div id="wrapper">
+	<header id="header" class="alt">
+		<a href="index.html" class="logo"><strong>F L A M I N G O  A P P</strong></a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Top Charts</a></li>
+			<li><a href="landing.html">Top Artists</a></li>
+			<li><a href="generic.html">New Music</a></li>
+			<li><a href="elements.html">About Me</a></li>
+		</ul>
+		<ul class="actions stacked">
+			<li><a href="#" class="button primary fit">Get Started</a></li>
+			<li><a href="#" class="button fit">Log In</a></li>
+		</ul>
+	</nav>
+	<section id="banner" class="style2">
+		<div class="inner">
+			<header class="major">
+				<h1>Youtube Insights</h1>
+			</header>
+			<div class="content">
+				<p></p>
+			</div>
+		</div>
+	</section>
+	<div id="main">
+		<section id="one">
+			<div class="tabs">
+				<a href="youtubeLatest.html" class="tab">Latest</a>
+				<a href="youtubeTrendings.html" class="tab">Trendings</a>
+				<a href="youtubeInsights.html" class="tab">Insights</a>
+				<a href="youtubeTopSongs.html" class="tab">Top Songs</a>
+			</div>
+		</section>
+		<section id="two" class="spotlights">
+			<section>
+				<div class="top">
+					<div class="image">
+						<img src="images/flamingo%20logo.webp" id="topImage" src="" alt="Album Cover">
+					</div>
+					<div class="text">
+						<div id="topTitle" class="title">Title</div>
+						<div id="topArtist" class="artists">Artist</div>
+						<div id="topAlbum" class="album">Album</div>
+
+							<div class="dropdown-container">
+								<select id="countrySelect" class="country-select">
+									<!-- North America & Caribbean -->
+									<optgroup label="North America & Caribbean">
+										<option value="ca">Canada - 🇨🇦</option>
+										<option value="us" selected>United States - 🇺🇸</option>
+										<option value="mx">Mexico - 🇲🇽</option>
+										<option value="bs">Bahamas - 🇧🇸</option>
+										<option value="cu">Cuba - 🇨🇺</option>
+										<option value="jm">Jamaica - 🇯🇲</option>
+										<option value="do">Dominican Republic - 🇩🇴</option>
+										<option value="cr">Costa Rica - 🇨🇷</option>
+										<option value="gt">Guatemala - 🇬🇹</option>
+										<option value="hn">Honduras - 🇭🇳</option>
+										<option value="pa">Panama - 🇵🇦</option>
+										<option value="sv">El Salvador - 🇸🇻</option>
+									</optgroup>
+
+									<!-- South America -->
+									<optgroup label="South America">
+										<option value="ar">Argentina - 🇦🇷</option>
+										<option value="bo">Bolivia - 🇧🇴</option>
+										<option value="br">Brazil - 🇧🇷</option>
+										<option value="cl">Chile - 🇨🇱</option>
+										<option value="co">Colombia - 🇨🇴</option>
+										<option value="ec">Ecuador - 🇪🇨</option>
+										<option value="py">Paraguay - 🇵🇾</option>
+										<option value="pe">Peru - 🇵🇪</option>
+										<option value="uy">Uruguay - 🇺🇾</option>
+										<option value="ve">Venezuela - 🇻🇪</option>
+									</optgroup>
+
+									<!-- Europe -->
+									<optgroup label="Europe">
+										<option value="al">Albania - 🇦🇱</option>
+										<option value="am">Armenia - 🇦🇲</option>
+										<option value="at">Austria - 🇦🇹</option>
+										<option value="be">Belgium - 🇧🇪</option>
+										<option value="bg">Bulgaria - 🇧🇬</option>
+										<option value="by">Belarus - 🇧🇾</option>
+										<option value="ch">Switzerland - 🇨🇭</option>
+										<option value="cz">Czech Republic - 🇨🇿</option>
+										<option value="de">Germany - 🇩🇪</option>
+										<option value="dk">Denmark - 🇩🇰</option>
+										<option value="es">Spain - 🇪🇸</option>
+										<option value="fi">Finland - 🇫🇮</option>
+										<option value="fr">France - 🇫🇷</option>
+										<option value="gb">United Kingdom - 🇬🇧</option>
+										<option value="gr">Greece - 🇬🇷</option>
+										<option value="hu">Hungary - 🇭🇺</option>
+										<option value="ie">Ireland - 🇮🇪</option>
+										<option value="it">Italy - 🇮🇹</option>
+										<option value="lt">Lithuania - 🇱🇹</option>
+										<option value="lu">Luxembourg - 🇱🇺</option>
+										<option value="lv">Latvia - 🇱🇻</option>
+										<option value="nl">Netherlands - 🇳🇱</option>
+										<option value="no">Norway - 🇳🇴</option>
+										<option value="pl">Poland - 🇵🇱</option>
+										<option value="pt">Portugal - 🇵🇹</option>
+										<option value="ro">Romania - 🇷🇴</option>
+										<option value="ru">Russia - 🇷🇺</option>
+										<option value="se">Sweden - 🇸🇪</option>
+										<option value="si">Slovenia - 🇸🇮</option>
+										<option value="sk">Slovakia - 🇸🇰</option>
+									</optgroup>
+
+									<!-- Africa -->
+									<optgroup label="Africa">
+										<option value="eg">Egypt - 🇪🇬</option>
+										<option value="ma">Morocco - 🇲🇦</option>
+										<option value="ng">Nigeria - 🇳🇬</option>
+										<option value="za">South Africa - 🇿🇦</option>
+										<option value="ke">Kenya - 🇰🇪</option>
+										<option value="sn">Senegal - 🇸🇳</option>
+										<option value="tn">Tunisia - 🇹🇳</option>
+										<option value="ug">Uganda - 🇺🇬</option>
+										<option value="zw">Zimbabwe - 🇿🇼</option>
+									</optgroup>
+
+									<!-- Asia -->
+									<optgroup label="Asia">
+										<option value="ae">United Arab Emirates - 🇦🇪</option>
+										<option value="bd">Bangladesh - 🇧🇩</option>
+										<option value="cn">China - 🇨🇳</option>
+										<option value="id">Indonesia - 🇮🇩</option>
+										<option value="il">Israel - 🇮🇱</option>
+										<option value="in">India - 🇮🇳</option>
+										<option value="jp">Japan - 🇯🇵</option>
+										<option value="kr">South Korea - 🇰🇷</option>
+										<option value="kw">Kuwait - 🇰🇼</option>
+										<option value="ph">Philippines - 🇵🇭</option>
+										<option value="sa">Saudi Arabia - 🇸🇦</option>
+										<option value="sg">Singapore - 🇸🇬</option>
+										<option value="th">Thailand - 🇹🇭</option>
+										<option value="tw">Taiwan - 🇹🇼</option>
+										<option value="uz">Uzbekistan - 🇺🇿</option>
+									</optgroup>
+
+									<!-- Oceania -->
+									<optgroup label="Oceania">
+										<option value="au">Australia - 🇦🇺</option>
+										<option value="nz">New Zealand - 🇳🇿</option>
+										<option value="fj">Fiji - 🇫🇯</option>
+									</optgroup>
+								</select>
+							</div>
+
+
+						</div>
+					</div>
+
+			</section>
+			<section>
+				<div class="search_bar">
+					<select id="searchCategory" class="search-select">
+						<option value="Title">Title</option>
+						<option value="Artist">Artist</option>
+						<option value="Album">Album</option>
+						<option value="Genre">Genre</option>
+					</select>
+					<input type="text" id="searchInput" placeholder="Enter search text..." class="search-input">
+					<button id="homeButton" aria-label="Home">🏠</button>
+				</div>
+			</section>
+			<section>
+				<div class="table">
+					<table>
+						<thead>
+						<tr>
+							<th>#</th>
+							<th>Position</th>
+							<th>Title</th>
+							<th>Album</th>
+							<th>Duration</th>
+							<th>Release</th>
+							<th>Genre</th>
+						</tr>
+						</thead>
+						<tbody>
+						<!-- Data will be inserted here by scriptname.js -->
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</section>
+	</div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/youtube-insights.js"></script>
+</body>
+</html>

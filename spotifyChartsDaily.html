@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>FlamingoApp Spotify Daily Charts</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/spotify.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+<div id="wrapper">
+	<header id="header" class="alt">
+		<a href="index.html" class="logo"><strong>F L A M I N G O  A P P</strong></a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Top Charts</a></li>
+			<li><a href="landing.html">Top Artists</a></li>
+			<li><a href="generic.html">New Music</a></li>
+			<li><a href="elements.html">About Me</a></li>
+		</ul>
+		<ul class="actions stacked">
+			<li><a href="#" class="button primary fit">Get Started</a></li>
+			<li><a href="#" class="button fit">Log In</a></li>
+		</ul>
+	</nav>
+	<section id="banner" class="style2">
+		<div class="inner">
+			<header class="major">
+				<h1>Spotify Daily Charts</h1>
+			</header>
+			<div class="content">
+				<p></p>
+			</div>
+		</div>
+	</section>
+	<div id="main">
+		<section id="one">
+			<div class="tabs">
+				<a href="spotifyChartsWeekly.html" class="tab">Weekly</a>
+				<a href="spotifyChartsDaily.html" class="tab">Daily</a>
+				<a href="spotifyTopSongs.html" class="tab">Top Songs</a>
+			</div>
+		</section>
+		<section id="two" class="spotlights">
+			<section>
+				<div class="top">
+					<div class="image">
+						<img src="images/flamingo%20logo.webp" id="topImage" alt="Album Cover">
+					</div>
+					<div class="text">
+						<div id="topTitle" class="title">Title</div>
+						<div id="topArtist" class="artists">Artist</div>
+						<div id="topAlbum" class="album">Album</div>
+						<div class="dropdown-container">
+							<input type="text" id="countrySelect" class="display-select" placeholder="Select Country..." readonly>
+							<div class="dropdown-list" id="countryOptions">
+								<div value="global">🌍 Global</div>
+								<h6><b>North America and Central America</b></h6>
+								<div value="us">🇺🇸 United States</div>
+								<div value="ca">🇨🇦 Canada</div>
+								<div value="mx">🇲🇽 Mexico</div>
+								<div value="gt">🇬🇹 Guatemala</div>
+								<div value="hn">🇭🇳 Honduras</div>
+								<div value="sv">🇸🇻 El Salvador</div>
+								<div value="ni">🇳🇮 Nicaragua</div>
+								<div value="cr">🇨🇷 Costa Rica</div>
+								<div value="pa">🇵🇦 Panama</div>
+								<div value="do">🇩🇴 Dominican Republic</div>
+								<h6><b>South America</b></h6>
+								<div value="ar">🇦🇷 Argentina</div>
+								<div value="bo">🇧🇴 Bolivia</div>
+								<div value="br">🇧🇷 Brazil</div>
+								<div value="cl">🇨🇱 Chile</div>
+								<div value="co">🇨🇴 Colombia</div>
+								<div value="ec">🇪🇨 Ecuador</div>
+								<div value="py">🇵🇾 Paraguay</div>
+								<div value="pe">🇵🇪 Peru</div>
+								<div value="uy">🇺🇾 Uruguay</div>
+								<div value="ve">🇻🇪 Venezuela</div>
+								<h6><b>Europe</b></h6>
+								<div value="gb">🇬🇧 United Kingdom</div>
+								<div value="at">🇦🇹 Austria</div>
+								<div value="be">🇧🇪 Belgium</div>
+								<div value="bg">🇧🇬 Bulgaria</div>
+								<div value="cz">🇨🇿 Czech Republic</div>
+								<div value="dk">🇩🇰 Denmark</div>
+								<div value="fi">🇫🇮 Finland</div>
+								<div value="fr">🇫🇷 France</div>
+								<div value="de">🇩🇪 Germany</div>
+								<div value="gr">🇬🇷 Greece</div>
+								<div value="hu">🇭🇺 Hungary</div>
+								<div value="ie">🇮🇪 Ireland</div>
+								<div value="it">🇮🇹 Italy</div>
+								<div value="lv">🇱🇻 Latvia</div>
+								<div value="lt">🇱🇹 Lithuania</div>
+								<div value="lu">🇱🇺 Luxembourg</div>
+								<div value="nl">🇳🇱 Netherlands</div>
+								<div value="pl">🇵🇱 Poland</div>
+								<div value="pt">🇵🇹 Portugal</div>
+								<div value="ro">🇷🇴 Romania</div>
+								<div value="ru">🇷🇺 Russia</div>
+								<div value="sk">🇸🇰 Slovakia</div>
+								<h6><b>Asia</b></h6>
+								<div value="hk">🇭🇰 Hong Kong</div>
+								<div value="in">🇮🇳 India</div>
+								<div value="id">🇮🇩 Indonesia</div>
+								<div value="il">🇮🇱 Israel</div>
+								<div value="jp">🇯🇵 Japan</div>
+								<div value="kz">🇰🇿 Kazakhstan</div>
+								<div value="my">🇲🇾 Malaysia</div>
+								<div value="ph">🇵🇭 Philippines</div>
+								<div value="sg">🇸🇬 Singapore</div>
+								<div value="kr">🇰🇷 South Korea</div>
+								<div value="tw">🇹🇼 Taiwan</div>
+								<div value="th">🇹🇭 Thailand</div>
+								<div value="vn">🇻🇳 Vietnam</div>
+								<h6><b>Oceania and Africa</b></h6>
+								<div value="au">🇦🇺 Australia</div>
+								<div value="nz">🇳🇿 New Zealand</div>
+								<div value="eg">🇪🇬 Egypt</div>
+								<div value="ma">🇲🇦 Morocco</div>
+								<div value="za">🇿🇦 South Africa</div>
+							</div>
+							<div class="icons">
+								<a href="https://open.spotify.com" id="spotifyButton" target="_blank">
+									<img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/spotify_logo_icon_189218.png" alt="Spotify">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="search_bar">
+					<select id="searchCategory" class="search-select">
+						<option value="Title">Title</option>
+						<option value="Artist">Artist</option>
+						<option value="Album">Album</option>
+						<option value="Genre">Genre</option>
+					</select>
+					<input type="text" id="searchInput" placeholder="Enter search text..." class="search-input">
+					<button id="homeButton" aria-label="Home">🏠</button>
+				</div>
+			</section>
+			<section>
+				<div class="table">
+					<table>
+						<thead>
+						<tr>
+							<th>#</th>
+							<th>Position</th>
+							<th>Title</th>
+							<th>Album</th>
+							<th>Duration</th>
+							<th>Release</th>
+							<th>Genre</th>
+						</tr>
+						</thead>
+						<tbody>
+						<!-- Data will be inserted here by JavaScript -->
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</section>
+	</div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/spotify.js"></script>
+</body>
+</html>
