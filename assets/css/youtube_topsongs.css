@@ -10,7 +10,7 @@
 }
 
 #banner {
-	background-image: url("../../images/pic04.jpg");
+	background-image: url("../../images/pic02.jpg");
 }
 
 /* Tabs Section */
@@ -29,7 +29,7 @@ section#one {
 
 .tab {
 	padding: 10px 20px;
-	background-color: #A2AAAD;
+	background-color: #FF0000;
 	text-align: center;
 	text-decoration: none;
 	margin: 0 5px;
@@ -88,21 +88,6 @@ section#one {
 	object-fit: cover;
 }
 
-.video-container {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 aspect ratio */
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-}
-
-.video-container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 
 
 .text {
@@ -115,7 +100,7 @@ section#one {
 	padding: 1%;
 	color: white;
 	font-size: 1.5vh;
-	background-color: #A2AAAD;
+	background-color: #344e41;
 	margin: 1%;
 	border-radius: 5px;
 	overflow: hidden;
@@ -307,20 +292,14 @@ section#one {
 	display: table-cell;
 	word-wrap: break-word;
 }
-.table td {
-	color: #ffffff;
-
-}
-
 
 .table th {
-	background-color: #A2AAAD; /* Color from main.css */
+	background-color: #FF0000; /* Color from main.css */
 	position: sticky;
 	top: 0;
 	z-index: 2;
 	cursor: pointer;
 	white-space: nowrap;
-	color: #000000;
 
 }
 
@@ -332,20 +311,25 @@ section#one {
 	background-color: #3a3f5a;
 }
 
-.selected {
-	background-color: #242943; /* Color from main.css */
-	color: white;
+
+.table tbody tr.selected {
+	background-color: #242943; /* Softer background color */
 }
 
-/* Table Column Widths */
+.table tbody tr.selected .song-title,
+.table tbody tr.selected .song-artist, .table tbody tr.selected{
+	color: #FF0000;
+	font-weight: bold;
+}
+
 .table th:nth-child(1),
 .table td:nth-child(1) { width: 2%; }
 .table th:nth-child(2),
-.table td:nth-child(2) { width: 2.5%; }
+.table td:nth-child(2) { width: 18%; }
 .table th:nth-child(3),
-.table td:nth-child(3) { width: 18%; }
+.table td:nth-child(3) { width: 10%; }
 .table th:nth-child(4),
-.table td:nth-child(4) { width: 10%; }
+.table td:nth-child(4) { width: 4%; }
 .table th:nth-child(5),
 .table td:nth-child(5) { width: 4.0%; }
 .table th:nth-child(6),
@@ -353,13 +337,29 @@ section#one {
 .table th:nth-child(7),
 .table td:nth-child(7) { width: 15%; }
 
-/* Responsive Styles */
+
 @media (max-width: 600px) {
 	.tabs {
 		display: flex;
 		width: 90%;
 		margin: 0 auto;
 		align-items: center;
+	}
+
+	.tab {
+		background-color: #FF0000;
+		text-decoration: none;
+		border-radius: 0px 0px 5px 5px;
+		transition: background-color 0.3s;
+		font-size: 0.6em;
+		font-weight: bolder;
+		width: 60vh;
+		height: 3vh;
+		padding-top: 0px;
+		border-bottom: 3px solid white;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		color: white;
 	}
 
 
@@ -503,7 +503,7 @@ section#one {
 		font-size: 3vh;
 	}
 
-	
+
 	.song-title {
 		font-size: 3.5vh;
 	}
@@ -545,6 +545,7 @@ section#one {
 		height: 30vh;
 		overflow: auto;
 	}
+
 
 	.icons img {
 		width: 40px;
@@ -678,11 +679,11 @@ section#one {
 	}
 
 	.artists {
-		font-size: 15px;
+		font-size: 25px;
 	}
 
 	.album {
-		font-size: 12px;
+		font-size: 20px;
 	}
 
 	.song-title {

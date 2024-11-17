@@ -25,43 +25,51 @@ async function loadBillboardData(selectedOption = "hot-100") {
 		console.error("Failed to load Billboard data:", error);
 	}
 }
-
-// Populate the table with data
 function populateTable(data) {
 	const tableBody = document.querySelector(".table tbody");
 	tableBody.innerHTML = "";
+
 	data.forEach((track, index) => {
 		const row = document.createElement("tr");
 
+		// Index Cell
 		const indexCell = document.createElement("td");
 		indexCell.textContent = index + 1;
 
+		// Position Cell
 		const positionCell = document.createElement("td");
 		positionCell.textContent = track.Position;
+		positionCell.classList.add("position-cell");
 
+		// Cover Cell
 		const coverCell = document.createElement("td");
 		const img = document.createElement("img");
 		img.src = track.Billboard_IMG || "images/flamingo%20logo.webp";
 		img.alt = track.Title;
-		img.style.width = "100px";
-		img.style.height = "100px";
+		img.classList.add("cover-image");
 		coverCell.appendChild(img);
 
-		const titleCell = document.createElement("td");
-		titleCell.textContent = track.Title;
+		// Title & Artist Cell
+		const titleArtistCell = document.createElement("td");
+		titleArtistCell.innerHTML = `
+			<div class="title-artist">
+				<span class="song-title">${track.Title || 'Not Available'}</span><br>
+<span class="song-artist">${track.Artist || 'Not Available'}</span>
+			</div>
+		`;
 
-		const artistCell = document.createElement("td");
-		artistCell.textContent = track.Artist;
-
+		// Append cells to row
 		row.appendChild(indexCell);
 		row.appendChild(positionCell);
 		row.appendChild(coverCell);
-		row.appendChild(titleCell);
-		row.appendChild(artistCell);
+		row.appendChild(titleArtistCell);
 
+		// Add row to table body
 		tableBody.appendChild(row);
 	});
 }
+
+
 
 // Set up event listeners for search and sorting
 function setUpEventListeners() {

@@ -10,7 +10,7 @@
 }
 
 #banner {
-	background-image: url("../../images/pic04.jpg");
+	background-image: url("../../images/pic12.jpg");
 }
 
 /* Tabs Section */
@@ -29,7 +29,7 @@ section#one {
 
 .tab {
 	padding: 10px 20px;
-	background-color: #A2AAAD;
+	background-color: yellow;
 	text-align: center;
 	text-decoration: none;
 	margin: 0 5px;
@@ -38,10 +38,10 @@ section#one {
 	font-size: 0.9em;
 	font-weight: bolder;
 	width: 50vh;
-	border-bottom: 3px solid white;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
-	color: white;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	color: black;
 }
 
 .tab:hover {
@@ -115,7 +115,7 @@ section#one {
 	padding: 1%;
 	color: white;
 	font-size: 1.5vh;
-	background-color: #A2AAAD;
+	background-color: #a238ff;
 	margin: 1%;
 	border-radius: 5px;
 	overflow: hidden;
@@ -314,13 +314,13 @@ section#one {
 
 
 .table th {
-	background-color: #A2AAAD; /* Color from main.css */
+	background-color: #a238ff; /* Color from main.css */
 	position: sticky;
 	top: 0;
 	z-index: 2;
 	cursor: pointer;
 	white-space: nowrap;
-	color: #000000;
+	color: #ffffff;
 
 }
 
@@ -361,7 +361,7 @@ section#one {
 		margin: 0 auto;
 		align-items: center;
 	}
-
+	
 
 	.top {
 		width: 100%;

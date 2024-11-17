@@ -9,6 +9,10 @@
 	align-items: center;
 }
 
+#banner {
+	background-image: url("../../images/pic01.jpg");
+}
+
 /* Tabs Section */
 section#one {
 	display: flex;
@@ -500,7 +504,7 @@ section#one {
 		font-size: 3vh;
 	}
 
-	
+
 	.song-title {
 		font-size: 3.5vh;
 	}
@@ -542,6 +546,7 @@ section#one {
 		height: 30vh;
 		overflow: auto;
 	}
+
 
 	.icons img {
 		width: 40px;
@@ -675,11 +680,11 @@ section#one {
 	}
 
 	.artists {
-		font-size: 15px;
+		font-size: 25px;
 	}
 
 	.album {
-		font-size: 12px;
+		font-size: 20px;
 	}
 
 	.song-title {
