@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>FlamingoApp iTunes Charts</title>
+	<title>FlamingoApp itunes Charts</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -12,10 +12,7 @@
 <body class="is-preload">
 <div id="wrapper">
 	<header id="header" class="alt">
-		<a href="index.html" class="logo"><strong>F L A M I N G O  A P P</strong> </a>
-		<!--<nav>
-            <a href="#menu">Menu</a>
-        </nav>-->
+		<a href="index.html" class="logo"><strong>F L A M I N G O  A P P</strong></a>
 	</header>
 	<nav id="menu">
 		<ul class="links">
@@ -49,90 +46,116 @@
 		</section>
 		<section id="two" class="spotlights">
 			<section>
+				<div class="top">
+					<div class="image">
+						<img src="images/flamingo%20logo.webp" id="topImage" alt="Song Cover">
+					</div>
+					<div class="text">
+						<div id="topTitle" class="title">Title</div>
+						<div id="topArtist" class="artists">Artist</div>
+						<div id="topAlbum" class="album">Album</div>
+						<div class="dropdown-container">
+							<select id="countrySelect">
+								<option value="Global" selected>🌍 Global</option>
+
+								<!-- North America and Central America -->
+								<optgroup label="North America and Central America">
+									<option value="us">🇺🇸 United States</option>
+									<option value="ca">🇨🇦 Canada</option>
+									<option value="mx">🇲🇽 Mexico</option>
+									<option value="cr">🇨🇷 Costa Rica</option>
+								</optgroup>
+
+								<!-- South America -->
+								<optgroup label="South America">
+									<option value="ar">🇦🇷 Argentina</option>
+									<option value="br">🇧🇷 Brazil</option>
+									<option value="cl">🇨🇱 Chile</option>
+									<option value="co">🇨🇴 Colombia</option>
+									<option value="ec">🇪🇨 Ecuador</option>
+									<option value="pe">🇵🇪 Peru</option>
+									<option value="uy">🇺🇾 Uruguay</option>
+									<option value="ve">🇻🇪 Venezuela</option>
+								</optgroup>
+
+								<!-- Europe -->
+								<optgroup label="Europe">
+									<option value="de">🇩🇪 Germany</option>
+									<option value="fr">🇫🇷 France</option>
+									<option value="it">🇮🇹 Italy</option>
+									<option value="es">🇪🇸 Spain</option>
+									<option value="pt">🇵🇹 Portugal</option>
+									<option value="be">🇧🇪 Belgium</option>
+									<option value="nl">🇳🇱 Netherlands</option>
+									<option value="pl">🇵🇱 Poland</option>
+									<option value="se">🇸🇪 Sweden</option>
+									<option value="no">🇳🇴 Norway</option>
+									<option value="fi">🇫🇮 Finland</option>
+									<option value="ch">🇨🇭 Switzerland</option>
+									<option value="at">🇦🇹 Austria</option>
+									<option value="ie">🇮🇪 Ireland</option>
+								</optgroup>
+
+								<!-- Asia -->
+								<optgroup label="Asia">
+									<option value="cn">🇨🇳 China</option>
+									<option value="jp">🇯🇵 Japan</option>
+									<option value="in">🇮🇳 India</option>
+									<option value="kr">🇰🇷 South Korea</option>
+									<option value="tw">🇹🇼 Taiwan</option>
+									<option value="sg">🇸🇬 Singapore</option>
+									<option value="my">🇲🇾 Malaysia</option>
+									<option value="th">🇹🇭 Thailand</option>
+									<option value="vn">🇻🇳 Vietnam</option>
+									<option value="ph">🇵🇭 Philippines</option>
+									<option value="id">🇮🇩 Indonesia</option>
+								</optgroup>
+
+								<!-- Africa -->
+								<optgroup label="Africa">
+									<option value="za">🇿🇦 South Africa</option>
+									<option value="ng">🇳🇬 Nigeria</option>
+									<option value="eg">🇪🇬 Egypt</option>
+									<option value="ke">🇰🇪 Kenya</option>
+									<option value="gh">🇬🇭 Ghana</option>
+								</optgroup>
+
+								<!-- Oceania -->
+								<optgroup label="Oceania">
+									<option value="au">🇦🇺 Australia</option>
+									<option value="nz">🇳🇿 New Zealand</option>
+								</optgroup>
+							</select>
+						</div>
+						<div class="icons">
+							<a href="#" id="spotifyButton" target="_blank" style="display: none;">
+								<img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/spotify_logo_icon_189218.png" alt="Spotify">
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
 				<div class="search_bar">
+					<select id="searchCategory" class="search-select">
+						<option value="title">Title</option>
+						<option value="artist">Artist</option>
+						<option value="album">Album</option>
+						<option value="genre">Genre</option>
+					</select>
 					<input type="text" id="searchInput" placeholder="Enter search text..." class="search-input">
 					<button id="searchButton" aria-label="Search">🔍</button>
 					<button id="homeButton" aria-label="Home">🏠</button>
 					<select id="displayselect" class="display-select">
-						<option value="index" selected>🌍 Global</option>
-
-							<!-- North America and Central America -->
-							<optgroup label="North America and Central America">
-								<option value="us">🇺🇸 United States</option>
-								<option value="ca">🇨🇦 Canada</option>
-								<option value="mx">🇲🇽 Mexico</option>
-								<option value="bz">🇧🇿 Belize</option>
-								<option value="cr">🇨🇷 Costa Rica</option>
-								<option value="sv">🇸🇻 El Salvador</option>
-								<option value="gt">🇬🇹 Guatemala</option>
-								<option value="hn">🇭🇳 Honduras</option>
-								<option value="ni">🇳🇮 Nicaragua</option>
-								<option value="pa">🇵🇦 Panama</option>
-								<option value="do">🇩🇴 Dominican Republic</option>
-							</optgroup>
-
-							<!-- South America -->
-							<optgroup label="South America">
-								<option value="ar">🇦🇷 Argentina</option>
-								<option value="bo">🇧🇴 Bolivia</option>
-								<option value="br">🇧🇷 Brazil</option>
-								<option value="cl">🇨🇱 Chile</option>
-								<option value="co">🇨🇴 Colombia</option>
-								<option value="ec">🇪🇨 Ecuador</option>
-								<option value="py">🇵🇾 Paraguay</option>
-								<option value="pe">🇵🇪 Peru</option>
-								<option value="uy">🇺🇾 Uruguay</option>
-								<option value="ve">🇻🇪 Venezuela</option>
-							</optgroup>
-
-							<!-- Europe -->
-							<optgroup label="Europe">
-								<option value="de">🇩🇪 Germany</option>
-								<option value="fr">🇫🇷 France</option>
-								<option value="it">🇮🇹 Italy</option>
-								<option value="es">🇪🇸 Spain</option>
-								<option value="pt">🇵🇹 Portugal</option>
-								<option value="be">🇧🇪 Belgium</option>
-								<option value="nl">🇳🇱 Netherlands</option>
-								<option value="pl">🇵🇱 Poland</option>
-								<option value="se">🇸🇪 Sweden</option>
-								<option value="no">🇳🇴 Norway</option>
-								<option value="fi">🇫🇮 Finland</option>
-								<option value="ch">🇨🇭 Switzerland</option>
-								<option value="at">🇦🇹 Austria</option>
-								<option value="ie">🇮🇪 Ireland</option>
-							</optgroup>
-
-							<!-- Asia -->
-							<optgroup label="Asia">
-								<option value="jp">🇯🇵 Japan</option>
-								<option value="in">🇮🇳 India</option>
-								<option value="sg">🇸🇬 Singapore</option>
-								<option value="my">🇲🇾 Malaysia</option>
-								<option value="th">🇹🇭 Thailand</option>
-								<option value="ph">🇵🇭 Philippines</option>
-								<option value="id">🇮🇩 Indonesia</option>
-							</optgroup>
-
-							<!-- Africa -->
-							<optgroup label="Africa">
-								<option value="za">🇿🇦 South Africa</option>
-								<option value="ng">🇳🇬 Nigeria</option>
-								<option value="eg">🇪🇬 Egypt</option>
-								<option value="ke">🇰🇪 Kenya</option>
-								<option value="gh">🇬🇭 Ghana</option>
-							</optgroup>
-
-							<!-- Oceania -->
-							<optgroup label="Oceania">
-								<option value="au">🇦🇺 Australia</option>
-								<option value="nz">🇳🇿 New Zealand</option>
-							</optgroup>
-						</select>
-
+						<option value="200" selected>200</option>
+						<option value="100">100</option>
+						<option value="50">50</option>
+						<option value="25">25</option>
+						<option value="10">10</option>
+						<option value="5">5</option>
+					</select>
 				</div>
 			</section>
-
 			<section>
 				<div class="table">
 					<table>
@@ -141,11 +164,14 @@
 							<th>#</th>
 							<th>Position</th>
 							<th>Title</th>
-							<th>Artist</th>
+							<th>Album</th>
+							<th>Duration</th>
+							<th>Release</th>
+							<th>Genre</th>
 						</tr>
 						</thead>
 						<tbody>
-						<!-- Data will be inserted here by applemusic.js -->
+						<!-- Data will be inserted here by itunes.js -->
 						</tbody>
 					</table>
 				</div>
@@ -160,6 +186,6 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="assets/js/iTunes.js"></script>
+<script src="assets/js/itunes.js"></script>
 </body>
 </html>
