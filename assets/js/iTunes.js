@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function loadData(country) {
-    const jsonFile = `DATABASES/OTHER_CHARTS/itunes_DATABASES/itunes_${country}.json`;
-    const tsFile = `DATABASES/OTHER_CHARTS/itunes_DATABASES/TS.json`;
-    const siFile = `DATABASES/OTHER_CHARTS/itunes_DATABASES/SI.json`;
-    const spFile = `DATABASES/OTHER_CHARTS/itunes_DATABASES/SP.json`;
+    const jsonFile = `DATABASES/OTHER_CHARTS/ITUNES_DATABASES/itunes_${country}.json`;
+    const tsFile = `DATABASES/OTHER_CHARTS/ITUNES_DATABASES/TS.json`;
+    const siFile = `DATABASES/OTHER_CHARTS/ITUNES_DATABASES/SI.json`;
+    const spFile = `DATABASES/OTHER_CHARTS/ITUNES_DATABASES/SP.json`;
 
     Promise.all([
         fetch(jsonFile).then(response => response.json()),
