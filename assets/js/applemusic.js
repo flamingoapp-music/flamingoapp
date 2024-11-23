@@ -1,143 +1,75 @@
-// Define the JSON file paths for Apple Music
-const appleMusicFilePaths = {
-	"index": "DATABASES/APPLE_MUSIC/apple_music_global.json",
-
-	// North America and Central America
-	"us": "DATABASES/APPLE_MUSIC/apple_music_us.json",
-	"ca": "DATABASES/APPLE_MUSIC/apple_music_ca.json",
-	"mx": "DATABASES/APPLE_MUSIC/apple_music_mx.json",
-	"bz": "DATABASES/APPLE_MUSIC/apple_music_bz.json",
-	"cr": "DATABASES/APPLE_MUSIC/apple_music_cr.json",
-	"sv": "DATABASES/APPLE_MUSIC/apple_music_sv.json",
-	"gt": "DATABASES/APPLE_MUSIC/apple_music_gt.json",
-	"hn": "DATABASES/APPLE_MUSIC/apple_music_hn.json",
-	"ni": "DATABASES/APPLE_MUSIC/apple_music_ni.json",
-	"pa": "DATABASES/APPLE_MUSIC/apple_music_pa.json",
-	"do": "DATABASES/APPLE_MUSIC/apple_music_do.json",
-	"jm": "DATABASES/APPLE_MUSIC/apple_music_jm.json",
-	"tt": "DATABASES/APPLE_MUSIC/apple_music_tt.json",
-	"pr": "DATABASES/APPLE_MUSIC/apple_music_pr.json",
-
-	// South America
-	"ar": "DATABASES/APPLE_MUSIC/apple_music_ar.json",
-	"bo": "DATABASES/APPLE_MUSIC/apple_music_bo.json",
-	"br": "DATABASES/APPLE_MUSIC/apple_music_br.json",
-	"cl": "DATABASES/APPLE_MUSIC/apple_music_cl.json",
-	"co": "DATABASES/APPLE_MUSIC/apple_music_co.json",
-	"ec": "DATABASES/APPLE_MUSIC/apple_music_ec.json",
-	"py": "DATABASES/APPLE_MUSIC/apple_music_py.json",
-	"pe": "DATABASES/APPLE_MUSIC/apple_music_pe.json",
-	"uy": "DATABASES/APPLE_MUSIC/apple_music_uy.json",
-	"ve": "DATABASES/APPLE_MUSIC/apple_music_ve.json",
-
-	// Europe
-	"gb": "DATABASES/APPLE_MUSIC/apple_music_gb.json",
-	"de": "DATABASES/APPLE_MUSIC/apple_music_de.json",
-	"fr": "DATABASES/APPLE_MUSIC/apple_music_fr.json",
-	"it": "DATABASES/APPLE_MUSIC/apple_music_it.json",
-	"es": "DATABASES/APPLE_MUSIC/apple_music_es.json",
-	"pt": "DATABASES/APPLE_MUSIC/apple_music_pt.json",
-	"be": "DATABASES/APPLE_MUSIC/apple_music_be.json",
-	"nl": "DATABASES/APPLE_MUSIC/apple_music_nl.json",
-	"pl": "DATABASES/APPLE_MUSIC/apple_music_pl.json",
-	"se": "DATABASES/APPLE_MUSIC/apple_music_se.json",
-	"no": "DATABASES/APPLE_MUSIC/apple_music_no.json",
-	"fi": "DATABASES/APPLE_MUSIC/apple_music_fi.json",
-	"ch": "DATABASES/APPLE_MUSIC/apple_music_ch.json",
-	"at": "DATABASES/APPLE_MUSIC/apple_music_at.json",
-	"ie": "DATABASES/APPLE_MUSIC/apple_music_ie.json",
-
-	// Asia
-	"cn": "DATABASES/APPLE_MUSIC/apple_music_cn.json",
-	"jp": "DATABASES/APPLE_MUSIC/apple_music_jp.json",
-	"in": "DATABASES/APPLE_MUSIC/apple_music_in.json",
-	"kr": "DATABASES/APPLE_MUSIC/apple_music_kr.json",
-	"sg": "DATABASES/APPLE_MUSIC/apple_music_sg.json",
-	"my": "DATABASES/APPLE_MUSIC/apple_music_my.json",
-	"th": "DATABASES/APPLE_MUSIC/apple_music_th.json",
-	"ph": "DATABASES/APPLE_MUSIC/apple_music_ph.json",
-	"id": "DATABASES/APPLE_MUSIC/apple_music_id.json",
-
-	// Africa
-	"za": "DATABASES/APPLE_MUSIC/apple_music_za.json",
-	"ng": "DATABASES/APPLE_MUSIC/apple_music_ng.json",
-	"eg": "DATABASES/APPLE_MUSIC/apple_music_eg.json",
-	"ke": "DATABASES/APPLE_MUSIC/apple_music_ke.json",
-	"gh": "DATABASES/APPLE_MUSIC/apple_music_gh.json",
-	"ma": "DATABASES/APPLE_MUSIC/apple_music_ma.json",
-	"dz": "DATABASES/APPLE_MUSIC/apple_music_dz.json",
-
-	// Oceania
-	"au": "DATABASES/APPLE_MUSIC/apple_music_au.json",
-	"nz": "DATABASES/APPLE_MUSIC/apple_music_nz.json"
-};
-
-
 let currentData = [];
 let initialData = [];
 let displayedData = [];
 let sortDirection = {};
+let rowsToShow = 200;
 
-// Load data based on the selected Apple Music region
-async function loadAppleMusicData(selectedRegion = "global") {
-	const jsonFilePath = appleMusicFilePaths[selectedRegion];
-	try {
-		const response = await fetch(jsonFilePath);
-		const data = await response.json();
-		currentData = [...data];
-		initialData = [...data];
-		sortTableByPosition(currentData);
-		displayedData = [...currentData];
-		populateTable(displayedData);
-		setUpEventListeners();
-	} catch (error) {
-		console.error("Failed to load Apple Music data:", error);
-	}
+document.addEventListener('DOMContentLoaded', function () {
+	populateCountryDropdown();
+	setUpEventListeners();
+	loadData('us');
+});
+
+function loadData(country) {
+	const jsonFile = `DATABASES/APPLE_MUSIC/apple_music_${country}.json`;
+
+	Promise.all([
+		fetch(jsonFile).then(response => response.json()),
+		fetch(`DATABASES/APPLE_MUSIC/TS.json`).then(response => response.json()),
+		fetch(`DATABASES/APPLE_MUSIC/SI.json`).then(response => response.json()),
+		fetch(`DATABASES/APPLE_MUSIC/SP.json`).then(response => response.json())
+	])
+		.then(([amDataCountry, tsData, siData, spData]) => {
+			currentData = mergeDataBySongID(amDataCountry, tsData, siData, spData);
+			initialData = [...currentData];
+			sortTableByPosition(currentData);
+			displayedData = getLimitedData(currentData, rowsToShow);
+			populateTable(displayedData);
+		})
+		.catch(error => console.error('Error loading JSON files:', error));
 }
 
-// Populate the table with Apple Music data
-function populateTable(data) {
-	const tableBody = document.querySelector(".table tbody");
-	tableBody.innerHTML = "";
-	data.forEach((track, index) => {
-		const row = document.createElement("tr");
+function mergeDataBySongID(amDataCountry, tsData, siData, spData) {
+	const tsMap = Object.fromEntries(tsData.map(item => [item.SongID.toString(), item]));
+	const siMap = Object.fromEntries(siData.map(item => [item.SongID.toString(), item]));
+	const spMap = Object.fromEntries(spData.map(item => [item.SongID.toString(), item]));
 
-		const indexCell = document.createElement("td");
-		indexCell.textContent = index + 1;
+	return amDataCountry.map(amEntry => {
+		const songID = amEntry.SongID.toString();
+		const tsEntry = tsMap[songID] || {};
+		const siEntry = siMap[songID] || {};
+		const spEntry = spMap[songID] || {};
 
-		const positionCell = document.createElement("td");
-		positionCell.textContent = track.Position;
-
-		const titleCell = document.createElement("td");
-		titleCell.textContent = track.Title;
-
-		const artistCell = document.createElement("td");
-		artistCell.textContent = track.Artist;
-
-		row.appendChild(indexCell);
-		row.appendChild(positionCell);
-		row.appendChild(titleCell);
-		row.appendChild(artistCell);
-
-		tableBody.appendChild(row);
+		return {
+			SongID: songID,
+			Position: amEntry.Position,
+			Title: siEntry.Title || 'Not Available',
+			Artist: siEntry.Artist || 'Not Available',
+			Album: tsEntry.Album || 'Not Available',
+			Duration: tsEntry.Duration || 'Not Available',
+			ReleaseDate: tsEntry.ReleaseDate ? tsEntry.ReleaseDate.substring(0, 4) : 'Not Available',
+			Genre: tsEntry.Genre || 'Not Available',
+			CoverImage: tsEntry.CoverImage || 'images/default_cover_image.jpg',
+			Spotify_URL: spEntry.Spotify_URL || null
+		};
 	});
 }
 
-// Set up event listeners for search and region selection
 function setUpEventListeners() {
-	document.getElementById("searchInput").addEventListener("input", performSearch);
-	document.getElementById("homeButton").addEventListener("click", () => {
-		document.getElementById("searchInput").value = "";
-		resetTableToInitialState();
-	});
+	const countrySelect = document.getElementById('countrySelect');
+	if (countrySelect) {
+		countrySelect.addEventListener('change', function () {
+			const selectedCountry = countrySelect.value;
+			loadData(selectedCountry);
+		});
+	}
 
-	document.getElementById("displayselect").addEventListener("change", () => {
-		loadAppleMusicData(document.getElementById("displayselect").value);
-	});
+	document.getElementById('searchInput').addEventListener('input', performSearch);
+	document.getElementById('homeButton').addEventListener('click', resetTableToInitialState);
 
-	const headers = document.querySelectorAll(".table th");
+	const headers = document.querySelectorAll('.table th');
 	headers.forEach((header, index) => {
-		sortDirection[index] = "asc";
+		sortDirection[index] = 'asc';
 		header.onclick = () => {
 			toggleSortDirection(index);
 			sortTableByColumn(index, currentData);
@@ -145,59 +77,132 @@ function setUpEventListeners() {
 	});
 }
 
-// Perform search based on the input
+function resetTableToInitialState() {
+	currentData = [...initialData];
+	sortTableByPosition(currentData);
+	displayedData = getLimitedData(currentData, rowsToShow);
+	populateTable(displayedData);
+	document.getElementById('searchInput').value = '';
+}
+
 function performSearch() {
-	const searchText = document.getElementById("searchInput").value.trim().toLowerCase();
+	const category = document.getElementById('searchCategory').value.toLowerCase();
+	const searchText = document.getElementById('searchInput').value.trim().toLowerCase();
+
 	displayedData = initialData.filter(song => {
-		return (
-			(song.Title && song.Title.toLowerCase().includes(searchText)) ||
-			(song.Artist && song.Artist.toLowerCase().includes(searchText))
-		);
+		if (category === 'title' && song.Title && song.Title.toLowerCase().includes(searchText)) return true;
+		if (category === 'artist' && song.Artist && song.Artist.toLowerCase().includes(searchText)) return true;
+		if (category === 'album' && song.Album && song.Album.toLowerCase().includes(searchText)) return true;
+		if (category === 'genre' && song.Genre && song.Genre.toLowerCase().includes(searchText)) return true;
+		return false;
 	});
+
 	sortTableByPosition(displayedData);
+	displayedData = getLimitedData(displayedData, rowsToShow);
 	populateTable(displayedData);
 }
 
-// Toggle the sorting direction
-function toggleSortDirection(columnIndex) {
-	sortDirection[columnIndex] = sortDirection[columnIndex] === "asc" ? "desc" : "asc";
+function populateTable(data) {
+	const tableBody = document.querySelector('.table tbody');
+	tableBody.innerHTML = '';
+	data.forEach((song, index) => {
+		const row = document.createElement('tr');
+		row.songData = song;
+		row.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${song.Position || 'N/A'}</td>
+            <td>
+                <div class="title-artist">
+                    <span class="song-title">${song.Title}</span><br>
+                    <span class="song-artist">${song.Artist}</span>
+                </div>
+            </td>
+            <td>${song.Album}</td>
+            <td>${song.Duration}</td>
+            <td>${song.ReleaseDate}</td>
+            <td>${song.Genre}</td>
+        `;
+		row.addEventListener('click', () => {
+			selectSingleRow(row);
+		});
+		tableBody.appendChild(row);
+	});
 }
 
-// Sort the table by the selected column
+function selectSingleRow(row) {
+	const selectedRow = document.querySelector('.table tbody .selected');
+	if (selectedRow) selectedRow.classList.remove('selected');
+	row.classList.add('selected');
+	updateTopSection(row.songData);
+}
+
+function updateTopSection(song) {
+	document.getElementById('topTitle').textContent = song.Title || 'Title';
+	document.getElementById('topArtist').textContent = song.Artist || 'Artist';
+	document.getElementById('topAlbum').textContent = song.Album || 'Album';
+
+	const coverImage = song.CoverImage || 'images/default_cover_image.jpg';
+	document.getElementById('topImage').src = coverImage;
+
+	const spotifyButton = document.getElementById('spotifyButton');
+	if (song.Spotify_URL) {
+		spotifyButton.href = song.Spotify_URL;
+		spotifyButton.style.display = 'inline-block';
+	} else {
+		spotifyButton.style.display = 'none';
+	}
+}
+
+function sortTableByPosition(data) {
+	data.sort((a, b) => parseInt(a.Position) - parseInt(b.Position));
+}
+
 function sortTableByColumn(columnIndex, data) {
-	const sortKeys = ["#", "Position", "Title", "Artist"];
+	const sortKeys = ['#', 'Position', 'Title', 'Album', 'Duration', 'ReleaseDate', 'Genre'];
 	const sortKey = sortKeys[columnIndex];
-	const isNumericSort = sortKey === "Position";
+	const isNumericSort = ['Position', 'Duration', 'ReleaseDate'].includes(sortKey);
 
 	data.sort((a, b) => {
-		let comparison = 0;
-		if (isNumericSort) {
-			comparison = (parseInt(a[sortKey]) || 0) - (parseInt(b[sortKey]) || 0);
-		} else {
-			comparison = (a[sortKey] || "").localeCompare(b[sortKey] || "");
-		}
-		return sortDirection[columnIndex] === "desc" ? -comparison : comparison;
+		const comparison = isNumericSort ? sortNumerically(a, b, sortKey) : (a[sortKey] || '').localeCompare(b[sortKey] || '');
+		return sortDirection[columnIndex] === 'desc' ? -comparison : comparison;
 	});
 
 	populateTable(data);
 }
 
-// Sort the table by position (default sorting)
-function sortTableByPosition(data) {
-	data.sort((a, b) => parseInt(a.Position) - parseInt(b.Position));
+function toggleSortDirection(columnIndex) {
+	sortDirection[columnIndex] = sortDirection[columnIndex] === 'asc' ? 'desc' : 'asc';
 }
 
-// Reset the table to its initial state
-function resetTableToInitialState() {
-	currentData = [...initialData];
-	sortTableByPosition(currentData);
-	displayedData = [...currentData];
-	populateTable(displayedData);
+function sortNumerically(a, b, key) {
+	if (key === 'Duration') return convertDurationToSeconds(a[key]) - convertDurationToSeconds(b[key]);
+	if (key === 'ReleaseDate') return parseInt(a[key] || 0) - parseInt(b[key] || 0);
+	if (key === 'Position') return parseInt(a[key] || 0) - parseInt(b[key] || 0);
+	return 0;
 }
 
-// Load data when the page is ready
-document.addEventListener("DOMContentLoaded", () => {
-	const displaySelect = document.getElementById("displayselect");
-	loadAppleMusicData(displaySelect.value);
-	setUpEventListeners();
-});
+function convertDurationToSeconds(duration) {
+	if (!duration) return 0;
+	const [minutes, seconds] = duration.split(':').map(Number);
+	return minutes * 60 + seconds;
+}
+
+function getLimitedData(data, limit) {
+	return data.slice(0, limit);
+}
+
+function populateCountryDropdown() {
+	const countrySelect = document.getElementById('countrySelect');
+	if (countrySelect) {
+		countrySelect.innerHTML = `
+            <!-- North America & Caribbean -->
+            <optgroup label="North America & Caribbean">
+                <option value="us" selected>United States - 🇺🇸</option>
+                <option value="ca">Canada - 🇨🇦</option>
+                <option value="mx">Mexico - 🇲🇽</option>
+                <!-- Add other countries as needed -->
+            </optgroup>
+            <!-- Other regions... -->
+        `;
+	}
+}

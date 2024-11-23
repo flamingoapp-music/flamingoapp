@@ -28,8 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			populateTable(displayedData);
 		});
 	}
-
-	setUpEventListeners();
 });
 
 function getPageType() {
@@ -40,53 +38,65 @@ function getPageType() {
 	return 'unknown';
 }
 
-function loadData(countryCode) {
-	const dataFolder = 'insights';
-	const arFile = `DATABASES/YOUTUBE/${dataFolder}/YT_${countryCode}.json`;
-	const tsFile = `DATABASES/YOUTUBE/${dataFolder}/TS.json`;
-	const ufFile = `DATABASES/YOUTUBE/${dataFolder}/UF.json`;
+function getDataFolder() {
+	return pageType;
+}
+
+function loadData(country) {
+	const dataFolder = getDataFolder();
+	const jsonFile = `DATABASES/YOUTUBE/${dataFolder}/YT_${country}.json`;
 
 	Promise.all([
-		fetch(arFile).then(response => response.json()),
-		fetch(tsFile).then(response => response.json()),
-		fetch(ufFile).then(response => response.json())
+		fetch(jsonFile).then(response => response.json()),
+		fetch(`DATABASES/YOUTUBE/${dataFolder}/TS.json`).then(response => response.json()),
+		fetch(`DATABASES/YOUTUBE/${dataFolder}/SI.json`).then(response => response.json()),
+		fetch(`DATABASES/YOUTUBE/${dataFolder}/SP.json`).then(response => response.json())
 	])
-		.then(([arData, tsData, ufData]) => {
-			currentData = mergeDataBySongID(arData, tsData, ufData);
+		.then(([ytDataCountry, tsData, siData, spData]) => {
+			currentData = mergeDataBySongID(ytDataCountry, tsData, siData, spData);
 			initialData = [...currentData];
 			sortTableByPosition(currentData);
 			displayedData = getLimitedData(currentData, rowsToShow);
 			populateTable(displayedData);
+			setUpEventListeners();
 		})
 		.catch(error => console.error('Error loading JSON files:', error));
 }
 
-function mergeDataBySongID(arData, tsData, ufData) {
-	return arData.map(entry => {
-		const tsEntry = tsData.find(ts => ts.SongID === entry.SongID) || {};
-		const ufEntry = ufData.find(uf => uf.SongID === entry.SongID) || {};
-		return { ...entry, ...tsEntry, ...ufEntry };
+function mergeDataBySongID(ytDataCountry, tsData, siData, spDataGlobal) {
+	const tsMap = {};
+	tsData.forEach(item => {
+		tsMap[item.SongID.toString()] = item;
 	});
-}
 
-function setUpEventListeners() {
-	const searchInput = document.getElementById('searchInput');
-	const homeButton = document.getElementById('homeButton');
+	const siMap = {};
+	siData.forEach(item => {
+		siMap[item.SongID.toString()] = item;
+	});
 
-	if (searchInput) {
-		searchInput.addEventListener('input', performSearch);
-	}
+	const spMap = {};
+	spDataGlobal.forEach(item => {
+		spMap[item.SongID.toString()] = item;
+	});
 
-	if (homeButton) {
-		homeButton.addEventListener('click', resetTableToInitialState);
-	}
+	return ytDataCountry.map(ytEntry => {
+		const songID = ytEntry.SongID.toString();
 
-	const headers = document.querySelectorAll('.table th');
-	headers.forEach((header, index) => {
-		sortDirection[index] = 'asc';
-		header.onclick = () => {
-			toggleSortDirection(index);
-			sortTableByColumn(index, displayedData);
+		const tsEntry = tsMap[songID] || {};
+		const siEntry = siMap[songID] || {};
+		const spEntryGlobal = spMap[songID] || {};
+
+		return {
+			SongID: songID,
+			Position: ytEntry.Position,
+			Title: siEntry.Title,
+			Artist: siEntry.Artist,
+			Album: tsEntry.Album,
+			Duration: tsEntry.Duration,
+			ReleaseDate: tsEntry.ReleaseDate,
+			Genre: tsEntry.Genre,
+			CoverImage: tsEntry.CoverImage,
+			Spotify_URL: spEntryGlobal.Spotify_URL
 		};
 	});
 }
@@ -104,8 +114,8 @@ function performSearch() {
 	const searchText = document.getElementById('searchInput').value.trim().toLowerCase();
 
 	displayedData = initialData.filter(song => {
-		if (category === 'title' && song.Title.toLowerCase().includes(searchText)) return true;
-		if (category === 'artist' && song.Artist.toLowerCase().includes(searchText)) return true;
+		if (category === 'title' && song.Title && song.Title.toLowerCase().includes(searchText)) return true;
+		if (category === 'artist' && song.Artist && song.Artist.toLowerCase().includes(searchText)) return true;
 		if (category === 'album' && song.Album && song.Album.toLowerCase().includes(searchText)) return true;
 		if (category === 'genre' && song.Genre && song.Genre.toLowerCase().includes(searchText)) return true;
 		return false;
@@ -154,13 +164,17 @@ function updateTopSection(song) {
 	document.getElementById('topTitle').textContent = song.Title || 'Title';
 	document.getElementById('topArtist').textContent = song.Artist || 'Artist';
 	document.getElementById('topAlbum').textContent = song.Album || 'Album';
-	document.getElementById('topImage').src = song.CoverImage || 'images/flamingo_logo.webp';
-	updateYouTubeLink(song.youtube_url);
-}
 
-function updateYouTubeLink(youtube_url) {
-	const youtubeButton = document.getElementById('youtubeLink');
-	youtubeButton.href = youtube_url || 'https://www.youtube.com';
+	const coverImage = song.CoverImage || 'images/default_cover_image.jpg';
+	document.getElementById('topImage').src = coverImage;
+
+	const spotifyButton = document.getElementById('spotifyButton');
+	if (song.Spotify_URL) {
+		spotifyButton.href = song.Spotify_URL;
+		spotifyButton.style.display = 'inline-block';
+	} else {
+		spotifyButton.style.display = 'none';
+	}
 }
 
 function sortTableByPosition(data) {
@@ -192,6 +206,7 @@ function sortNumerically(a, b, key) {
 }
 
 function convertDurationToSeconds(duration) {
+	if (!duration) return 0;
 	const [minutes, seconds] = duration.split(':').map(Number);
 	return minutes * 60 + seconds;
 }
@@ -203,8 +218,30 @@ function getLimitedData(data, limit) {
 function populateCountryDropdown() {
 	const countrySelect = document.getElementById('countrySelect');
 	if (countrySelect) {
-		Array.from(countrySelect.options).forEach(option => {
-			if (option.value === 'us') option.selected = true;
+		const countries = [
+
+		];
+
+		countries.forEach(country => {
+			const option = document.createElement('option');
+			option.value = country.code;
+			option.textContent = country.name;
+			if (country.code === 'us') option.selected = true;
+			countrySelect.appendChild(option);
 		});
 	}
+}
+
+function setUpEventListeners() {
+	document.getElementById('searchInput').addEventListener('input', performSearch);
+	document.getElementById('homeButton').addEventListener('click', resetTableToInitialState);
+
+	const headers = document.querySelectorAll('.table th');
+	headers.forEach((header, index) => {
+		sortDirection[index] = 'asc';
+		header.onclick = () => {
+			toggleSortDirection(index);
+			sortTableByColumn(index, currentData);
+		};
+	});
 }

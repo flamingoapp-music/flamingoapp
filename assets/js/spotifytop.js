@@ -1,67 +1,19 @@
-// spotify.js
-
 let currentData = [];
 let initialData = [];
 let displayedData = [];
 let sortDirection = {};
 
 document.addEventListener('DOMContentLoaded', function() {
-	const dataFolder = getDataFolder();
-	if (dataFolder === 'top') {
-		loadDataTop();
-		const countryContainer = document.querySelector('.dropdown-container');
-		if (countryContainer) {
-			countryContainer.style.display = 'none';
-		}
-	} else {
-		loadData('global');
-		setUpCountryDropdown();
-	}
+	loadDataTop();
+	setUpEventListeners();
 });
 
-function getDataFolder() {
-	const path = window.location.pathname;
-	if (path.includes('spotifyChartsWeekly.html')) {
-		return 'weekly';
-	} else if (path.includes('spotifyChartsDaily.html')) {
-		return 'daily';
-	} else if (path.includes('spotifyTopSongs.html')) {
-		return 'top';
-	} else {
-		return 'weekly';
-	}
-}
-
-function loadData(country) {
-	const dataFolder = getDataFolder();
-	const jsonFile = `DATABASES/SPOTIFY/${dataFolder}/SP_${country}.json`;
-
-	Promise.all([
-		fetch(jsonFile).then(response => response.json()),
-		fetch(`DATABASES/SPOTIFY/${dataFolder}/TS.json`).then(response => response.json()),
-		fetch(`DATABASES/SPOTIFY/${dataFolder}/SI.json`).then(response => response.json()),
-		fetch(`DATABASES/SPOTIFY/${dataFolder}/SP.json`).then(response => response.json())
-	])
-		.then(([spDataCountry, tsData, siData, spData]) => {
-			currentData = mergeDataBySongID(spDataCountry, tsData, siData, spData);
-			initialData = [...currentData];
-			sortTableByPosition(currentData);
-			displayedData = [...currentData];
-			populateTable(displayedData);
-			setUpEventListeners();
-		})
-		.catch(error => console.error('Error loading JSON files:', error));
-}
-
 function loadDataTop() {
-	const dataFolder = getDataFolder();
-	const jsonFile = `DATABASES/SPOTIFY/top/SP_top.json`;
-
 	Promise.all([
-		fetch(`DATABASES/SPOTIFY/${dataFolder}/SP_top.json`).then(response => response.json()),
-		fetch(`DATABASES/SPOTIFY/${dataFolder}/TS.json`).then(response => response.json()),
-		fetch(`DATABASES/SPOTIFY/${dataFolder}/SI.json`).then(response => response.json()),
-		fetch(`DATABASES/SPOTIFY/${dataFolder}/SP.json`).then(response => response.json())
+		fetch('DATABASES/SPOTIFY/top/SP_top.json').then(response => response.json()),
+		fetch('DATABASES/SPOTIFY/top/TS.json').then(response => response.json()),
+		fetch('DATABASES/SPOTIFY/top/SI.json').then(response => response.json()),
+		fetch('DATABASES/SPOTIFY/top/SP.json').then(response => response.json())
 	])
 		.then(([spData, tsData, siData, spDataGlobal]) => {
 			currentData = mergeDataBySongID(spData, tsData, siData, spDataGlobal);
@@ -69,41 +21,11 @@ function loadDataTop() {
 			sortTableByPosition(currentData);
 			displayedData = [...currentData];
 			populateTable(displayedData);
-			setUpEventListeners();
 		})
 		.catch(error => console.error('Error loading JSON files:', error));
 }
 
-function setUpCountryDropdown() {
-	const countrySelect = document.getElementById('countrySelect');
-	const countryOptions = document.getElementById('countryOptions');
-
-	countrySelect.addEventListener('click', () => {
-		countryOptions.style.display = countryOptions.style.display === 'none' ? 'block' : 'none';
-	});
-
-	document.addEventListener('click', (event) => {
-		if (!event.target.closest('.dropdown-container')) {
-			countryOptions.style.display = 'none';
-		}
-	});
-
-	countryOptions.addEventListener('click', (event) => {
-		if (event.target.matches('div')) {
-			countrySelect.value = event.target.textContent.trim();
-			countryOptions.style.display = 'none';
-			const selectedCountry = event.target.getAttribute('value');
-			filterByCountry(selectedCountry);
-		}
-	});
-}
-
-function filterByCountry(countryCode) {
-	loadData(countryCode);
-}
-
-function mergeDataBySongID(spDataCountry, tsData, siData, spDataGlobal) {
-	// Create maps for quick lookup
+function mergeDataBySongID(spData, tsData, siData, spDataGlobal) {
 	const tsMap = {};
 	tsData.forEach(item => {
 		tsMap[item.SongID.toString()] = item;
@@ -119,10 +41,8 @@ function mergeDataBySongID(spDataCountry, tsData, siData, spDataGlobal) {
 		spMap[item.SongID.toString()] = item;
 	});
 
-	// Merge data
-	return spDataCountry.map(spEntry => {
+	return spData.map(spEntry => {
 		const songID = spEntry.SongID.toString();
-
 		const tsEntry = tsMap[songID] || {};
 		const siEntry = siMap[songID] || {};
 		const spEntryGlobal = spMap[songID] || {};
@@ -136,16 +56,20 @@ function mergeDataBySongID(spDataCountry, tsData, siData, spDataGlobal) {
 			Duration: tsEntry.Duration,
 			ReleaseDate: tsEntry.ReleaseDate,
 			Genre: tsEntry.Genre,
+			Streams: spEntry.Streams || 0,
 			CoverImage: tsEntry.CoverImage,
-			Spotify_URL: spEntryGlobal.Spotify_URL
+			Spotify_URL: spEntryGlobal.Spotify_URL || null
 		};
 	});
 }
 
 function setUpEventListeners() {
-	document.getElementById('searchInput').addEventListener('input', performSearch);
-	document.getElementById('homeButton').addEventListener('click', function() {
-		document.getElementById('searchInput').value = '';
+	const searchInput = document.getElementById('searchInput');
+	searchInput.addEventListener('input', performSearch);
+
+	const homeButton = document.getElementById('homeButton');
+	homeButton.addEventListener('click', function() {
+		searchInput.value = '';
 		resetTableToInitialState();
 	});
 
@@ -164,9 +88,9 @@ function toggleSortDirection(columnIndex) {
 }
 
 function sortTableByColumn(columnIndex, data) {
-	const sortKeys = ['#', 'Position', 'Title', 'Album', 'Duration', 'ReleaseDate', 'Genre'];
+	const sortKeys = ['#', 'Position', 'Title', 'Streams', 'Album', 'Duration', 'ReleaseDate', 'Genre'];
 	const sortKey = sortKeys[columnIndex];
-	const isNumericSort = ['Position', 'Duration', 'ReleaseDate'].includes(sortKey);
+	const isNumericSort = ['Position', 'Streams', 'Duration', 'ReleaseDate'].includes(sortKey);
 
 	data.sort((a, b) => {
 		let comparison = 0;
@@ -182,6 +106,7 @@ function sortTableByColumn(columnIndex, data) {
 }
 
 function sortNumerically(a, b, key) {
+	if (key === 'Streams') return a[key] - b[key];
 	if (key === 'Duration') return convertDurationToSeconds(a[key]) - convertDurationToSeconds(b[key]);
 	if (key === 'ReleaseDate') return parseInt(a[key] || 0) - parseInt(b[key] || 0);
 	return (a[key] || 0) - (b[key] || 0);
@@ -206,6 +131,7 @@ function populateTable(data) {
                     <span class="song-artist">${song.Artist || 'Not Available'}</span>
                 </div>
             </td>
+            <td>${formatStreams(song.Streams)}</td>
             <td>${song.Album || 'Not Available'}</td>
             <td>${song.Duration || 'Not Available'}</td>
             <td>${song.ReleaseDate ? song.ReleaseDate.substring(0, 4) : 'Not Available'}</td>
@@ -265,6 +191,10 @@ function performSearch() {
 
 	sortTableByPosition(displayedData);
 	populateTable(displayedData);
+}
+
+function formatStreams(streams) {
+	return `${(streams / 1_000_000).toFixed(2)}M`;
 }
 
 function convertDurationToSeconds(duration) {

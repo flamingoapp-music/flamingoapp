@@ -13,6 +13,7 @@
 	background-image: url("../../images/pic12.jpg");
 }
 
+
 /* Tabs Section */
 section#one {
 	display: flex;
@@ -38,10 +39,10 @@ section#one {
 	font-size: 0.9em;
 	font-weight: bolder;
 	width: 50vh;
-	border-bottom: 3px solid black;
-	border-left: 3px solid black;
-	border-right: 3px solid black;
-	color: black;
+	border-bottom: 3px solid white;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	color: white;
 }
 
 .tab:hover {
@@ -88,21 +89,6 @@ section#one {
 	object-fit: cover;
 }
 
-.video-container {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 aspect ratio */
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-}
-
-.video-container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 
 
 .text {
@@ -115,7 +101,7 @@ section#one {
 	padding: 1%;
 	color: white;
 	font-size: 1.5vh;
-	background-color: #a238ff;
+	background-color: #344e41;
 	margin: 1%;
 	border-radius: 5px;
 	overflow: hidden;
@@ -307,11 +293,6 @@ section#one {
 	display: table-cell;
 	word-wrap: break-word;
 }
-.table td {
-	color: #ffffff;
-
-}
-
 
 .table th {
 	background-color: #a238ff; /* Color from main.css */
@@ -320,7 +301,6 @@ section#one {
 	z-index: 2;
 	cursor: pointer;
 	white-space: nowrap;
-	color: #ffffff;
 
 }
 
@@ -332,9 +312,15 @@ section#one {
 	background-color: #3a3f5a;
 }
 
-.selected {
-	background-color: #242943; /* Color from main.css */
-	color: white;
+
+.table tbody tr.selected {
+	background-color: #242943; /* Softer background color */
+}
+
+.table tbody tr.selected .song-title,
+.table tbody tr.selected .song-artist, .table tbody tr.selected{
+	color: #a238ff;
+	font-weight: bold;
 }
 
 /* Table Column Widths */
@@ -361,7 +347,23 @@ section#one {
 		margin: 0 auto;
 		align-items: center;
 	}
-	
+
+	.tab {
+		background-color: #a238ff;
+		text-decoration: none;
+		border-radius: 0px 0px 5px 5px;
+		transition: background-color 0.3s;
+		font-size: 0.6em;
+		font-weight: bolder;
+		width: 60vh;
+		height: 3vh;
+		padding-top: 0px;
+		border-bottom: 3px solid white;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		color: white;
+	}
+
 
 	.top {
 		width: 100%;
@@ -376,6 +378,36 @@ section#one {
 		height: 35px;
 		border-radius: 50%;
 		margin-right: 2px;
+	}
+
+	/* Dropdown Container */
+	.dropdown-container {
+		display: flex;
+		align-items: center;
+		position: relative;
+		z-index: 1050;
+	}
+
+	.dropdown-container input {
+		width: 10vh;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		cursor: pointer;
+		box-sizing: border-box;
+		z-index: 1050;
+	}
+
+
+	.dropdown-list div {
+		padding: 10px;
+		cursor: pointer;
+		z-index: 1060;
+	}
+
+	.dropdown-list div:hover {
+		background-color: #f1f1f1;
+		z-index: 2;
 	}
 
 	.table {
@@ -503,7 +535,7 @@ section#one {
 		font-size: 3vh;
 	}
 
-	
+
 	.song-title {
 		font-size: 3.5vh;
 	}
@@ -545,6 +577,7 @@ section#one {
 		height: 30vh;
 		overflow: auto;
 	}
+
 
 	.icons img {
 		width: 40px;
@@ -678,11 +711,11 @@ section#one {
 	}
 
 	.artists {
-		font-size: 15px;
+		font-size: 25px;
 	}
 
 	.album {
-		font-size: 12px;
+		font-size: 20px;
 	}
 
 	.song-title {

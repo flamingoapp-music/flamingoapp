@@ -1,131 +1,99 @@
-// Define the JSON file paths for Apple Music
-const appleMusicFilePaths = {
-	"ww": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_global.json",
-
-	// North America and Central America
-	"us": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_us.json",
-	"ca": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_ca.json",
-	"mx": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_mx.json",
-	"cr": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_cr.json",
-	"sv": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_sv.json",
-	"gt": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_gt.json",
-	"hn": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_hn.json",
-	"jm": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_jm.json",
-
-	// South America
-	"ar": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_ar.json",
-	"br": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_br.json",
-	"cl": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_cl.json",
-	"co": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_co.json",
-	"ec": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_ec.json",
-	"py": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_py.json",
-	"pe": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_pe.json",
-	"ve": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_ve.json",
-	"bo": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_bo.json",
-
-	// Europe
-	"de": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_de.json",
-	"fr": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_fr.json",
-	"it": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_it.json",
-	"es": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_es.json",
-	"pt": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_pt.json",
-	"be": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_be.json",
-	"nl": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_nl.json",
-	"pl": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_pl.json",
-	"se": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_se.json",
-	"no": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_no.json",
-	"fi": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_fi.json",
-	"ch": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_ch.json",
-	"at": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_at.json",
-	"ie": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_ie.json",
-
-	// Asia
-	"jp": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_jp.json",
-	"kr": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_kr.json",
-	"sg": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_sg.json",
-	"my": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_my.json",
-	"th": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_th.json",
-	"ph": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_ph.json",
-	"id": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_id.json",
-
-	// Africa
-	"za": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_za.json",
-	"ng": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_ng.json",
-	"eg": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_eg.json",
-	"ke": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_ke.json",
-	"gh": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_gh.json",
-
-	// Oceania
-	"au": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_au.json",
-	"nz": "DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_nz.json"
-};
-
-
 let currentData = [];
 let initialData = [];
 let displayedData = [];
 let sortDirection = {};
+let rowsToShow = 200;
 
-// Load data based on the selected Apple Music region
-async function loadAppleMusicData(selectedRegion = "global") {
-	const jsonFilePath = appleMusicFilePaths[selectedRegion];
-	try {
-		const response = await fetch(jsonFilePath);
-		const data = await response.json();
-		currentData = [...data];
-		initialData = [...data];
-		sortTableByPosition(currentData);
-		displayedData = [...currentData];
-		populateTable(displayedData);
-		setUpEventListeners();
-	} catch (error) {
-		console.error("Failed to load Apple Music data:", error);
-	}
+document.addEventListener('DOMContentLoaded', function () {
+	populateCountryDropdown();
+	setUpEventListeners();
+	loadData('global'); // Default to 'ww' for Global charts
+});
+
+function loadData(country) {
+	const jsonFile = `DATABASES/OTHER_CHARTS/DEEZER_DATABASES/deezer_${country}.json`;
+	const tsFile = `DATABASES/OTHER_CHARTS/DEEZER_DATABASES/TS.json`;
+	const siFile = `DATABASES/OTHER_CHARTS/DEEZER_DATABASES/SI.json`;
+	const spFile = `DATABASES/OTHER_CHARTS/DEEZER_DATABASES/SP.json`;
+
+	Promise.all([
+		fetch(jsonFile).then(response => response.json()),
+		fetch(tsFile).then(response => response.json()),
+		fetch(siFile).then(response => response.json()),
+		fetch(spFile).then(response => response.json())
+	])
+		.then(([deezerDataCountry, tsData, siData, spData]) => {
+			console.log('Deezer Country Data:', deezerDataCountry);
+			console.log('Technical Specs:', tsData);
+			console.log('Song Information:', siData);
+			console.log('Spotify URLs:', spData);
+			currentData = mergeDataBySongID(deezerDataCountry, tsData, siData, spData);
+			console.log('Merged Data:', currentData);
+			initialData = [...currentData];
+			sortTableByPosition(currentData);
+			displayedData = getLimitedData(currentData, rowsToShow);
+			populateTable(displayedData);
+		})
+		.catch(error => console.error('Error loading JSON files:', error));
 }
 
-// Populate the table with Apple Music data
-function populateTable(data) {
-	const tableBody = document.querySelector(".table tbody");
-	tableBody.innerHTML = "";
-	data.forEach((track, index) => {
-		const row = document.createElement("tr");
+function mergeDataBySongID(deezerDataCountry, tsData, siData, spData) {
+	const tsMap = Object.fromEntries(tsData.map(item => [item.SongID.toString(), item]));
+	const siMap = Object.fromEntries(siData.map(item => [item.SongID.toString(), item]));
+	const spMap = Object.fromEntries(spData.map(item => [item.SongID.toString(), item]));
 
-		const indexCell = document.createElement("td");
-		indexCell.textContent = index + 1;
+	return deezerDataCountry.map(deezerEntry => {
+		const songID = deezerEntry.SongID.toString();
+		const tsEntry = tsMap[songID] || {};
+		const siEntry = siMap[songID] || {};
+		const spEntry = spMap[songID] || {};
 
-		const positionCell = document.createElement("td");
-		positionCell.textContent = track.Position;
-
-		const titleCell = document.createElement("td");
-		titleCell.textContent = track.Title;
-
-		const artistCell = document.createElement("td");
-		artistCell.textContent = track.Artist;
-
-		row.appendChild(indexCell);
-		row.appendChild(positionCell);
-		row.appendChild(titleCell);
-		row.appendChild(artistCell);
-
-		tableBody.appendChild(row);
+		return {
+			SongID: songID,
+			Position: deezerEntry.Position,
+			Title: siEntry.Title || 'Not Available',
+			Artist: siEntry.Artist || 'Not Available',
+			Album: tsEntry.Album || 'Not Available',
+			Duration: tsEntry.Duration || 'Not Available',
+			ReleaseDate: tsEntry.ReleaseDate ? tsEntry.ReleaseDate.substring(0, 4) : 'Not Available',
+			Genre: tsEntry.Genre || 'Not Available',
+			CoverImage: tsEntry.CoverImage || 'images/default_cover_image.jpg',
+			Spotify_URL: spEntry.Spotify_URL || null
+		};
 	});
 }
 
-// Set up event listeners for search and region selection
 function setUpEventListeners() {
-	document.getElementById("searchInput").addEventListener("input", performSearch);
-	document.getElementById("homeButton").addEventListener("click", () => {
-		document.getElementById("searchInput").value = "";
-		resetTableToInitialState();
-	});
+	const countrySelect = document.getElementById('countrySelect');
+	if (countrySelect) {
+		countrySelect.addEventListener('change', function () {
+			const selectedCountry = countrySelect.value;
+			loadData(selectedCountry);
+		});
+	}
 
-	document.getElementById("displayselect").addEventListener("change", () => {
-		loadAppleMusicData(document.getElementById("displayselect").value);
-	});
+	const displaySelect = document.getElementById('displayselect');
+	if (displaySelect) {
+		displaySelect.addEventListener('change', function () {
+			rowsToShow = parseInt(displaySelect.value) || 200;
+			displayedData = getLimitedData(currentData, rowsToShow);
+			populateTable(displayedData);
+		});
+	}
 
-	const headers = document.querySelectorAll(".table th");
+	const searchButton = document.getElementById('searchButton');
+	if (searchButton) {
+		searchButton.addEventListener('click', performSearch);
+	}
+
+	const homeButton = document.getElementById('homeButton');
+	if (homeButton) {
+		homeButton.addEventListener('click', resetTableToInitialState);
+	}
+
+	const headers = document.querySelectorAll('.table th');
 	headers.forEach((header, index) => {
-		sortDirection[index] = "asc";
+		sortDirection[index] = 'asc';
 		header.onclick = () => {
 			toggleSortDirection(index);
 			sortTableByColumn(index, currentData);
@@ -133,59 +101,199 @@ function setUpEventListeners() {
 	});
 }
 
-// Perform search based on the input
+function resetTableToInitialState() {
+	currentData = [...initialData];
+	sortTableByPosition(currentData);
+	displayedData = getLimitedData(currentData, rowsToShow);
+	populateTable(displayedData);
+	document.getElementById('searchInput').value = '';
+}
+
 function performSearch() {
-	const searchText = document.getElementById("searchInput").value.trim().toLowerCase();
+	const categoryElement = document.getElementById('searchCategory');
+	const category = categoryElement ? categoryElement.value.toLowerCase() : 'title';
+	const searchText = document.getElementById('searchInput').value.trim().toLowerCase();
+
 	displayedData = initialData.filter(song => {
-		return (
-			(song.Title && song.Title.toLowerCase().includes(searchText)) ||
-			(song.Artist && song.Artist.toLowerCase().includes(searchText))
-		);
+		if (category === 'title' && song.Title && song.Title.toLowerCase().includes(searchText)) return true;
+		if (category === 'artist' && song.Artist && song.Artist.toLowerCase().includes(searchText)) return true;
+		if (category === 'album' && song.Album && song.Album.toLowerCase().includes(searchText)) return true;
+		if (category === 'genre' && song.Genre && song.Genre.toLowerCase().includes(searchText)) return true;
+		return false;
 	});
+
 	sortTableByPosition(displayedData);
+	displayedData = getLimitedData(displayedData, rowsToShow);
 	populateTable(displayedData);
 }
 
-// Toggle the sorting direction
-function toggleSortDirection(columnIndex) {
-	sortDirection[columnIndex] = sortDirection[columnIndex] === "asc" ? "desc" : "asc";
+function populateTable(data) {
+	const tableBody = document.querySelector('.table tbody');
+	tableBody.innerHTML = '';
+	data.forEach((song, index) => {
+		const row = document.createElement('tr');
+		row.songData = song;
+		row.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${song.Position || 'N/A'}</td>
+            <td>
+                <div class="title-artist">
+                    <span class="song-title">${song.Title}</span><br>
+                    <span class="song-artist">${song.Artist}</span>
+                </div>
+            </td>
+            <td>${song.Album}</td>
+            <td>${song.Duration}</td>
+            <td>${song.ReleaseDate}</td>
+            <td>${song.Genre}</td>
+        `;
+		row.addEventListener('click', () => {
+			selectSingleRow(row);
+		});
+		tableBody.appendChild(row);
+	});
 }
 
-// Sort the table by the selected column
+function selectSingleRow(row) {
+	const selectedRow = document.querySelector('.table tbody .selected');
+	if (selectedRow) selectedRow.classList.remove('selected');
+	row.classList.add('selected');
+	updateTopSection(row.songData);
+}
+
+function updateTopSection(song) {
+	document.getElementById('topTitle').textContent = song.Title || 'Title';
+	document.getElementById('topArtist').textContent = song.Artist || 'Artist';
+	document.getElementById('topAlbum').textContent = song.Album || 'Album';
+
+	const coverImage = song.CoverImage || 'images/default_cover_image.jpg';
+	document.getElementById('topImage').src = coverImage;
+
+	const spotifyButton = document.getElementById('spotifyButton');
+	if (song.Spotify_URL) {
+		spotifyButton.href = song.Spotify_URL;
+		spotifyButton.style.display = 'inline-block';
+	} else {
+		spotifyButton.style.display = 'none';
+	}
+}
+
+function sortTableByPosition(data) {
+	data.sort((a, b) => parseInt(a.Position) - parseInt(b.Position));
+}
+
 function sortTableByColumn(columnIndex, data) {
-	const sortKeys = ["#", "Position", "Title", "Artist"];
+	const sortKeys = ['#', 'Position', 'Title', 'Artist', 'Album', 'Duration', 'ReleaseDate', 'Genre'];
 	const sortKey = sortKeys[columnIndex];
-	const isNumericSort = sortKey === "Position";
+	const isNumericSort = ['Position', 'Duration', 'ReleaseDate'].includes(sortKey);
 
 	data.sort((a, b) => {
-		let comparison = 0;
+		let comparison;
 		if (isNumericSort) {
-			comparison = (parseInt(a[sortKey]) || 0) - (parseInt(b[sortKey]) || 0);
+			comparison = parseInt(a[sortKey]) - parseInt(b[sortKey]);
 		} else {
-			comparison = (a[sortKey] || "").localeCompare(b[sortKey] || "");
+			comparison = (a[sortKey] || '').localeCompare(b[sortKey] || '');
 		}
-		return sortDirection[columnIndex] === "desc" ? -comparison : comparison;
+		return sortDirection[columnIndex] === 'desc' ? -comparison : comparison;
 	});
 
 	populateTable(data);
 }
 
-// Sort the table by position (default sorting)
-function sortTableByPosition(data) {
-	data.sort((a, b) => parseInt(a.Position) - parseInt(b.Position));
+function toggleSortDirection(columnIndex) {
+	sortDirection[columnIndex] = sortDirection[columnIndex] === 'asc' ? 'desc' : 'asc';
 }
 
-// Reset the table to its initial state
-function resetTableToInitialState() {
-	currentData = [...initialData];
-	sortTableByPosition(currentData);
-	displayedData = [...currentData];
-	populateTable(displayedData);
+function convertDurationToSeconds(duration) {
+	if (!duration) return 0;
+	const [minutes, seconds] = duration.split(':').map(Number);
+	return minutes * 60 + seconds;
 }
 
-// Load data when the page is ready
-document.addEventListener("DOMContentLoaded", () => {
-	const displaySelect = document.getElementById("displayselect");
-	loadAppleMusicData(displaySelect.value);
-	setUpEventListeners();
-});
+function sortNumerically(a, b, key) {
+	if (key === 'Duration') return convertDurationToSeconds(a[key]) - convertDurationToSeconds(b[key]);
+	if (key === 'ReleaseDate') return parseInt(a[key] || 0) - parseInt(b[key] || 0);
+	if (key === 'Position') return parseInt(a[key] || 0) - parseInt(b[key] || 0);
+	return 0;
+}
+
+function getLimitedData(data, limit) {
+	return data.slice(0, limit);
+}
+
+function populateCountryDropdown() {
+	const countrySelect = document.getElementById('countrySelect');
+	if (countrySelect) {
+		countrySelect.innerHTML = `
+            <option value="Global" selected>🌍 Global</option>
+            <!-- North America and Central America -->
+            <optgroup label="North America and Central America">
+                <option value="us">🇺🇸 United States</option>
+                <option value="ca">🇨🇦 Canada</option>
+                <option value="mx">🇲🇽 Mexico</option>
+                <option value="cr">🇨🇷 Costa Rica</option>
+                <option value="sv">🇸🇻 El Salvador</option>
+                <option value="gt">🇬🇹 Guatemala</option>
+                <option value="hn">🇭🇳 Honduras</option>
+                <option value="jm">🇯🇲 Jamaica</option>
+            </optgroup>
+
+            <!-- South America -->
+            <optgroup label="South America">
+                <option value="ar">🇦🇷 Argentina</option>
+                <option value="br">🇧🇷 Brazil</option>
+                <option value="cl">🇨🇱 Chile</option>
+                <option value="co">🇨🇴 Colombia</option>
+                <option value="ec">🇪🇨 Ecuador</option>
+                <option value="py">🇵🇾 Paraguay</option>
+                <option value="pe">🇵🇪 Peru</option>
+                <option value="ve">🇻🇪 Venezuela</option>
+                <option value="bo">🇧🇴 Bolivia</option>
+            </optgroup>
+
+            <!-- Europe -->
+            <optgroup label="Europe">
+                <option value="de">🇩🇪 Germany</option>
+                <option value="fr">🇫🇷 France</option>
+                <option value="it">🇮🇹 Italy</option>
+                <option value="es">🇪🇸 Spain</option>
+                <option value="pt">🇵🇹 Portugal</option>
+                <option value="be">🇧🇪 Belgium</option>
+                <option value="nl">🇳🇱 Netherlands</option>
+                <option value="pl">🇵🇱 Poland</option>
+                <option value="se">🇸🇪 Sweden</option>
+                <option value="no">🇳🇴 Norway</option>
+                <option value="fi">🇫🇮 Finland</option>
+                <option value="ch">🇨🇭 Switzerland</option>
+                <option value="at">🇦🇹 Austria</option>
+                <option value="ie">🇮🇪 Ireland</option>
+            </optgroup>
+
+            <!-- Asia -->
+            <optgroup label="Asia">
+                <option value="jp">🇯🇵 Japan</option>
+                <option value="kr">🇰🇷 South Korea</option>
+                <option value="sg">🇸🇬 Singapore</option>
+                <option value="my">🇲🇾 Malaysia</option>
+                <option value="th">🇹🇭 Thailand</option>
+                <option value="ph">🇵🇭 Philippines</option>
+                <option value="id">🇮🇩 Indonesia</option>
+            </optgroup>
+
+            <!-- Africa -->
+            <optgroup label="Africa">
+                <option value="za">🇿🇦 South Africa</option>
+                <option value="ng">🇳🇬 Nigeria</option>
+                <option value="eg">🇪🇬 Egypt</option>
+                <option value="ke">🇰🇪 Kenya</option>
+                <option value="gh">🇬🇭 Ghana</option>
+            </optgroup>
+
+            <!-- Oceania -->
+            <optgroup label="Oceania">
+                <option value="au">🇦🇺 Australia</option>
+                <option value="nz">🇳🇿 New Zealand</option>
+            </optgroup>
+        `;
+	}
+}
