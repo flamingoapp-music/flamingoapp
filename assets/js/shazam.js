@@ -222,77 +222,77 @@ function getLimitedData(data, limit) {
 }
 
 function populateCountryDropdown() {
-	const countrySelect = document.getElementById('countrySelect');
-	if (countrySelect) {
-		countrySelect.innerHTML = `
+    const countrySelect = document.getElementById('countrySelect');
+    if (countrySelect) {
+        countrySelect.innerHTML = `
             <option value="Global" selected>🌍 Global</option>
             <!-- North America and Central America -->
             <optgroup label="North America and Central America">
-\t\t\t\t\t\t\t\t\t<option value="us">🇺🇸 United States</option>
-\t\t\t\t\t\t\t\t\t<option value="ca">🇨🇦 Canada</option>
-\t\t\t\t\t\t\t\t\t<option value="mx">🇲🇽 Mexico</option>
-\t\t\t\t\t\t\t\t\t<option value="cr">🇨🇷 Costa Rica</option>
-\t\t\t\t\t\t\t\t</optgroup>
+                <option value="us">🇺🇸 United States</option>
+                <option value="ca">🇨🇦 Canada</option>
+                <option value="mx">🇲🇽 Mexico</option>
+                <option value="cr">🇨🇷 Costa Rica</option>
+            </optgroup>
 
-\t\t\t\t\t\t\t\t<!-- South America -->
-\t\t\t\t\t\t\t\t<optgroup label="South America">
-\t\t\t\t\t\t\t\t\t<option value="ar">🇦🇷 Argentina</option>
-\t\t\t\t\t\t\t\t\t<option value="br">🇧🇷 Brazil</option>
-\t\t\t\t\t\t\t\t\t<option value="cl">🇨🇱 Chile</option>
-\t\t\t\t\t\t\t\t\t<option value="co">🇨🇴 Colombia</option>
-\t\t\t\t\t\t\t\t\t<option value="ec">🇪🇨 Ecuador</option>
-\t\t\t\t\t\t\t\t\t<option value="pe">🇵🇪 Peru</option>
-\t\t\t\t\t\t\t\t\t<option value="uy">🇺🇾 Uruguay</option>
-\t\t\t\t\t\t\t\t\t<option value="ve">🇻🇪 Venezuela</option>
-\t\t\t\t\t\t\t\t</optgroup>
+            <!-- South America -->
+            <optgroup label="South America">
+                <option value="ar">🇦🇷 Argentina</option>
+                <option value="br">🇧🇷 Brazil</option>
+                <option value="cl">🇨🇱 Chile</option>
+                <option value="co">🇨🇴 Colombia</option>
+                <option value="ec">🇪🇨 Ecuador</option>
+                <option value="pe">🇵🇪 Peru</option>
+                <option value="uy">🇺🇾 Uruguay</option>
+                <option value="ve">🇻🇪 Venezuela</option>
+            </optgroup>
 
-\t\t\t\t\t\t\t\t<!-- Europe -->
-\t\t\t\t\t\t\t\t<optgroup label="Europe">
-\t\t\t\t\t\t\t\t\t<option value="de">🇩🇪 Germany</option>
-\t\t\t\t\t\t\t\t\t<option value="fr">🇫🇷 France</option>
-\t\t\t\t\t\t\t\t\t<option value="it">🇮🇹 Italy</option>
-\t\t\t\t\t\t\t\t\t<option value="es">🇪🇸 Spain</option>
-\t\t\t\t\t\t\t\t\t<option value="pt">🇵🇹 Portugal</option>
-\t\t\t\t\t\t\t\t\t<option value="be">🇧🇪 Belgium</option>
-\t\t\t\t\t\t\t\t\t<option value="nl">🇳🇱 Netherlands</option>
-\t\t\t\t\t\t\t\t\t<option value="pl">🇵🇱 Poland</option>
-\t\t\t\t\t\t\t\t\t<option value="se">🇸🇪 Sweden</option>
-\t\t\t\t\t\t\t\t\t<option value="no">🇳🇴 Norway</option>
-\t\t\t\t\t\t\t\t\t<option value="fi">🇫🇮 Finland</option>
-\t\t\t\t\t\t\t\t\t<option value="ch">🇨🇭 Switzerland</option>
-\t\t\t\t\t\t\t\t\t<option value="at">🇦🇹 Austria</option>
-\t\t\t\t\t\t\t\t\t<option value="ie">🇮🇪 Ireland</option>
-\t\t\t\t\t\t\t\t</optgroup>
+            <!-- Europe -->
+            <optgroup label="Europe">
+                <option value="de">🇩🇪 Germany</option>
+                <option value="fr">🇫🇷 France</option>
+                <option value="it">🇮🇹 Italy</option>
+                <option value="es">🇪🇸 Spain</option>
+                <option value="pt">🇵🇹 Portugal</option>
+                <option value="be">🇧🇪 Belgium</option>
+                <option value="nl">🇳🇱 Netherlands</option>
+                <option value="pl">🇵🇱 Poland</option>
+                <option value="se">🇸🇪 Sweden</option>
+                <option value="no">🇳🇴 Norway</option>
+                <option value="fi">🇫🇮 Finland</option>
+                <option value="ch">🇨🇭 Switzerland</option>
+                <option value="at">🇦🇹 Austria</option>
+                <option value="ie">🇮🇪 Ireland</option>
+            </optgroup>
 
-\t\t\t\t\t\t\t\t<!-- Asia -->
-\t\t\t\t\t\t\t\t<optgroup label="Asia">
-\t\t\t\t\t\t\t\t\t<option value="cn">🇨🇳 China</option>
-\t\t\t\t\t\t\t\t\t<option value="jp">🇯🇵 Japan</option>
-\t\t\t\t\t\t\t\t\t<option value="in">🇮🇳 India</option>
-\t\t\t\t\t\t\t\t\t<option value="kr">🇰🇷 South Korea</option>
-\t\t\t\t\t\t\t\t\t<option value="tw">🇹🇼 Taiwan</option>
-\t\t\t\t\t\t\t\t\t<option value="sg">🇸🇬 Singapore</option>
-\t\t\t\t\t\t\t\t\t<option value="my">🇲🇾 Malaysia</option>
-\t\t\t\t\t\t\t\t\t<option value="th">🇹🇭 Thailand</option>
-\t\t\t\t\t\t\t\t\t<option value="vn">🇻🇳 Vietnam</option>
-\t\t\t\t\t\t\t\t\t<option value="ph">🇵🇭 Philippines</option>
-\t\t\t\t\t\t\t\t\t<option value="id">🇮🇩 Indonesia</option>
-\t\t\t\t\t\t\t\t</optgroup>
+            <!-- Asia -->
+            <optgroup label="Asia">
+                <option value="cn">🇨🇳 China</option>
+                <option value="jp">🇯🇵 Japan</option>
+                <option value="in">🇮🇳 India</option>
+                <option value="kr">🇰🇷 South Korea</option>
+                <option value="tw">🇹🇼 Taiwan</option>
+                <option value="sg">🇸🇬 Singapore</option>
+                <option value="my">🇲🇾 Malaysia</option>
+                <option value="th">🇹🇭 Thailand</option>
+                <option value="vn">🇻🇳 Vietnam</option>
+                <option value="ph">🇵🇭 Philippines</option>
+                <option value="id">🇮🇩 Indonesia</option>
+            </optgroup>
 
-\t\t\t\t\t\t\t\t<!-- Africa -->
-\t\t\t\t\t\t\t\t<optgroup label="Africa">
-\t\t\t\t\t\t\t\t\t<option value="za">🇿🇦 South Africa</option>
-\t\t\t\t\t\t\t\t\t<option value="ng">🇳🇬 Nigeria</option>
-\t\t\t\t\t\t\t\t\t<option value="eg">🇪🇬 Egypt</option>
-\t\t\t\t\t\t\t\t\t<option value="ke">🇰🇪 Kenya</option>
-\t\t\t\t\t\t\t\t\t<option value="gh">🇬🇭 Ghana</option>
-\t\t\t\t\t\t\t\t</optgroup>
+            <!-- Africa -->
+            <optgroup label="Africa">
+                <option value="za">🇿🇦 South Africa</option>
+                <option value="ng">🇳🇬 Nigeria</option>
+                <option value="eg">🇪🇬 Egypt</option>
+                <option value="ke">🇰🇪 Kenya</option>
+                <option value="gh">🇬🇭 Ghana</option>
+            </optgroup>
 
-\t\t\t\t\t\t\t\t<!-- Oceania -->
-\t\t\t\t\t\t\t\t<optgroup label="Oceania">
-\t\t\t\t\t\t\t\t\t<option value="au">🇦🇺 Australia</option>
-\t\t\t\t\t\t\t\t\t<option value="nz">🇳🇿 New Zealand</option>
-\t\t\t\t\t\t\t\t</optgroup>
+            <!-- Oceania -->
+            <optgroup label="Oceania">
+                <option value="au">🇦🇺 Australia</option>
+                <option value="nz">🇳🇿 New Zealand</option>
+            </optgroup>
         `;
-	}
+    }
 }
