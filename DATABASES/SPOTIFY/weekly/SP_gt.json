@@ -1,1402 +1,802 @@
 [
     {
         "SongID": 3,
-        "Title": "LALA",
-        "Artist": "Myke Towers",
-        "Position": 75,
-        "Spotify_URL": "https://open.spotify.com/track/7ABLbnD53cQK00mhcaOUVG"
+        "Position": 75
     },
     {
         "SongID": 9,
-        "Title": "LUNA",
-        "Artist": "Feid",
-        "Position": 14,
-        "Spotify_URL": "https://open.spotify.com/track/7bywjHOc0wSjGGbj04XbVi"
+        "Position": 14
     },
     {
         "SongID": 13,
-        "Title": "La Diabla",
-        "Artist": "Xavi",
-        "Position": 89,
-        "Spotify_URL": "https://open.spotify.com/track/0R6NfOiLzLj4O5VbYSJAjf"
+        "Position": 89
     },
     {
         "SongID": 15,
-        "Title": "PERRO NEGRO",
-        "Artist": "Bad Bunny",
-        "Position": 49,
-        "Spotify_URL": "https://open.spotify.com/track/7iQXYTyuG13aoeHxGG28Nh"
+        "Position": 49
     },
     {
         "SongID": 21,
-        "Title": "HARLEY QUINN",
-        "Artist": "Fuerza Regida",
-        "Position": 162,
-        "Spotify_URL": "https://open.spotify.com/track/6CvTEtGagmzQvkUzzyKR9k"
+        "Position": 162
     },
     {
         "SongID": 57,
-        "Title": "SABOR FRESA",
-        "Artist": "Fuerza Regida",
-        "Position": 108,
-        "Spotify_URL": "https://open.spotify.com/track/3kx21xR6IboC9HVdajgBoc"
+        "Position": 108
     },
     {
         "SongID": 92,
-        "Title": "AMARGURA",
-        "Artist": "KAROL G",
-        "Position": 60,
-        "Spotify_URL": "https://open.spotify.com/track/505v13epFXodT9fVAJ6h8k"
+        "Position": 60
     },
     {
         "SongID": 134,
-        "Title": "Primera Cita",
-        "Artist": "Carin Leon",
-        "Position": 71,
-        "Spotify_URL": "https://open.spotify.com/track/25OeKzcqakFPaJlXHPE5lm"
+        "Position": 71
     },
     {
         "SongID": 141,
-        "Title": "Locked out of Heaven",
-        "Artist": "Bruno Mars",
-        "Position": 184,
-        "Spotify_URL": "https://open.spotify.com/track/5g7sDjBhZ4I3gcFIpkrLuI"
+        "Position": 184
     },
     {
         "SongID": 147,
-        "Title": "LA FALDA",
-        "Artist": "Myke Towers",
-        "Position": 67,
-        "Spotify_URL": "https://open.spotify.com/track/7iUtQNMRB8ZkKC4AmEuCJC"
+        "Position": 67
     },
     {
         "SongID": 248,
-        "Title": "Efecto",
-        "Artist": "Bad Bunny",
-        "Position": 199,
-        "Spotify_URL": "https://open.spotify.com/track/5Eax0qFko2dh7Rl2lYs3bx"
+        "Position": 199
     },
     {
         "SongID": 249,
-        "Title": "La Bachata",
-        "Artist": "Manuel Turizo",
-        "Position": 101,
-        "Spotify_URL": "https://open.spotify.com/track/3tt9i3Hhzq84dPS8H7iSiJ"
+        "Position": 101
     },
     {
         "SongID": 313,
-        "Title": "Apaga El Cel",
-        "Artist": "Calle 24",
-        "Position": 91,
-        "Spotify_URL": "https://open.spotify.com/track/1sXr6moCwVxwKEgSPxhVvF"
+        "Position": 91
     },
     {
         "SongID": 416,
-        "Title": "Lo Tienes Todo",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 38,
-        "Spotify_URL": "https://open.spotify.com/track/29vIEdxgMT9H1fnBMecWjA"
+        "Position": 38
     },
     {
         "SongID": 481,
-        "Title": "Feliz Cumpleaños Ferxxo",
-        "Artist": "Feid",
-        "Position": 50,
-        "Spotify_URL": "https://open.spotify.com/track/2CeKVsFFXG4QzA415QygGb"
+        "Position": 50
     },
     {
         "SongID": 562,
-        "Title": "Regalo De Dios",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 17,
-        "Spotify_URL": "https://open.spotify.com/track/51qYdMBxt9mFbtZBzq1Yfi"
+        "Position": 17
     },
     {
         "SongID": 569,
-        "Title": "Elvira",
-        "Artist": "Oscar Maydon",
-        "Position": 96,
-        "Spotify_URL": "https://open.spotify.com/track/1xgWArLVFD1AKsLzftZYc2"
+        "Position": 96
     },
     {
         "SongID": 572,
-        "Title": "La Curiosidad",
-        "Artist": "Jay Wheeler",
-        "Position": 109,
-        "Spotify_URL": "https://open.spotify.com/track/4HYDUMY0xSpeBr0AMY9cUz"
+        "Position": 109
     },
     {
         "SongID": 603,
-        "Title": "PROVENZA",
-        "Artist": "KAROL G",
-        "Position": 140,
-        "Spotify_URL": "https://open.spotify.com/track/7dSZ6zGTQx66c2GF91xCrb"
+        "Position": 140
     },
     {
         "SongID": 638,
-        "Title": "Es un Secreto",
-        "Artist": "Plan B",
-        "Position": 46,
-        "Spotify_URL": "https://open.spotify.com/track/3KZCP2StVGdWkOKyRZNWA4"
+        "Position": 46
     },
     {
         "SongID": 640,
-        "Title": "Rosa Pastel",
-        "Artist": "Belanova",
-        "Position": 85,
-        "Spotify_URL": "https://open.spotify.com/track/6Z0ybnsUBhbZ9ZjPW64eoF"
+        "Position": 85
     },
     {
         "SongID": 808,
-        "Title": "NUEVA VIDA",
-        "Artist": "Peso Pluma",
-        "Position": 58,
-        "Spotify_URL": "https://open.spotify.com/track/4Nf5EZ40JenjMUKXOiyRU5"
+        "Position": 58
     },
     {
         "SongID": 834,
-        "Title": "Normal",
-        "Artist": "Feid",
-        "Position": 112,
-        "Spotify_URL": "https://open.spotify.com/track/0T2pB7P1VdXPhLdQZ488uH"
+        "Position": 112
     },
     {
         "SongID": 836,
-        "Title": "Dile",
-        "Artist": "Don Omar",
-        "Position": 114,
-        "Spotify_URL": "https://open.spotify.com/track/69Ej1xrGjOcHvIMtMKxK0G"
+        "Position": 114
     },
     {
         "SongID": 892,
-        "Title": "No Se Va - En Vivo",
-        "Artist": "Grupo Frontera",
-        "Position": 161,
-        "Spotify_URL": "https://open.spotify.com/track/23Lyy7ZXRvzfgH4JtDkKrX"
+        "Position": 161
     },
     {
         "SongID": 1003,
-        "Title": "Dueles",
-        "Artist": "Jesse & Joy",
-        "Position": 163,
-        "Spotify_URL": "https://open.spotify.com/track/1iRvhKiXRElIH2Uf4gd95P"
+        "Position": 163
     },
     {
         "SongID": 1031,
-        "Title": "Un Coco",
-        "Artist": "Bad Bunny",
-        "Position": 197,
-        "Spotify_URL": "https://open.spotify.com/track/6VrQTLzzuyGIYjUDe4kAZk"
+        "Position": 197
     },
     {
         "SongID": 1072,
-        "Title": "Me Rehúso",
-        "Artist": "Danny Ocean",
-        "Position": 121,
-        "Spotify_URL": "https://open.spotify.com/track/6ifUES3keWjwXgae8pXI3o"
+        "Position": 121
     },
     {
         "SongID": 1080,
-        "Title": "Pa' Que Retozen",
-        "Artist": "Tego Calderón",
-        "Position": 83,
-        "Spotify_URL": "https://open.spotify.com/track/5YJ4BVvTFmVCxUyhKejHfR"
+        "Position": 83
     },
     {
         "SongID": 1100,
-        "Title": "Si Estuviésemos Juntos",
-        "Artist": "Bad Bunny",
-        "Position": 190,
-        "Spotify_URL": "https://open.spotify.com/track/35wvL50xvKpCHEJPxLOLPI"
+        "Position": 190
     },
     {
         "SongID": 1179,
-        "Title": "Extssy Model",
-        "Artist": "Junior H",
-        "Position": 139,
-        "Spotify_URL": "https://open.spotify.com/track/24teIhDYO2RocTA2v5dY0r"
+        "Position": 139
     },
     {
         "SongID": 1180,
-        "Title": "TRES BOTELLAS",
-        "Artist": "Junior H",
-        "Position": 74,
-        "Spotify_URL": "https://open.spotify.com/track/2CshODtf7iwe3pKlPmEWF5"
+        "Position": 74
     },
     {
         "SongID": 1344,
-        "Title": "Rosas",
-        "Artist": "La Oreja de Van Gogh",
-        "Position": 155,
-        "Spotify_URL": "https://open.spotify.com/track/4waqcUQWdj0yH26STWl2Rq"
+        "Position": 155
     },
     {
         "SongID": 1421,
-        "Title": "Tiroteo - Remix",
-        "Artist": "Marc Seguí",
-        "Position": 181,
-        "Spotify_URL": "https://open.spotify.com/track/4OwhwvKESFtuu06dTgct7i"
+        "Position": 181
     },
     {
         "SongID": 1581,
-        "Title": "Propuesta Indecente",
-        "Artist": "Romeo Santos",
-        "Position": 84,
-        "Spotify_URL": "https://open.spotify.com/track/5PycBIeabfvX3n9ILG7Vrv"
+        "Position": 84
     },
     {
         "SongID": 1830,
-        "Title": "Calidad",
-        "Artist": "Grupo Firme",
-        "Position": 187,
-        "Spotify_URL": "https://open.spotify.com/track/0uBcoM4zxRXk7kmsmxoiFS"
+        "Position": 187
     },
     {
         "SongID": 1838,
-        "Title": "Ya No Somos Ni Seremos",
-        "Artist": "Christian Nodal",
-        "Position": 119,
-        "Spotify_URL": "https://open.spotify.com/track/0UXlu64mDLvfzR8IXMz06J"
+        "Position": 119
     },
     {
         "SongID": 1922,
-        "Title": "La Víctima",
-        "Artist": "Xavi",
-        "Position": 158,
-        "Spotify_URL": "https://open.spotify.com/track/5XVdHRf4CAJ2Jm0uMIy5qY"
+        "Position": 158
     },
     {
         "SongID": 1939,
-        "Title": "Volví",
-        "Artist": "Aventura",
-        "Position": 135,
-        "Spotify_URL": "https://open.spotify.com/track/2vmfvSoZBFAt9hhRoEByLi"
+        "Position": 135
     },
     {
         "SongID": 1974,
-        "Title": "Eres Mía",
-        "Artist": "Romeo Santos",
-        "Position": 62,
-        "Spotify_URL": "https://open.spotify.com/track/6I86RF3odBlcuZA9Vfjzeq"
+        "Position": 62
     },
     {
         "SongID": 2368,
-        "Title": "Si No Le Contesto",
-        "Artist": "Plan B",
-        "Position": 151,
-        "Spotify_URL": "https://open.spotify.com/track/6NdKkfo7o6IH1Op0jsBDjN"
+        "Position": 151
     },
     {
         "SongID": 2389,
-        "Title": "Dile al Amor",
-        "Artist": "Aventura",
-        "Position": 28,
-        "Spotify_URL": "https://open.spotify.com/track/6lFM8kkmpffm0aq2gzEtEK"
+        "Position": 28
     },
     {
         "SongID": 2404,
-        "Title": "UNA CERVEZA",
-        "Artist": "Fuerza Regida",
-        "Position": 69,
-        "Spotify_URL": "https://open.spotify.com/track/0lbDzTINTToToBpkrnQT2t"
+        "Position": 69
     },
     {
         "SongID": 2457,
-        "Title": "Imitadora",
-        "Artist": "Romeo Santos",
-        "Position": 150,
-        "Spotify_URL": "https://open.spotify.com/track/6r46lnXFbE9fr2d3KNaGbe"
+        "Position": 150
     },
     {
         "SongID": 2617,
-        "Title": "Solos",
-        "Artist": "Tony Dize",
-        "Position": 194,
-        "Spotify_URL": "https://open.spotify.com/track/2ItA7kOg5NH6AygzU30sEv"
+        "Position": 194
     },
     {
         "SongID": 2642,
-        "Title": "Todo De Ti",
-        "Artist": "Rauw Alejandro",
-        "Position": 110,
-        "Spotify_URL": "https://open.spotify.com/track/3rdAz1fbUfZxYgaCviYhRo"
+        "Position": 110
     },
     {
         "SongID": 2769,
-        "Title": "Borro Cassette",
-        "Artist": "Maluma",
-        "Position": 88,
-        "Spotify_URL": "https://open.spotify.com/track/6DUdDIRgLqCGq1DwkNWQTN"
-    },
-    {
-        "SongID": 2828,
-        "Title": "Por Que Te Demoras?",
-        "Artist": "Plan B",
-        "Position": 185,
-        "Spotify_URL": "https://open.spotify.com/track/6URNgz911jj10KXTFtevcS"
+        "Position": 88
     },
     {
         "SongID": 2850,
-        "Title": "El Perdedor",
-        "Artist": "Aventura",
-        "Position": 26,
-        "Spotify_URL": "https://open.spotify.com/track/27ze5t5tIDPlVits0KRbxT"
+        "Position": 26
     },
     {
         "SongID": 2896,
-        "Title": "Pa' Que La Pases Bien",
-        "Artist": "Arcángel",
-        "Position": 178,
-        "Spotify_URL": "https://open.spotify.com/track/1pLCpA1RN8avJxSD3ZCwhj"
+        "Position": 178
     },
     {
         "SongID": 3046,
-        "Title": "Pa' Olvidarme De Ella",
-        "Artist": "Piso 21",
-        "Position": 148,
-        "Spotify_URL": "https://open.spotify.com/track/1cVlW9WQiGlFdWUXFdFZGh"
-    },
-    {
-        "SongID": 3440,
-        "Title": "Odio",
-        "Artist": "Romeo Santos",
-        "Position": 64,
-        "Spotify_URL": "https://open.spotify.com/track/1iLv1ieT9BZ3qsti9yTCnG"
+        "Position": 148
     },
     {
         "SongID": 3441,
-        "Title": "Cancioncitas de Amor",
-        "Artist": "Romeo Santos",
-        "Position": 173,
-        "Spotify_URL": "https://open.spotify.com/track/6bcdiJvYNX115yvbh3wASz"
+        "Position": 173
+    },
+    {
+        "SongID": 3652,
+        "Position": 64
     },
     {
         "SongID": 3786,
-        "Title": "Le Hace Falta Un Beso",
-        "Artist": "El Chapo De Sinaloa",
-        "Position": 100,
-        "Spotify_URL": "https://open.spotify.com/track/1SwY9YgXVgRbZM6uzxS4vU"
+        "Position": 100
     },
     {
         "SongID": 3976,
-        "Title": "Y LLORO",
-        "Artist": "Junior H",
-        "Position": 21,
-        "Spotify_URL": "https://open.spotify.com/track/6RcAHyC5sAUIbPTkhOQwd8"
+        "Position": 21
     },
     {
         "SongID": 4013,
-        "Title": "El Malo",
-        "Artist": "Aventura",
-        "Position": 77,
-        "Spotify_URL": "https://open.spotify.com/track/6ofZxXoNV32YxXezZS1o8y"
+        "Position": 77
     },
     {
         "SongID": 4066,
-        "Title": "Hace Mucho Tiempo",
-        "Artist": "Arcángel",
-        "Position": 152,
-        "Spotify_URL": "https://open.spotify.com/track/0a6ogDrZBvYgDjILgsQVaJ"
+        "Position": 152
     },
     {
         "SongID": 4615,
-        "Title": "Un Beso",
-        "Artist": "Aventura",
-        "Position": 126,
-        "Spotify_URL": "https://open.spotify.com/track/1SaEt8dwTuLDzenUu5BqI6"
+        "Position": 126
     },
     {
         "SongID": 4616,
-        "Title": "Los Infieles",
-        "Artist": "Aventura",
-        "Position": 53,
-        "Spotify_URL": "https://open.spotify.com/track/0HDHY6RSHHG2ZTE0cMT4GJ"
+        "Position": 53
     },
     {
         "SongID": 4674,
-        "Title": "La Diabla",
-        "Artist": "Romeo Santos",
-        "Position": 118,
-        "Spotify_URL": "https://open.spotify.com/track/252UPuQsncbBFhTrx4Ytcc"
+        "Position": 118
     },
     {
         "SongID": 5255,
-        "Title": "ROCKSTAR",
-        "Artist": "Junior H",
-        "Position": 156,
-        "Spotify_URL": "https://open.spotify.com/track/6YOfGIE6iFxC7G8OlGGvzW"
+        "Position": 156
     },
     {
         "SongID": 5754,
-        "Title": "Ensame a olvidar",
-        "Artist": "Aventura",
-        "Position": 99,
-        "Spotify_URL": "https://open.spotify.com/track/2RkQiLvVpdxw5XJcMgNpeF"
+        "Position": 99
     },
     {
         "SongID": 5941,
-        "Title": "Candy",
-        "Artist": "Plan B",
-        "Position": 142,
-        "Spotify_URL": "https://open.spotify.com/track/2ctjDCCg1wHoQSjIJ8p6U4"
+        "Position": 142
     },
     {
         "SongID": 5981,
-        "Title": "Por un Segundo",
-        "Artist": "Aventura",
-        "Position": 95,
-        "Spotify_URL": "https://open.spotify.com/track/6U9xvkN1rKzK8yLvfPC8ok"
+        "Position": 95
     },
     {
         "SongID": 6017,
-        "Title": "PIÉNSALO",
-        "Artist": "Junior H",
-        "Position": 22,
-        "Spotify_URL": "https://open.spotify.com/track/4ZOkfHC38nxSeSqzGE5HFr"
+        "Position": 22
     },
     {
         "SongID": 8679,
-        "Title": "Encantadora",
-        "Artist": "Yandel",
-        "Position": 97,
-        "Spotify_URL": "https://open.spotify.com/track/7LABrQFfRYcZUqUwng0Heb"
+        "Position": 97
     },
     {
         "SongID": 9836,
-        "Title": "Piel",
-        "Artist": "Tiago PZK",
-        "Position": 130,
-        "Spotify_URL": "https://open.spotify.com/track/4wS0TnQzVkY9ML1BPKpOk1"
+        "Position": 130
     },
     {
         "SongID": 12451,
-        "Title": "BIRDS OF A FEATHER",
-        "Artist": "Billie Eilish",
-        "Position": 66,
-        "Spotify_URL": "https://open.spotify.com/track/6dOtVTDdiauQNBQEDOtlAB"
+        "Position": 66
     },
     {
         "SongID": 12995,
-        "Title": "Santa",
-        "Artist": "Rvssian",
-        "Position": 59,
-        "Spotify_URL": "https://open.spotify.com/track/6a9Z1jUms915w4O7N1PxjY"
+        "Position": 59
     },
     {
         "SongID": 13627,
-        "Title": "Madonna",
-        "Artist": "Natanael Cano",
-        "Position": 8,
-        "Spotify_URL": "https://open.spotify.com/track/5LhI8m7n8xlQmNe3b7Rwis"
+        "Position": 8
     },
     {
         "SongID": 13700,
-        "Title": "DE LUNES A LUNES",
-        "Artist": "Grupo Frontera",
-        "Position": 81,
-        "Spotify_URL": "https://open.spotify.com/track/49Zc3sEJHADPoVDM4jNKgs"
+        "Position": 81
     },
     {
         "SongID": 15070,
-        "Title": "Una Vida Pasada",
-        "Artist": "Camilo",
-        "Position": 170,
-        "Spotify_URL": "https://open.spotify.com/track/2mLTxNa0bwZX8eNBsuODLX"
+        "Position": 170
     },
     {
         "SongID": 16126,
-        "Title": "SI NO ES CONTIGO",
-        "Artist": "Cris Mj",
-        "Position": 188,
-        "Spotify_URL": "https://open.spotify.com/track/5Uptvz6j1sjDKxidAcnH2L"
+        "Position": 188
     },
     {
         "SongID": 18860,
-        "Title": "Corazón de Piedra",
-        "Artist": "Xavi",
-        "Position": 195,
-        "Spotify_URL": "https://open.spotify.com/track/0dEAiKNbHt4mrjjoiL0loc"
+        "Position": 195
     },
     {
         "SongID": 18861,
-        "Title": "TÚ NAME",
-        "Artist": "Fuerza Regida",
-        "Position": 32,
-        "Spotify_URL": "https://open.spotify.com/track/3FqUPvubYeRCMsdJ02QyZR"
+        "Position": 32
     },
     {
         "SongID": 18862,
-        "Title": "POR QUÉ SERÁ",
-        "Artist": "Grupo Frontera",
-        "Position": 65,
-        "Spotify_URL": "https://open.spotify.com/track/7cXGHxIoogqDTvbuLj0dsO"
+        "Position": 65
     },
     {
         "SongID": 18863,
-        "Title": "EL AMOR DE SU VIDA",
-        "Artist": "Grupo Frontera",
-        "Position": 12,
-        "Spotify_URL": "https://open.spotify.com/track/0O3U5iwTbiXCREMkvotJuN"
+        "Position": 12
     },
     {
         "SongID": 19036,
-        "Title": "QLONA",
-        "Artist": "KAROL G",
-        "Position": 56,
-        "Spotify_URL": "https://open.spotify.com/track/5RqSsdzTNPX1uzkmlHCFvK"
+        "Position": 56
     },
     {
         "SongID": 19074,
-        "Title": "LA CANCIÓN",
-        "Artist": "J Balvin",
-        "Position": 37,
-        "Spotify_URL": "https://open.spotify.com/track/0fea68AdmYNygeTGI4RC18"
+        "Position": 37
     },
     {
         "SongID": 19347,
-        "Title": "Fin de Semana",
-        "Artist": "Oscar Maydon",
-        "Position": 90,
-        "Spotify_URL": "https://open.spotify.com/track/6TBzRwnX2oYd8aOrOuyK1p"
+        "Position": 90
     },
     {
         "SongID": 19678,
-        "Title": "un x100to",
-        "Artist": "Grupo Frontera",
-        "Position": 45,
-        "Spotify_URL": "https://open.spotify.com/track/6pD0ufEQq0xdHSsRbg9LBK"
+        "Position": 45
     },
     {
         "SongID": 19687,
-        "Title": "MI EX TENÍA RAZÓN",
-        "Artist": "KAROL G",
-        "Position": 92,
-        "Spotify_URL": "https://open.spotify.com/track/54zcJnb3tp9c5OVKREZ1Is"
+        "Position": 92
     },
     {
         "SongID": 20214,
-        "Title": "Ven Porque Te Necesito",
-        "Artist": "Los Temerarios",
-        "Position": 72,
-        "Spotify_URL": "https://open.spotify.com/track/4MNfkZ8dtva3cjJ2biqnDS"
+        "Position": 72
     },
     {
         "SongID": 23762,
-        "Title": "Mirame",
-        "Artist": "Blessd",
-        "Position": 44,
-        "Spotify_URL": "https://open.spotify.com/track/2btNsI4OvcVl7SAHQQDHFB"
+        "Position": 44
     },
     {
-        "SongID": 33549,
-        "Title": "Permitame",
-        "Artist": "Tony Dize",
-        "Position": 104,
-        "Spotify_URL": "https://open.spotify.com/track/2Dbq5moIguMsbRZa9SB7gD"
+        "SongID": 29061,
+        "Position": 185
     },
     {
         "SongID": 40339,
-        "Title": "Pongámonos De Acuerdo",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 70,
-        "Spotify_URL": "https://open.spotify.com/track/1OZpgVRQKkxcoeEocqTMRZ"
+        "Position": 70
     },
     {
         "SongID": 40340,
-        "Title": "LADY GAGA",
-        "Artist": "Peso Pluma",
-        "Position": 192,
-        "Spotify_URL": "https://open.spotify.com/track/7mXuWTczZNxG5EDcjFEuJR"
+        "Position": 192
     },
     {
         "SongID": 118679,
-        "Title": "Hawái",
-        "Artist": "Maluma",
-        "Position": 137,
-        "Spotify_URL": "https://open.spotify.com/track/1yoMvmasuxZfqHEipJhRbp"
+        "Position": 137
     },
     {
         "SongID": 118856,
-        "Title": "Fanática Sensual",
-        "Artist": "Plan B",
-        "Position": 122,
-        "Spotify_URL": "https://open.spotify.com/track/1BygxKyZjq2xjQiFMkSFGp"
+        "Position": 122
     },
     {
         "SongID": 119090,
-        "Title": "Un Millón de Primaveras",
-        "Artist": "Vicente Fernández",
-        "Position": 40,
-        "Spotify_URL": "https://open.spotify.com/track/6j5LtifAnuTjTYvml61yFZ"
+        "Position": 40
     },
     {
         "SongID": 119725,
-        "Title": "Te Hubieras Ido Antes",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 128,
-        "Spotify_URL": "https://open.spotify.com/track/2jPufybqAAmiF16Jirt9Ez"
+        "Position": 128
     },
     {
         "SongID": 119730,
-        "Title": "Que Te Vaya Bien",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 146,
-        "Spotify_URL": "https://open.spotify.com/track/5Ei8EK2uXNkqqVSe2QYsFp"
+        "Position": 146
     },
     {
         "SongID": 119738,
-        "Title": "Ojos Verdes",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 132,
-        "Spotify_URL": "https://open.spotify.com/track/6981hdSOqG8tP6xTqaySa1"
+        "Position": 132
     },
     {
         "SongID": 119747,
-        "Title": "Casi Completa",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 175,
-        "Spotify_URL": "https://open.spotify.com/track/5BTibB0lM8fExn033QebZJ"
+        "Position": 175
     },
     {
         "SongID": 121418,
-        "Title": "Devuélveme a mi chica",
-        "Artist": "Hombres G",
-        "Position": 82,
-        "Spotify_URL": "https://open.spotify.com/track/1Wrzhfa5bNlqvsnCztz190"
+        "Position": 82
     },
     {
         "SongID": 121442,
-        "Title": "Perdóname",
-        "Artist": "La Factoria",
-        "Position": 105,
-        "Spotify_URL": "https://open.spotify.com/track/6yLqoieklk9gwabLaUDJ4s"
+        "Position": 105
     },
     {
         "SongID": 122903,
-        "Title": "Quién Como Tú",
-        "Artist": "Ana Gabriel",
-        "Position": 180,
-        "Spotify_URL": "https://open.spotify.com/track/4hfiDzgfMqtcOiUQpZidBQ"
+        "Position": 180
     },
     {
         "SongID": 122916,
-        "Title": "El Color de Tus Ojos",
-        "Artist": "Banda MS de Sergio Lizárraga",
-        "Position": 115,
-        "Spotify_URL": "https://open.spotify.com/track/1l77YWrGUp3qX3NS1rz7lq"
+        "Position": 115
     },
     {
         "SongID": 123014,
-        "Title": "QUEMA",
-        "Artist": "Ryan Castro",
-        "Position": 18,
-        "Spotify_URL": "https://open.spotify.com/track/2hn2zOA2XFlv6DSmesylrL"
+        "Position": 18
     },
     {
         "SongID": 123015,
-        "Title": "MOJABI GHOST",
-        "Artist": "Tainy",
-        "Position": 134,
-        "Spotify_URL": "https://open.spotify.com/track/4eMKD8MRroxCqugpsxCCNb"
+        "Position": 134
     },
     {
         "SongID": 123309,
-        "Title": "Oye Mi Amor",
-        "Artist": "Maná",
-        "Position": 141,
-        "Spotify_URL": "https://open.spotify.com/track/5EJ2THuhAapEIeQOtXUQ0x"
+        "Position": 141
     },
     {
         "SongID": 125648,
-        "Title": "Ni Parientes Somos",
-        "Artist": "Los Tigres Del Norte",
-        "Position": 133,
-        "Spotify_URL": "https://open.spotify.com/track/2ANeBRTHe6N0dq7dz7CaVJ"
+        "Position": 133
     },
     {
         "SongID": 126167,
-        "Title": "Belleza De Cantina",
-        "Artist": "Cardenales De Nuevo León",
-        "Position": 164,
-        "Spotify_URL": "https://open.spotify.com/track/4ZplewvZRLFcfBa5uyBbhd"
+        "Position": 164
     },
     {
         "SongID": 126170,
-        "Title": "LAGUNAS",
-        "Artist": "Peso Pluma",
-        "Position": 176,
-        "Spotify_URL": "https://open.spotify.com/track/3HOKxuTDmNVmIlCIpBiD8m"
+        "Position": 176
     },
     {
         "SongID": 126190,
-        "Title": "Me Vas a Extrañar",
-        "Artist": "Banda MS de Sergio Lizárraga",
-        "Position": 154,
-        "Spotify_URL": "https://open.spotify.com/track/2yS8aYWXEWJ1NlZ7VPDroT"
+        "Position": 154
     },
     {
         "SongID": 126222,
-        "Title": "Diamantes",
-        "Artist": "Natanael Cano",
-        "Position": 144,
-        "Spotify_URL": "https://open.spotify.com/track/0JDrG1g5HXbfgGtRKT0ofH"
+        "Position": 144
     },
     {
         "SongID": 126226,
-        "Title": "Sin Tanto Royo",
-        "Artist": "Luis R Conriquez",
-        "Position": 136,
-        "Spotify_URL": "https://open.spotify.com/track/2ieCamPuL76ipKH1cLH7tH"
+        "Position": 136
     },
     {
         "SongID": 126245,
-        "Title": "El Amor de Mi Vida",
-        "Artist": "La Adictiva",
-        "Position": 127,
-        "Spotify_URL": "https://open.spotify.com/track/1w3FzkhH82foC5oIbIKKut"
+        "Position": 127
     },
     {
         "SongID": 126389,
-        "Title": "Corazón Frío",
-        "Artist": "Jasiel Nuñez",
-        "Position": 186,
-        "Spotify_URL": "https://open.spotify.com/track/0KSwFEkVh0KCBR0TwqBVen"
+        "Position": 186
     },
     {
         "SongID": 126422,
-        "Title": "Mi Segunda Vida",
-        "Artist": "La Arrolladora Banda El Limón De Rene Camacho",
-        "Position": 106,
-        "Spotify_URL": "https://open.spotify.com/track/6Z7f0BXDLI8k4CHR9KJdAD"
+        "Position": 106
     },
     {
         "SongID": 126513,
-        "Title": "A chillar a otra parte",
-        "Artist": "Pesado",
-        "Position": 145,
-        "Spotify_URL": "https://open.spotify.com/track/3BwabPHcwg7jotkO7YOcJ2"
+        "Position": 145
     },
     {
         "SongID": 126773,
-        "Title": "Llorar",
-        "Artist": "Los Socios Del Ritmo",
-        "Position": 169,
-        "Spotify_URL": "https://open.spotify.com/track/2f9XA7pBMjrHPO2cJW5XCu"
+        "Position": 169
     },
     {
         "SongID": 126855,
-        "Title": "Ahí Estaré Yo",
-        "Artist": "Los Temerarios",
-        "Position": 198,
-        "Spotify_URL": "https://open.spotify.com/track/54gaPLcsCWmPUmrgpib9mS"
+        "Position": 198
     },
     {
         "SongID": 127052,
-        "Title": "Piensa En Mí",
-        "Artist": "Grupo Mojado",
-        "Position": 129,
-        "Spotify_URL": "https://open.spotify.com/track/1xKP7GVLY33i5jmx1bB1Kk"
+        "Position": 129
     },
     {
         "SongID": 138551,
-        "Title": "Tu Última Canción",
-        "Artist": "Los Temerarios",
-        "Position": 177,
-        "Spotify_URL": "https://open.spotify.com/track/7dWSrvzawBZPa7VVeHZBn7"
+        "Position": 177
     },
     {
         "SongID": 138555,
-        "Title": "Mi Vida Eres Tú",
-        "Artist": "Los Temerarios",
-        "Position": 149,
-        "Spotify_URL": "https://open.spotify.com/track/5mKwzq7UTXf1xwWcpPoteX"
+        "Position": 149
     },
     {
         "SongID": 138574,
-        "Title": "Tu Cárcel",
-        "Artist": "Los Bukis",
-        "Position": 171,
-        "Spotify_URL": "https://open.spotify.com/track/0LNn2O06dvsZqvWaS870xJ"
+        "Position": 171
     },
     {
         "SongID": 153660,
-        "Title": "A Donde Vayas",
-        "Artist": "Los Bukis",
-        "Position": 159,
-        "Spotify_URL": "https://open.spotify.com/track/3yb8pakJMZzfiK7siLZLUM"
+        "Position": 159
     },
     {
         "SongID": 153661,
-        "Title": "Acepto Mi Derrota",
-        "Artist": "Los Bukis",
-        "Position": 79,
-        "Spotify_URL": "https://open.spotify.com/track/3FKDvQRZImg9cl1jcaQiHX"
+        "Position": 79
     },
     {
         "SongID": 153681,
-        "Title": "Yo Te Necesito",
-        "Artist": "Los Bukis",
-        "Position": 174,
-        "Spotify_URL": "https://open.spotify.com/track/7yMWuJ6JOZ8Joo5gQrNaYA"
+        "Position": 174
     },
     {
         "SongID": 198112,
-        "Title": "LOKERA",
-        "Artist": "Rauw Alejandro",
-        "Position": 138,
-        "Spotify_URL": "https://open.spotify.com/track/1aUq8rjW1EwkAkMri4VfJy"
+        "Position": 138
+    },
+    {
+        "SongID": 204588,
+        "Position": 104
     },
     {
         "SongID": 213162,
-        "Title": "Sé Que Te Amo",
-        "Artist": "Los Temerarios",
-        "Position": 86,
-        "Spotify_URL": "https://open.spotify.com/track/46HSR9UPHXZxeR7EUvFERG"
+        "Position": 86
     },
     {
         "SongID": 213164,
-        "Title": "Acepta Mi Error",
-        "Artist": "Los Temerarios",
-        "Position": 167,
-        "Spotify_URL": "https://open.spotify.com/track/6jkEUTIKec0nXvXYC3HZdo"
+        "Position": 167
     },
     {
         "SongID": 213170,
-        "Title": "Tu Infame Engaño",
-        "Artist": "Los Temerarios",
-        "Position": 168,
-        "Spotify_URL": "https://open.spotify.com/track/4j9qP0PaNo3QMFkKNtv7At"
+        "Position": 168
     },
     {
         "SongID": 223116,
-        "Title": "Almas Gemelas",
-        "Artist": "El Trono de Mexico",
-        "Position": 78,
-        "Spotify_URL": "https://open.spotify.com/track/2C2AkoaM0KvKuZ2OTTMmNp"
+        "Position": 78
     },
     {
         "SongID": 223125,
-        "Title": "Amor",
-        "Artist": "emmanuellcortess_",
-        "Position": 30,
-        "Spotify_URL": "https://open.spotify.com/track/0hkoQgoqic1qQtxPOudmrx"
+        "Position": 30
     },
     {
         "SongID": 501280,
-        "Title": "Die With A Smile",
-        "Artist": "Lady Gaga",
-        "Position": 36,
-        "Spotify_URL": "https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe"
+        "Position": 36
     },
     {
         "SongID": 501283,
-        "Title": "Who",
-        "Artist": "Jimin",
-        "Position": 34,
-        "Spotify_URL": "https://open.spotify.com/track/7tI8dRuH2Yc6RuoTjxo4dU"
+        "Position": 34
     },
     {
         "SongID": 501286,
-        "Title": "Si Antes Te Hubiera Conocido",
-        "Artist": "KAROL G",
-        "Position": 7,
-        "Spotify_URL": "https://open.spotify.com/track/6WatFBLVB0x077xWeoVc2k"
+        "Position": 7
     },
     {
         "SongID": 501299,
-        "Title": "Gata Only",
-        "Artist": "FloyyMenor",
-        "Position": 182,
-        "Spotify_URL": "https://open.spotify.com/track/6XjDF6nds4DE2BBbagZol6"
+        "Position": 182
     },
     {
         "SongID": 501305,
-        "Title": "UWAIE",
-        "Artist": "Kapo",
-        "Position": 27,
-        "Spotify_URL": "https://open.spotify.com/track/5QjmUqgpPQgXgg4606DqZF"
+        "Position": 27
     },
     {
         "SongID": 501323,
-        "Title": "LA PATRULLA",
-        "Artist": "Peso Pluma",
-        "Position": 5,
-        "Spotify_URL": "https://open.spotify.com/track/2aYZaN5SmkRDLsrrV8GkBQ"
+        "Position": 5
     },
     {
         "SongID": 501365,
-        "Title": "Ohnana",
-        "Artist": "Kapo",
-        "Position": 93,
-        "Spotify_URL": "https://open.spotify.com/track/1fTjqf10accJCDYstPwwZ6"
+        "Position": 93
     },
     {
         "SongID": 501371,
-        "Title": "PELIGROSA",
-        "Artist": "FloyyMenor",
-        "Position": 196,
-        "Spotify_URL": "https://open.spotify.com/track/42wdz3j7gstgUuhoFLCXqd"
+        "Position": 196
     },
     {
         "SongID": 501375,
-        "Title": "Orion",
-        "Artist": "Boza",
-        "Position": 123,
-        "Spotify_URL": "https://open.spotify.com/track/5pVJ3IlnpIorU44oXizzG5"
+        "Position": 123
     },
     {
         "SongID": 501441,
-        "Title": "SE ME OLVIDA",
-        "Artist": "Maisak",
-        "Position": 35,
-        "Spotify_URL": "https://open.spotify.com/track/2gmd7lY3QSzLh0xIY4cRvi"
+        "Position": 35
     },
     {
         "SongID": 501503,
-        "Title": "Si No Quieres No",
-        "Artist": "Luis R Conriquez",
-        "Position": 16,
-        "Spotify_URL": "https://open.spotify.com/track/1C84d9abZVKWHT2YYpoean"
+        "Position": 16
     },
     {
         "SongID": 501504,
-        "Title": "NEL",
-        "Artist": "Fuerza Regida",
-        "Position": 6,
-        "Spotify_URL": "https://open.spotify.com/track/5AH31dDNgxCMGDdxubNNn4"
+        "Position": 6
     },
     {
         "SongID": 501508,
-        "Title": "Según Quién",
-        "Artist": "Maluma",
-        "Position": 42,
-        "Spotify_URL": "https://open.spotify.com/track/4bw8mcDUSRWfQo63ZTYRnU"
+        "Position": 42
     },
     {
         "SongID": 501510,
-        "Title": "Que Onda",
-        "Artist": "Calle 24",
-        "Position": 24,
-        "Spotify_URL": "https://open.spotify.com/track/6uIIdjYTxxpWOyWuVXrKQO"
+        "Position": 24
     },
     {
         "SongID": 501511,
-        "Title": "HOLLYWOOD",
-        "Artist": "Peso Pluma",
-        "Position": 10,
-        "Spotify_URL": "https://open.spotify.com/track/5GTBdEjZe7zEDp1N0eCZE4"
+        "Position": 10
     },
     {
         "SongID": 501513,
-        "Title": "DOS DÍAS",
-        "Artist": "Tito Double P",
-        "Position": 4,
-        "Spotify_URL": "https://open.spotify.com/track/5lKFO0PrOC9jmOlPEdjHsL"
+        "Position": 4
     },
     {
         "SongID": 501515,
-        "Title": "SORRY 4 THAT MUCH",
-        "Artist": "Feid",
-        "Position": 102,
-        "Spotify_URL": "https://open.spotify.com/track/63pLfjK6FvcYJYMGwtHjd6"
+        "Position": 102
     },
     {
         "SongID": 501517,
-        "Title": "EL LOKERON",
-        "Artist": "Tito Double P",
-        "Position": 3,
-        "Spotify_URL": "https://open.spotify.com/track/6X6m4xmdFcz31p1h7Qg68c"
+        "Position": 3
     },
     {
         "SongID": 501521,
-        "Title": "Tal Vez Fui Yo",
-        "Artist": "El Padrinito Toys",
-        "Position": 124,
-        "Spotify_URL": "https://open.spotify.com/track/587pEvJ7iJhNtcCf5YKEgE"
+        "Position": 124
     },
     {
         "SongID": 501526,
-        "Title": "LOS CUADROS",
-        "Artist": "Peso Pluma",
-        "Position": 31,
-        "Spotify_URL": "https://open.spotify.com/track/41EOhpn50qvd8iZSKw531W"
+        "Position": 31
     },
     {
         "SongID": 501530,
-        "Title": "Doblexxó",
-        "Artist": "J Balvin",
-        "Position": 183,
-        "Spotify_URL": "https://open.spotify.com/track/2llFXBrftm6YJzBj3tpk0s"
+        "Position": 183
     },
     {
         "SongID": 501531,
-        "Title": "Giza",
-        "Artist": "Natanael Cano",
-        "Position": 39,
-        "Spotify_URL": "https://open.spotify.com/track/6KOnLTb1xLfKDAjMC43I76"
+        "Position": 39
     },
     {
         "SongID": 501536,
-        "Title": "El Beneficio De La Duda",
-        "Artist": "Grupo Firme",
-        "Position": 54,
-        "Spotify_URL": "https://open.spotify.com/track/7xJ1scIZpc33lZ7HpcrjCY"
+        "Position": 54
     },
     {
         "SongID": 501538,
-        "Title": "Volver Al Futuro",
-        "Artist": "Oscar Maydon",
-        "Position": 52,
-        "Spotify_URL": "https://open.spotify.com/track/33Nj9AdncSmHbCN3QeSZTL"
+        "Position": 52
     },
     {
         "SongID": 501540,
-        "Title": "ÁNGEL",
-        "Artist": "Grupo Frontera",
-        "Position": 57,
-        "Spotify_URL": "https://open.spotify.com/track/4JtKlgBLKHtRTqixKHrrw8"
+        "Position": 57
     },
     {
         "SongID": 501650,
-        "Title": "Soltera - W Sound 01",
-        "Artist": "W Sound",
-        "Position": 120,
-        "Spotify_URL": "https://open.spotify.com/track/13BDiikG6y5o5cQTK0HpW6"
+        "Position": 120
     },
     {
         "SongID": 501675,
-        "Title": "Desesperados",
-        "Artist": "Rauw Alejandro",
-        "Position": 166,
-        "Spotify_URL": "https://open.spotify.com/track/6mmPpaltUZK7xjNlBPQQ0p"
+        "Position": 166
     },
     {
         "SongID": 502390,
-        "Title": "ESCAPATE",
-        "Artist": "Tito Double P",
-        "Position": 9,
-        "Spotify_URL": "https://open.spotify.com/track/6HrALJOMsfPCCbUo5cJCON"
+        "Position": 9
     },
     {
         "SongID": 502391,
-        "Title": "SANTAL 33",
-        "Artist": "Peso Pluma",
-        "Position": 43,
-        "Spotify_URL": "https://open.spotify.com/track/02cRoSfWU3RJNFyU3o4lhV"
+        "Position": 43
     },
     {
         "SongID": 502393,
-        "Title": "LINDA",
-        "Artist": "Tito Double P",
-        "Position": 41,
-        "Spotify_URL": "https://open.spotify.com/track/7qXptgpZGo8AFPhJCBVLFE"
+        "Position": 41
     },
     {
         "SongID": 502394,
-        "Title": "PRIMO",
-        "Artist": "Tito Double P",
-        "Position": 51,
-        "Spotify_URL": "https://open.spotify.com/track/7AysIqSEDiwP4CUsAXJwrk"
+        "Position": 51
     },
     {
         "SongID": 502396,
-        "Title": "5-7",
-        "Artist": "Tito Double P",
-        "Position": 29,
-        "Spotify_URL": "https://open.spotify.com/track/3IEvQ1CzszUJtTRLmmMJ2X"
+        "Position": 29
     },
     {
         "SongID": 502399,
-        "Title": "Lo Que Hay X Aquí",
-        "Artist": "La Receta",
-        "Position": 48,
-        "Spotify_URL": "https://open.spotify.com/track/7oJ3N7oVSwoa5sdpg6NCE6"
+        "Position": 48
     },
     {
         "SongID": 502400,
-        "Title": "AY MAMÁ",
-        "Artist": "Tito Double P",
-        "Position": 11,
-        "Spotify_URL": "https://open.spotify.com/track/2lAUq68F2bt7Kc218n9FPp"
+        "Position": 11
     },
     {
         "SongID": 502403,
-        "Title": "MAMI",
-        "Artist": "Peso Pluma",
-        "Position": 157,
-        "Spotify_URL": "https://open.spotify.com/track/4xv5AneqR0bTokomIPfGyT"
+        "Position": 157
     },
     {
         "SongID": 502404,
-        "Title": "BELANOVA",
-        "Artist": "Peso Pluma",
-        "Position": 73,
-        "Spotify_URL": "https://open.spotify.com/track/1jIirpaACmgb4nTYfywys4"
+        "Position": 73
     },
     {
         "SongID": 502408,
-        "Title": "PERO NO TE ENAMORES",
-        "Artist": "Fuerza Regida",
-        "Position": 103,
-        "Spotify_URL": "https://open.spotify.com/track/3w1h7uNU1Dfk2tOaHiIGat"
+        "Position": 103
     },
     {
         "SongID": 502410,
-        "Title": "Rey Sin Reina",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 2,
-        "Spotify_URL": "https://open.spotify.com/track/0BiDnJFB3TlRB6aji7jUz3"
+        "Position": 2
     },
     {
         "SongID": 503735,
-        "Title": "Después De La 1",
-        "Artist": "Cris Mj",
-        "Position": 131,
-        "Spotify_URL": "https://open.spotify.com/track/6PhRhocBXP4y7NpciGmzra"
+        "Position": 131
     },
     {
         "SongID": 504661,
-        "Title": "Casi oficial",
-        "Artist": "Carin Leon",
-        "Position": 153,
-        "Spotify_URL": "https://open.spotify.com/track/1tpTj9NAKWUFEabYfkzmRH"
+        "Position": 153
     },
     {
         "SongID": 504922,
-        "Title": "More",
-        "Artist": "Zion",
-        "Position": 98,
-        "Spotify_URL": "https://open.spotify.com/track/0AAl3LtvIhEilWXZmYHeh5"
+        "Position": 98
     },
     {
         "SongID": 530419,
-        "Title": "Q U E V A S H A C E R H O Y ?",
-        "Artist": "Omar Courtz",
-        "Position": 23,
-        "Spotify_URL": "https://open.spotify.com/track/0Sr7ssScx54yxdM2ols7nW"
+        "Position": 23
     },
     {
         "SongID": 532606,
-        "Title": "Abrázame",
-        "Artist": "Ángela Aguilar",
-        "Position": 125,
-        "Spotify_URL": "https://open.spotify.com/track/5RvmmRCoZY1Yupl3PXgZm4"
+        "Position": 125
     },
     {
         "SongID": 533132,
-        "Title": "Despídase bien",
-        "Artist": "Carin Leon",
-        "Position": 172,
-        "Spotify_URL": "https://open.spotify.com/track/1llaUCfG1g5WzKt6JafYyk"
+        "Position": 172
     },
     {
         "SongID": 534280,
-        "Title": "Mejores Jordans",
-        "Artist": "Oscar Maydon",
-        "Position": 47,
-        "Spotify_URL": "https://open.spotify.com/track/1cZHUhGz7xJ8c4szDipipd"
+        "Position": 47
     },
     {
         "SongID": 534303,
-        "Title": "Labios de Cereza 2",
-        "Artist": "T3R Elemento",
-        "Position": 116,
-        "Spotify_URL": "https://open.spotify.com/track/5kydBNKLSxvWNjXSSfyWAr"
+        "Position": 116
     },
     {
         "SongID": 536053,
-        "Title": "BLANCA ROSITA Y MARIA",
-        "Artist": "Tito Double P",
-        "Position": 63,
-        "Spotify_URL": "https://open.spotify.com/track/1wsDxqEDpsvNCatbXHjOje"
+        "Position": 63
     },
     {
         "SongID": 538723,
-        "Title": "Soltera",
-        "Artist": "Shakira",
-        "Position": 68,
-        "Spotify_URL": "https://open.spotify.com/track/3OJDtCdYs8QJnui708tEU3"
+        "Position": 68
     },
     {
         "SongID": 538727,
-        "Title": "Tu Boda",
-        "Artist": "Oscar Maydon",
-        "Position": 1,
-        "Spotify_URL": "https://open.spotify.com/track/1cOboCuWYI2osTOfolMRS6"
+        "Position": 1
     },
     {
         "SongID": 538941,
-        "Title": "Hecha Pa' Mí",
-        "Artist": "Grupo Frontera",
-        "Position": 25,
-        "Spotify_URL": "https://open.spotify.com/track/1uGUbgZuO1kD1JZ0UeFupN"
+        "Position": 25
     },
     {
         "SongID": 539027,
-        "Title": "No Son Doritos",
-        "Artist": "Clave Especial",
-        "Position": 55,
-        "Spotify_URL": "https://open.spotify.com/track/2ss1LK5Kfnjo5EUaCbsgZM"
+        "Position": 55
     },
     {
         "SongID": 539830,
-        "Title": "La Santa",
-        "Artist": "Bad Bunny",
-        "Position": 191,
-        "Spotify_URL": "https://open.spotify.com/track/69vlMrzHwATKzupwNcUPyK"
+        "Position": 191
     },
     {
         "SongID": 539837,
-        "Title": "Ojitos Lindos",
-        "Artist": "Bad Bunny",
-        "Position": 160,
-        "Spotify_URL": "https://open.spotify.com/track/3k3NWokhRRkEPhCzPmV8TW"
+        "Position": 160
     },
     {
         "SongID": 539839,
-        "Title": "Me Porto Bonito",
-        "Artist": "Bad Bunny",
-        "Position": 189,
-        "Spotify_URL": "https://open.spotify.com/track/6Sq7ltF9Qa7SNFBsV5Cogx"
+        "Position": 189
     },
     {
         "SongID": 539965,
-        "Title": "Classy 101",
-        "Artist": "Feid",
-        "Position": 107,
-        "Spotify_URL": "https://open.spotify.com/track/6XSqqQIy7Lm7SnwxS4NrGx"
+        "Position": 107
     },
     {
         "SongID": 542872,
-        "Title": "El Azul",
-        "Artist": "Junior H",
-        "Position": 143,
-        "Spotify_URL": "https://open.spotify.com/track/1haJsMtoBhHfvuM7XWuT3W"
+        "Position": 143
     },
     {
         "SongID": 546004,
-        "Title": "No Me Conoce - Remix",
-        "Artist": "JHAYCO",
-        "Position": 147,
-        "Spotify_URL": "https://open.spotify.com/track/2beS6dD5rovBxSA1zYoSHR"
+        "Position": 147
     },
     {
         "SongID": 546507,
-        "Title": "Ella Y Yo - Featuring Don Omar",
-        "Artist": "Aventura",
-        "Position": 80,
-        "Spotify_URL": "https://open.spotify.com/track/6G4U9avyBNEfP0fAIduev3"
+        "Position": 80
     },
     {
         "SongID": 547217,
-        "Title": "Que Vuelvas",
-        "Artist": "Carin Leon",
-        "Position": 61,
-        "Spotify_URL": "https://open.spotify.com/track/6Um358vY92UBv5DloTRX9L"
+        "Position": 61
     },
     {
         "SongID": 572790,
-        "Title": "En Otra Vida",
-        "Artist": "Yami Safdie",
-        "Position": 113,
-        "Spotify_URL": "https://open.spotify.com/track/0EhmTBq33eARyOz3SIi4P2"
+        "Position": 113
     },
     {
         "SongID": 600127,
-        "Title": "APT.",
-        "Artist": "ROSÉ",
-        "Position": 76,
-        "Spotify_URL": "https://open.spotify.com/track/5vNRhkKd0yEAg8suGBpjeY"
+        "Position": 76
     },
     {
         "SongID": 600130,
-        "Title": "DEGENERE 👑",
-        "Artist": "Myke Towers",
-        "Position": 19,
-        "Spotify_URL": "https://open.spotify.com/track/0qeIFEGRQqHoaJtLCl0U73"
+        "Position": 19
     },
     {
         "SongID": 600131,
-        "Title": "SI NO ES CONTIGO - REMIX",
-        "Artist": "Cris Mj",
-        "Position": 200,
-        "Spotify_URL": "https://open.spotify.com/track/4MAv7MqIlcaTBHGiUXIWiw"
+        "Position": 200
     },
     {
         "SongID": 600151,
-        "Title": "No Me Cansare",
-        "Artist": "Sevdaliza",
-        "Position": 193,
-        "Spotify_URL": "https://open.spotify.com/track/7syffZQA1dpkQelMckldEw"
+        "Position": 193
     },
     {
         "SongID": 600365,
-        "Title": "Presidente",
-        "Artist": "Gabito Ballesteros",
-        "Position": 13,
-        "Spotify_URL": "https://open.spotify.com/track/4OLT65TRsOx3Iv1TlCcQVb"
+        "Position": 13
     },
     {
         "SongID": 600612,
-        "Title": "Cero Empatía",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 20,
-        "Spotify_URL": "https://open.spotify.com/track/03MqlviAY1kvFqdaGl5Mhg"
+        "Position": 20
     },
     {
         "SongID": 600671,
-        "Title": "Vibra Perfecta",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 94,
-        "Spotify_URL": "https://open.spotify.com/track/25anKrtqXPngMi3IoF5UhC"
+        "Position": 94
     },
     {
         "SongID": 600783,
-        "Title": "Nueva Era",
-        "Artist": "Duki",
-        "Position": 111,
-        "Spotify_URL": "https://open.spotify.com/track/03IpZ9yqJlo3EIgDQUgBSF"
+        "Position": 111
     },
     {
         "SongID": 600902,
-        "Title": "Morena Canela",
-        "Artist": "Chino Pacas",
-        "Position": 33,
-        "Spotify_URL": "https://open.spotify.com/track/0NsGFMIo2aNbAkJu48ndaf"
+        "Position": 33
     },
     {
         "SongID": 600976,
-        "Title": "Cholo 7",
-        "Artist": "Fuerza Regida",
-        "Position": 165,
-        "Spotify_URL": "https://open.spotify.com/track/06ONHS2cu9I7fvzTz3NQvq"
+        "Position": 165
     },
     {
         "SongID": 601064,
-        "Title": "+57",
-        "Artist": "KAROL G",
-        "Position": 15,
-        "Spotify_URL": "https://open.spotify.com/track/3mg9jYNC1NihbthlglzrWP"
+        "Position": 15
     },
     {
         "SongID": 601130,
-        "Title": "Imagínate",
-        "Artist": "Danny Ocean",
-        "Position": 179,
-        "Spotify_URL": "https://open.spotify.com/track/4zbEItKoaRId1vRZkoO0Uh"
+        "Position": 179
     },
     {
         "SongID": 601214,
-        "Title": "Noches Amargas",
-        "Artist": "Julión Álvarez y su Norteño Banda",
-        "Position": 87,
-        "Spotify_URL": "https://open.spotify.com/track/3RdIoywt4oDQgMf3L5rsDc"
+        "Position": 87
     },
     {
         "SongID": 601215,
-        "Title": "EN MI MUNDO",
-        "Artist": "Jasiel Nuñez",
-        "Position": 117,
-        "Spotify_URL": "https://open.spotify.com/track/0lQogzZgV4XwuUTasz3nPL"
+        "Position": 117
     }
 ]

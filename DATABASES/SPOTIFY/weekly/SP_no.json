@@ -1,1402 +1,802 @@
 [
     {
         "SongID": 6,
-        "Title": "One Of The Girls",
-        "Artist": "The Weeknd",
-        "Position": 169,
-        "Spotify_URL": "https://open.spotify.com/track/7CyPwkp0oE8Ro9Dd5CUDjW"
-    },
-    {
-        "SongID": 7,
-        "Title": "What Was I Made For? [From The Motion Picture \"Barbie\"]",
-        "Artist": "Billie Eilish",
-        "Position": 148,
-        "Spotify_URL": "https://open.spotify.com/track/6wf7Yu7cxBSPrRlWeSeK0Q"
+        "Position": 169
     },
     {
         "SongID": 17,
-        "Title": "Daylight",
-        "Artist": "David Kushner",
-        "Position": 163,
-        "Spotify_URL": "https://open.spotify.com/track/1odExI7RdWc4BT515LTAwj"
+        "Position": 163
+    },
+    {
+        "SongID": 20,
+        "Position": 148
     },
     {
         "SongID": 23,
-        "Title": "Flowers",
-        "Artist": "Miley Cyrus",
-        "Position": 160,
-        "Spotify_URL": "https://open.spotify.com/track/4DHcnVTT87F0zZhRPYmZ3B"
+        "Position": 160
     },
     {
         "SongID": 27,
-        "Title": "Beautiful Things",
-        "Artist": "Benson Boone",
-        "Position": 22,
-        "Spotify_URL": "https://open.spotify.com/track/3xkHsmpQCBMytMJNiDf3Ii"
+        "Position": 22
     },
     {
         "SongID": 37,
-        "Title": "I Wanna Be Yours",
-        "Artist": "Arctic Monkeys",
-        "Position": 95,
-        "Spotify_URL": "https://open.spotify.com/track/5XeFesFbtLpXzIVDNQP22n"
+        "Position": 95
     },
     {
         "SongID": 38,
-        "Title": "I Remember Everything",
-        "Artist": "Zach Bryan",
-        "Position": 34,
-        "Spotify_URL": "https://open.spotify.com/track/4KULAymBBJcPRpk1yO4dOG"
+        "Position": 34
     },
     {
         "SongID": 61,
-        "Title": "Yellow",
-        "Artist": "Coldplay",
-        "Position": 90,
-        "Spotify_URL": "https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg"
+        "Position": 90
     },
     {
         "SongID": 63,
-        "Title": "Something in the Orange",
-        "Artist": "Zach Bryan",
-        "Position": 105,
-        "Spotify_URL": "https://open.spotify.com/track/3WMj8moIAXJhHsyLaqIIHI"
+        "Position": 105
     },
     {
         "SongID": 64,
-        "Title": "Sweater Weather",
-        "Artist": "The Neighbourhood",
-        "Position": 74,
-        "Spotify_URL": "https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6"
+        "Position": 74
     },
     {
         "SongID": 96,
-        "Title": "Prada",
-        "Artist": "cassö",
-        "Position": 113,
-        "Spotify_URL": "https://open.spotify.com/track/59NraMJsLaMCVtwXTSia8i"
+        "Position": 113
     },
     {
         "SongID": 97,
-        "Title": "Another Love",
-        "Artist": "Tom Odell",
-        "Position": 53,
-        "Spotify_URL": "https://open.spotify.com/track/7jtQIBanIiJOMS6RyCx6jZ"
+        "Position": 53
     },
     {
         "SongID": 99,
-        "Title": "Mockingbird",
-        "Artist": "Eminem",
-        "Position": 181,
-        "Spotify_URL": "https://open.spotify.com/track/561jH07mF1jHuk7KlaeF0s"
+        "Position": 181
     },
     {
         "SongID": 103,
-        "Title": "Pink + White",
-        "Artist": "Frank Ocean",
-        "Position": 89,
-        "Spotify_URL": "https://open.spotify.com/track/3xKsf9qdS1CyvXSMEid6g8"
+        "Position": 89
     },
     {
         "SongID": 108,
-        "Title": "Someone You Loved",
-        "Artist": "Lewis Capaldi",
-        "Position": 144,
-        "Spotify_URL": "https://open.spotify.com/track/7qEHsqek33rTcFNT9PFqLf"
+        "Position": 144
     },
     {
         "SongID": 113,
-        "Title": "All I Want for Christmas Is You",
-        "Artist": "Mariah Carey",
-        "Position": 24,
-        "Spotify_URL": "https://open.spotify.com/track/0bYg9bo50gSsH3LtXe2SQn"
+        "Position": 24
     },
     {
         "SongID": 141,
-        "Title": "Locked out of Heaven",
-        "Artist": "Bruno Mars",
-        "Position": 118,
-        "Spotify_URL": "https://open.spotify.com/track/5g7sDjBhZ4I3gcFIpkrLuI"
+        "Position": 118
     },
     {
         "SongID": 152,
-        "Title": "Night Changes",
-        "Artist": "One Direction",
-        "Position": 117,
-        "Spotify_URL": "https://open.spotify.com/track/5O2P9iiztwhomNh8xkR9lJ"
+        "Position": 117
     },
     {
         "SongID": 174,
-        "Title": "The Color Violet",
-        "Artist": "Tory Lanez",
-        "Position": 158,
-        "Spotify_URL": "https://open.spotify.com/track/3azJifCSqg9fRij2yKIbWz"
+        "Position": 158
     },
     {
         "SongID": 199,
-        "Title": "In the End",
-        "Artist": "Linkin Park",
-        "Position": 183,
-        "Spotify_URL": "https://open.spotify.com/track/60a0Rd6pjrkxjPbaKzXjfq"
+        "Position": 183
     },
     {
         "SongID": 201,
-        "Title": "Viva La Vida",
-        "Artist": "Coldplay",
-        "Position": 129,
-        "Spotify_URL": "https://open.spotify.com/track/1mea3bSkSGXuIRvnydlB5b"
+        "Position": 129
     },
     {
         "SongID": 205,
-        "Title": "Apocalypse",
-        "Artist": "Cigarettes After Sex",
-        "Position": 88,
-        "Spotify_URL": "https://open.spotify.com/track/0yc6Gst2xkRu0eMLeRMGCX"
+        "Position": 88
     },
     {
         "SongID": 214,
-        "Title": "Softcore",
-        "Artist": "The Neighbourhood",
-        "Position": 195,
-        "Spotify_URL": "https://open.spotify.com/track/2K7xn816oNHJZ0aVqdQsha"
+        "Position": 195
     },
     {
         "SongID": 225,
-        "Title": "Whatever",
-        "Artist": "Kygo",
-        "Position": 56,
-        "Spotify_URL": "https://open.spotify.com/track/0LMwmV37RCmBO2so0szAFs"
+        "Position": 56
     },
     {
         "SongID": 237,
-        "Title": "Overdrive",
-        "Artist": "Ofenbach",
-        "Position": 152,
-        "Spotify_URL": "https://open.spotify.com/track/3bK1zVFBKIzYjmptmI4NsJ"
+        "Position": 152
     },
     {
         "SongID": 244,
-        "Title": "Je te laisserai des mots",
-        "Artist": "Patrick Watson",
-        "Position": 162,
-        "Spotify_URL": "https://open.spotify.com/track/0V5cvmTKsYmF5FmGGEAfmS"
+        "Position": 162
     },
     {
         "SongID": 246,
-        "Title": "In The Stars",
-        "Artist": "Benson Boone",
-        "Position": 109,
-        "Spotify_URL": "https://open.spotify.com/track/1ei3hzQmrgealgRKFxIcWn"
+        "Position": 109
     },
     {
         "SongID": 301,
-        "Title": "The Night We Met",
-        "Artist": "Lord Huron",
-        "Position": 17,
-        "Spotify_URL": "https://open.spotify.com/track/3hRV0jL3vUpRrcy398teAU"
+        "Position": 17
     },
     {
         "SongID": 376,
-        "Title": "you broke me first",
-        "Artist": "Tate McRae",
-        "Position": 179,
-        "Spotify_URL": "https://open.spotify.com/track/45bE4HXI0AwGZXfZtMp8JR"
+        "Position": 179
     },
     {
         "SongID": 396,
-        "Title": "Riptide",
-        "Artist": "Vance Joy",
-        "Position": 92,
-        "Spotify_URL": "https://open.spotify.com/track/7yq4Qj7cqayVTp3FF9CWbm"
+        "Position": 92
     },
     {
         "SongID": 413,
-        "Title": "Scared To Start",
-        "Artist": "Michael Marcagi",
-        "Position": 96,
-        "Spotify_URL": "https://open.spotify.com/track/3Pbp7cUCx4d3OAkZSCoNvn"
+        "Position": 96
     },
     {
         "SongID": 430,
-        "Title": "Story of My Life",
-        "Artist": "One Direction",
-        "Position": 137,
-        "Spotify_URL": "https://open.spotify.com/track/4nVBt6MZDDP6tRVdQTgxJg"
+        "Position": 137
     },
     {
         "SongID": 529,
-        "Title": "Can't Hold Us",
-        "Artist": "Macklemore & Ryan Lewis",
-        "Position": 196,
-        "Spotify_URL": "https://open.spotify.com/track/22skzmqfdWrjJylampe0kt"
+        "Position": 196
     },
     {
         "SongID": 533,
-        "Title": "Take Me To Church",
-        "Artist": "Hozier",
-        "Position": 124,
-        "Spotify_URL": "https://open.spotify.com/track/3dYD57lRAUcMHufyqn9GcI"
+        "Position": 124
     },
     {
         "SongID": 544,
-        "Title": "Way Down We Go",
-        "Artist": "KALEO",
-        "Position": 150,
-        "Spotify_URL": "https://open.spotify.com/track/0y1QJc3SJVPKJ1OvFmFqe6"
+        "Position": 150
     },
     {
         "SongID": 678,
-        "Title": "Only Girl (In The World)",
-        "Artist": "Rihanna",
-        "Position": 191,
-        "Spotify_URL": "https://open.spotify.com/track/2ENexcMEMsYk0rVJigVD3i"
+        "Position": 191
     },
     {
         "SongID": 726,
-        "Title": "ocean eyes",
-        "Artist": "Billie Eilish",
-        "Position": 153,
-        "Spotify_URL": "https://open.spotify.com/track/2uIX8YMNjGMD7441kqyyNU"
+        "Position": 153
     },
     {
         "SongID": 734,
-        "Title": "HIGHEST IN THE ROOM",
-        "Artist": "Travis Scott",
-        "Position": 197,
-        "Spotify_URL": "https://open.spotify.com/track/3eekarcy7kvN4yt5ZFzltW"
+        "Position": 197
     },
     {
         "SongID": 753,
-        "Title": "July",
-        "Artist": "Noah Cyrus",
-        "Position": 127,
-        "Spotify_URL": "https://open.spotify.com/track/6J2LdBN97cDWn0MLxYh9HB"
+        "Position": 127
     },
     {
         "SongID": 793,
-        "Title": "Easy On Me",
-        "Artist": "Adele",
-        "Position": 189,
-        "Spotify_URL": "https://open.spotify.com/track/46IZ0fSY2mpAiktS3KOqds"
+        "Position": 189
     },
     {
         "SongID": 799,
-        "Title": "Nobody Gets Me",
-        "Artist": "SZA",
-        "Position": 147,
-        "Spotify_URL": "https://open.spotify.com/track/5Y35SjAfXjjG0sFQ3KOxmm"
+        "Position": 147
     },
     {
         "SongID": 1063,
-        "Title": "Sultans Of Swing",
-        "Artist": "Dire Straits",
-        "Position": 185,
-        "Spotify_URL": "https://open.spotify.com/track/37Tmv4NnfQeb0ZgUC4fOJj"
-    },
-    {
-        "SongID": 1170,
-        "Title": "I Smoked Away My Brain (I'm God x Demons Mashup)",
-        "Artist": "A$AP Rocky",
-        "Position": 84,
-        "Spotify_URL": "https://open.spotify.com/track/3ZaEs1O8BG581qYPHpQ8d6"
+        "Position": 185
     },
     {
         "SongID": 1208,
-        "Title": "Ivy",
-        "Artist": "Frank Ocean",
-        "Position": 173,
-        "Spotify_URL": "https://open.spotify.com/track/2ZWlPOoWh0626oTaHrnl2a"
+        "Position": 173
     },
     {
         "SongID": 1369,
-        "Title": "Unstoppable",
-        "Artist": "Sia",
-        "Position": 133,
-        "Spotify_URL": "https://open.spotify.com/track/2J2Z1SkXYghSajLibnQHOa"
+        "Position": 133
     },
     {
         "SongID": 1509,
-        "Title": "Someone Like You",
-        "Artist": "Adele",
-        "Position": 178,
-        "Spotify_URL": "https://open.spotify.com/track/5lkpeJwmQKgY3bX2zChjxX"
+        "Position": 178
     },
     {
         "SongID": 1593,
-        "Title": "Lush Life",
-        "Artist": "Zara Larsson",
-        "Position": 134,
-        "Spotify_URL": "https://open.spotify.com/track/0r4SsYcwvd8URat6AS2m6f"
+        "Position": 134
     },
     {
         "SongID": 1947,
-        "Title": "that way",
-        "Artist": "Tate McRae",
-        "Position": 187,
-        "Spotify_URL": "https://open.spotify.com/track/7l97ElWmIdVHWUaOeeU5ZC"
+        "Position": 187
     },
     {
         "SongID": 2264,
-        "Title": "greedy",
-        "Artist": "Tate McRae",
-        "Position": 188,
-        "Spotify_URL": "https://open.spotify.com/track/3rUGC1vUpkDG9CZFHMur1t"
+        "Position": 188
     },
     {
         "SongID": 2670,
-        "Title": "Lose Control",
-        "Artist": "Teddy Swims",
-        "Position": 21,
-        "Spotify_URL": "https://open.spotify.com/track/17phhZDn6oGtzMe56NuWvj"
+        "Position": 21
     },
     {
         "SongID": 4402,
-        "Title": "Bye Bye Bye",
-        "Artist": "*NSYNC",
-        "Position": 159,
-        "Spotify_URL": "https://open.spotify.com/track/62bOmKYxYg7dhrC6gH9vFn"
+        "Position": 159
     },
     {
         "SongID": 5068,
-        "Title": "Forever Young",
-        "Artist": "Alphaville",
-        "Position": 72,
-        "Spotify_URL": "https://open.spotify.com/track/4S1VYqwfkLit9mKVY3MXoo"
+        "Position": 72
     },
     {
         "SongID": 6082,
-        "Title": "Last Christmas",
-        "Artist": "Wham!",
-        "Position": 35,
-        "Spotify_URL": "https://open.spotify.com/track/2FRnf9qhLbvw8fu4IBXx78"
+        "Position": 35
     },
     {
         "SongID": 7676,
-        "Title": "The Door",
-        "Artist": "Teddy Swims",
-        "Position": 61,
-        "Spotify_URL": "https://open.spotify.com/track/3dj4wgM3cPeuLwMNHDuBon"
-    },
-    {
-        "SongID": 9342,
-        "Title": "Badebussen",
-        "Artist": "DJ MøMø",
-        "Position": 33,
-        "Spotify_URL": "https://open.spotify.com/track/3LKrHeYXOEKNQQVl9auofC"
+        "Position": 61
     },
     {
         "SongID": 9344,
-        "Title": "Josefin",
-        "Artist": "Delara",
-        "Position": 154,
-        "Spotify_URL": "https://open.spotify.com/track/2O7YJWue0OOBHWxRaqDsm9"
+        "Position": 154
     },
     {
         "SongID": 9713,
-        "Title": "Santa Tell Me",
-        "Artist": "Ariana Grande",
-        "Position": 86,
-        "Spotify_URL": "https://open.spotify.com/track/0lizgQ7Qw35od7CYaoMBZb"
+        "Position": 86
     },
     {
         "SongID": 10053,
-        "Title": "Where's My Love",
-        "Artist": "SYML",
-        "Position": 190,
-        "Spotify_URL": "https://open.spotify.com/track/1B62o4CbdL9ckGvwsz2cgn"
-    },
-    {
-        "SongID": 10334,
-        "Title": "Haien Kommer (Sharkdog 2023)",
-        "Artist": "Kudos",
-        "Position": 156,
-        "Spotify_URL": "https://open.spotify.com/track/2sbvNhKsY8OUEwlbZb7hXV"
+        "Position": 190
     },
     {
         "SongID": 10904,
-        "Title": "Har Dig",
-        "Artist": "Yasin",
-        "Position": 155,
-        "Spotify_URL": "https://open.spotify.com/track/4FGvRqZ1pPaflN2jjLBMB9"
+        "Position": 155
     },
     {
         "SongID": 11835,
-        "Title": "Rockin' Around The Christmas Tree",
-        "Artist": "Brenda Lee",
-        "Position": 111,
-        "Spotify_URL": "https://open.spotify.com/track/2EjXfH91m7f8HiJN1yQg97"
+        "Position": 111
     },
     {
         "SongID": 11932,
-        "Title": "NIGHTS LIKE THIS",
-        "Artist": "The Kid LAROI",
-        "Position": 45,
-        "Spotify_URL": "https://open.spotify.com/track/1XBYiRV30ykHw5f4wm6qEn"
+        "Position": 45
     },
     {
         "SongID": 12447,
-        "Title": "Espresso",
-        "Artist": "Sabrina Carpenter",
-        "Position": 19,
-        "Spotify_URL": "https://open.spotify.com/track/2qSkIjg1o9h3YT9RAgYN75"
+        "Position": 19
     },
     {
         "SongID": 12451,
-        "Title": "BIRDS OF A FEATHER",
-        "Artist": "Billie Eilish",
-        "Position": 10,
-        "Spotify_URL": "https://open.spotify.com/track/6dOtVTDdiauQNBQEDOtlAB"
+        "Position": 10
     },
     {
         "SongID": 12453,
-        "Title": "Too Sweet",
-        "Artist": "Hozier",
-        "Position": 46,
-        "Spotify_URL": "https://open.spotify.com/track/5Z0UnEtpLDQyYlWwgi8m9C"
+        "Position": 46
     },
     {
         "SongID": 12454,
-        "Title": "i like the way you kiss me",
-        "Artist": "Artemas",
-        "Position": 94,
-        "Spotify_URL": "https://open.spotify.com/track/2GxrNKugF82CnoRFbQfzPf"
+        "Position": 94
     },
     {
         "SongID": 12499,
-        "Title": "CHIHIRO",
-        "Artist": "Billie Eilish",
-        "Position": 102,
-        "Spotify_URL": "https://open.spotify.com/track/7BRD7x5pt8Lqa1eGYC4dzj"
+        "Position": 102
     },
     {
         "SongID": 12521,
-        "Title": "A Bar Song (Tipsy)",
-        "Artist": "Shaboozey",
-        "Position": 13,
-        "Spotify_URL": "https://open.spotify.com/track/5fZJQrFKWQLb7FpJXZ1g7K"
+        "Position": 13
     },
     {
         "SongID": 12523,
-        "Title": "Sommerhus",
-        "Artist": "Marstein",
-        "Position": 200,
-        "Spotify_URL": "https://open.spotify.com/track/08dWbd4W1hhUusqsJ7zk2J"
+        "Position": 200
     },
     {
         "SongID": 12597,
-        "Title": "we can't be friends (wait for your love)",
-        "Artist": "Ariana Grande",
-        "Position": 151,
-        "Spotify_URL": "https://open.spotify.com/track/51ZQ1vr10ffzbwIjDCwqm4"
+        "Position": 151
     },
     {
         "SongID": 12606,
-        "Title": "End of Beginning",
-        "Artist": "Djo",
-        "Position": 130,
-        "Spotify_URL": "https://open.spotify.com/track/3qhlB30KknSejmIvZZLjOD"
+        "Position": 130
     },
     {
         "SongID": 12715,
-        "Title": "Stargazing",
-        "Artist": "Myles Smith",
-        "Position": 47,
-        "Spotify_URL": "https://open.spotify.com/track/3Vr3zh0r7ALn8VLqCiRR10"
+        "Position": 47
     },
     {
         "SongID": 12959,
-        "Title": "WILDFLOWER",
-        "Artist": "Billie Eilish",
-        "Position": 18,
-        "Spotify_URL": "https://open.spotify.com/track/3QaPy1KgI7nu9FJEQUgn6h"
+        "Position": 18
     },
     {
         "SongID": 13005,
-        "Title": "Jingle Bell Rock",
-        "Artist": "Bobby Helms",
-        "Position": 166,
-        "Spotify_URL": "https://open.spotify.com/track/7vQbuQcyTflfCIOu3Uzzya"
+        "Position": 166
     },
     {
         "SongID": 13136,
-        "Title": "Belong Together",
-        "Artist": "Mark Ambor",
-        "Position": 64,
-        "Spotify_URL": "https://open.spotify.com/track/5uQ7de4EWjb3rkcFxyEOpu"
+        "Position": 64
     },
     {
         "SongID": 13201,
-        "Title": "Pink Skies",
-        "Artist": "Zach Bryan",
-        "Position": 122,
-        "Spotify_URL": "https://open.spotify.com/track/4ZJ4vzLQekI0WntDbanNC7"
+        "Position": 122
     },
     {
         "SongID": 13271,
-        "Title": "Austin",
-        "Artist": "Dasha",
-        "Position": 28,
-        "Spotify_URL": "https://open.spotify.com/track/2uqYupMHANxnwgeiXTZXzd"
+        "Position": 28
     },
     {
         "SongID": 13481,
-        "Title": "Slow It Down",
-        "Artist": "Benson Boone",
-        "Position": 75,
-        "Spotify_URL": "https://open.spotify.com/track/51eSHglvG1RJXtL3qI5trr"
+        "Position": 75
     },
     {
         "SongID": 13521,
-        "Title": "Good Luck, Babe!",
-        "Artist": "Chappell Roan",
-        "Position": 30,
-        "Spotify_URL": "https://open.spotify.com/track/0WbMK4wrZ1wFSty9F7FCgu"
+        "Position": 30
     },
     {
         "SongID": 13584,
-        "Title": "Stick Season",
-        "Artist": "Noah Kahan",
-        "Position": 119,
-        "Spotify_URL": "https://open.spotify.com/track/0mflMxspEfB0VbI1kyLiAv"
-    },
-    {
-        "SongID": 13632,
-        "Title": "See You Again",
-        "Artist": "Tyler, The Creator",
-        "Position": 93,
-        "Spotify_URL": "https://open.spotify.com/track/7KA4W4McWYRpgf0fWsJZWB"
+        "Position": 119
     },
     {
         "SongID": 14870,
-        "Title": "I Don't Wanna Wait",
-        "Artist": "David Guetta",
-        "Position": 112,
-        "Spotify_URL": "https://open.spotify.com/track/331l3xABO0HMr1Kkyh2LZq"
+        "Position": 112
     },
     {
         "SongID": 14872,
-        "Title": "The Sound of Silence - CYRIL Remix",
-        "Artist": "Disturbed",
-        "Position": 41,
-        "Spotify_URL": "https://open.spotify.com/track/1LY3GhF0zxIVgbYEQjCbUO"
+        "Position": 41
     },
     {
         "SongID": 18960,
-        "Title": "Floden",
-        "Artist": "Emma Steinbakken",
-        "Position": 136,
-        "Spotify_URL": "https://open.spotify.com/track/6TYFXyFTDZ6qwFPuBJfWpK"
+        "Position": 136
     },
     {
         "SongID": 19446,
-        "Title": "Oscar Winning Tears.",
-        "Artist": "RAYE",
-        "Position": 110,
-        "Spotify_URL": "https://open.spotify.com/track/0iO2iCAjtX0t5duvczNQt6"
+        "Position": 110
     },
     {
         "SongID": 26557,
-        "Title": "I'm Good (Blue)",
-        "Artist": "David Guetta",
-        "Position": 139,
-        "Spotify_URL": "https://open.spotify.com/track/4uUG5RXrOk84mYEfFvj3cK"
+        "Position": 139
     },
     {
         "SongID": 30951,
-        "Title": "Don't Stop Believin' (2022 Remaster)",
-        "Artist": "Journey",
-        "Position": 186,
-        "Spotify_URL": "https://open.spotify.com/track/5RKQ5NdjSh2QzD4MaunT91"
+        "Position": 186
     },
     {
         "SongID": 39708,
-        "Title": "Home for Christmas",
-        "Artist": "Maria Mena",
-        "Position": 97,
-        "Spotify_URL": "https://open.spotify.com/track/3E0fq2gqsNbQo5paAuEcmc"
+        "Position": 97
     },
     {
         "SongID": 42023,
-        "Title": "Before You Leave Me",
-        "Artist": "Alex Warren",
-        "Position": 194,
-        "Spotify_URL": "https://open.spotify.com/track/7qoxdajngC0j9VXrcnephA"
+        "Position": 194
     },
     {
         "SongID": 42027,
-        "Title": "Sølvskje",
-        "Artist": "Bausa",
-        "Position": 71,
-        "Spotify_URL": "https://open.spotify.com/track/5AhSDzxi6BgID3J75mTGAc"
+        "Position": 71
     },
     {
         "SongID": 42028,
-        "Title": "SOLDAT - RMX",
-        "Artist": "VC Barre",
-        "Position": 82,
-        "Spotify_URL": "https://open.spotify.com/track/7MZQoikPpcwneYkKhdRvoe"
+        "Position": 82
     },
     {
         "SongID": 42029,
-        "Title": "Bærum Bitches (Mannschaft)",
-        "Artist": "Søte og Rare Gutter",
-        "Position": 67,
-        "Spotify_URL": "https://open.spotify.com/track/3ZNOlf3hO8Lhnpvg2iF16D"
+        "Position": 67
     },
     {
         "SongID": 42038,
-        "Title": "Situasjon",
-        "Artist": "Ari Bajgora",
-        "Position": 149,
-        "Spotify_URL": "https://open.spotify.com/track/0CtXW4RHp9WTRDyGEyH6Vn"
-    },
-    {
-        "SongID": 43263,
-        "Title": "All The Stars",
-        "Artist": "Kendrick Lamar",
-        "Position": 114,
-        "Spotify_URL": "https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s"
-    },
-    {
-        "SongID": 54418,
-        "Title": "Hey Ho (Original Versjon)",
-        "Artist": "Freddy Kalas",
-        "Position": 135,
-        "Spotify_URL": "https://open.spotify.com/track/1ikAsZ38q8AQ1l7FcOhu5g"
+        "Position": 149
     },
     {
         "SongID": 109570,
-        "Title": "Mistletoe",
-        "Artist": "Justin Bieber",
-        "Position": 138,
-        "Spotify_URL": "https://open.spotify.com/track/7xapw9Oy21WpfEcib2ErSA"
+        "Position": 138
     },
     {
         "SongID": 111649,
-        "Title": "Grenade",
-        "Artist": "Bruno Mars",
-        "Position": 184,
-        "Spotify_URL": "https://open.spotify.com/track/4lLtanYk6tkMvooU0tWzG8"
+        "Position": 184
     },
     {
         "SongID": 113374,
-        "Title": "It's Beginning to Look a Lot Like Christmas",
-        "Artist": "Michael Bublé",
-        "Position": 57,
-        "Spotify_URL": "https://open.spotify.com/track/0lLdorYw7lVrJydTINhWdI"
+        "Position": 57
     },
     {
         "SongID": 113552,
-        "Title": "when the party's over",
-        "Artist": "Billie Eilish",
-        "Position": 70,
-        "Spotify_URL": "https://open.spotify.com/track/43zdsphuZLzwA9k4DJhU0I"
+        "Position": 70
     },
     {
         "SongID": 113593,
-        "Title": "Blinding Lights",
-        "Artist": "The Weeknd",
-        "Position": 177,
-        "Spotify_URL": "https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b"
+        "Position": 177
     },
     {
         "SongID": 115648,
-        "Title": "lovely",
-        "Artist": "Billie Eilish",
-        "Position": 161,
-        "Spotify_URL": "https://open.spotify.com/track/0u2P5u6lvoDfwTYjAADbn4"
+        "Position": 161
     },
     {
         "SongID": 118613,
-        "Title": "Snowman",
-        "Artist": "Sia",
-        "Position": 26,
-        "Spotify_URL": "https://open.spotify.com/track/7uoFMmxln0GPXQ0AcCBXRq"
+        "Position": 26
     },
     {
         "SongID": 118690,
-        "Title": "Holly Jolly Christmas",
-        "Artist": "Michael Bublé",
-        "Position": 182,
-        "Spotify_URL": "https://open.spotify.com/track/6tjituizSxwSmBB5vtgHZE"
-    },
-    {
-        "SongID": 119673,
-        "Title": "Hæljetur",
-        "Artist": "DJ MøMø",
-        "Position": 108,
-        "Spotify_URL": "https://open.spotify.com/track/2lKpjq5umtW2Z6ZVeJA1FR"
-    },
-    {
-        "SongID": 123212,
-        "Title": "Falling Down - Bonus Track",
-        "Artist": "Lil Peep",
-        "Position": 180,
-        "Spotify_URL": "https://open.spotify.com/track/4jvjzW7Hm0yK4LvvE0Paz9"
+        "Position": 182
     },
     {
         "SongID": 124014,
-        "Title": "Driving Home for Christmas - 2019 Remaster",
-        "Artist": "Chris Rea",
-        "Position": 172,
-        "Spotify_URL": "https://open.spotify.com/track/27qAMKrDdKEs8HDXcvR24R"
+        "Position": 172
     },
     {
         "SongID": 130794,
-        "Title": "Iris",
-        "Artist": "The Goo Goo Dolls",
-        "Position": 77,
-        "Spotify_URL": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
+        "Position": 77
+    },
+    {
+        "SongID": 130869,
+        "Position": 84
     },
     {
         "SongID": 133628,
-        "Title": "White Ferrari",
-        "Artist": "Frank Ocean",
-        "Position": 107,
-        "Spotify_URL": "https://open.spotify.com/track/2LMkwUfqC6S6s6qDVlEuzV"
+        "Position": 107
     },
     {
         "SongID": 175621,
-        "Title": "Himmel På Jord",
-        "Artist": "Kurt Nilsen",
-        "Position": 68,
-        "Spotify_URL": "https://open.spotify.com/track/0WFyQgDzbQCfJuxcHW4Zrt"
+        "Position": 68
     },
     {
         "SongID": 175624,
-        "Title": "Den finast eg veit",
-        "Artist": "Hellbillies",
-        "Position": 98,
-        "Spotify_URL": "https://open.spotify.com/track/3NQDZSM47zCMao3GFkcqaV"
+        "Position": 98
+    },
+    {
+        "SongID": 175628,
+        "Position": 156
     },
     {
         "SongID": 175632,
-        "Title": "Rundt neste sving",
-        "Artist": "Rotlaus",
-        "Position": 101,
-        "Spotify_URL": "https://open.spotify.com/track/0ARPFpJeBfsRmwrrzdvrls"
+        "Position": 101
+    },
+    {
+        "SongID": 175638,
+        "Position": 33
     },
     {
         "SongID": 175645,
-        "Title": "Jul i svingen",
-        "Artist": "Ingebjørg Bratland",
-        "Position": 62,
-        "Spotify_URL": "https://open.spotify.com/track/0FZHpDOVQ8N1HJLahZsTT1"
+        "Position": 62
     },
     {
         "SongID": 175651,
-        "Title": "Selmas sang (fra Snøfall)",
-        "Artist": "Eva Weel Skram",
-        "Position": 58,
-        "Spotify_URL": "https://open.spotify.com/track/0PRX6CXffB3cARlzNCkmR4"
+        "Position": 58
     },
     {
         "SongID": 175685,
-        "Title": "Hjerteknuser",
-        "Artist": "Kaizers Orchestra",
-        "Position": 165,
-        "Spotify_URL": "https://open.spotify.com/track/77F3wu9VD3TgxXjHCq8A7W"
+        "Position": 165
+    },
+    {
+        "SongID": 175848,
+        "Position": 135
     },
     {
         "SongID": 176299,
-        "Title": "Her kommer Bjørnis",
-        "Artist": "Brannbamsen Bjørnis",
-        "Position": 170,
-        "Spotify_URL": "https://open.spotify.com/track/4qfRVjN1pI0LrKRNxQ1JwQ"
+        "Position": 170
+    },
+    {
+        "SongID": 176335,
+        "Position": 108
     },
     {
         "SongID": 177221,
-        "Title": "På Meg (Shook Ones)",
-        "Artist": "Fjellrev",
-        "Position": 116,
-        "Spotify_URL": "https://open.spotify.com/track/5zlfhA23eeNWSmlMRgtJhK"
+        "Position": 116
     },
     {
         "SongID": 198448,
-        "Title": "I miss you, I’m sorry",
-        "Artist": "Gracie Abrams",
-        "Position": 66,
-        "Spotify_URL": "https://open.spotify.com/track/4nyF5lmSziBAt7ESAUjpbx"
+        "Position": 66
     },
     {
         "SongID": 242687,
-        "Title": "Når Snøen Smelter - fra Tre nøtter til Askepott",
-        "Artist": "Astrid S",
-        "Position": 60,
-        "Spotify_URL": "https://open.spotify.com/track/0M3G7kxxZt2W1T3PH97iXd"
+        "Position": 60
     },
     {
         "SongID": 242717,
-        "Title": "Viva La Vida",
-        "Artist": "Soppgirobygget",
-        "Position": 65,
-        "Spotify_URL": "https://open.spotify.com/track/3PzfAzqI03wcX8OikTdrH2"
+        "Position": 65
     },
     {
         "SongID": 309424,
-        "Title": "Please Please Please",
-        "Artist": "Sabrina Carpenter",
-        "Position": 39,
-        "Spotify_URL": "https://open.spotify.com/track/5N3hjp1WNayUPZrA8kJmJP"
+        "Position": 39
     },
     {
         "SongID": 501280,
-        "Title": "Die With A Smile",
-        "Artist": "Lady Gaga",
-        "Position": 5,
-        "Spotify_URL": "https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe"
+        "Position": 5
     },
     {
         "SongID": 501282,
-        "Title": "Taste",
-        "Artist": "Sabrina Carpenter",
-        "Position": 12,
-        "Spotify_URL": "https://open.spotify.com/track/5G2f63n7IPVPPjfNIGih7Q"
+        "Position": 12
     },
     {
         "SongID": 501288,
-        "Title": "The Emptiness Machine",
-        "Artist": "Linkin Park",
-        "Position": 55,
-        "Spotify_URL": "https://open.spotify.com/track/2PnlsTsOTLE5jnBnNe2K0A"
+        "Position": 55
     },
     {
         "SongID": 501290,
-        "Title": "Bed Chem",
-        "Artist": "Sabrina Carpenter",
-        "Position": 146,
-        "Spotify_URL": "https://open.spotify.com/track/1UHS8Rf6h5Ar3CDWRd3wjF"
+        "Position": 146
     },
     {
         "SongID": 501300,
-        "Title": "I Had Some Help (Feat. Morgan Wallen)",
-        "Artist": "Post Malone",
-        "Position": 29,
-        "Spotify_URL": "https://open.spotify.com/track/7221xIgOnuakPdLqT0F3nP"
+        "Position": 29
     },
     {
         "SongID": 501301,
-        "Title": "Guess featuring Billie Eilish",
-        "Artist": "Charli xcx",
-        "Position": 140,
-        "Spotify_URL": "https://open.spotify.com/track/3WOhcATHxK2SLNeP5W3v1v"
+        "Position": 140
     },
     {
         "SongID": 501316,
-        "Title": "Move",
-        "Artist": "Adam Port",
-        "Position": 141,
-        "Spotify_URL": "https://open.spotify.com/track/1BJJbSX6muJVF2AK7uH1x4"
+        "Position": 141
     },
     {
         "SongID": 501325,
-        "Title": "I Love You, I'm Sorry",
-        "Artist": "Gracie Abrams",
-        "Position": 7,
-        "Spotify_URL": "https://open.spotify.com/track/51rfRCiUSvxXlCSCfIztBy"
+        "Position": 7
     },
     {
         "SongID": 501328,
-        "Title": "Sailor Song",
-        "Artist": "Gigi Perez",
-        "Position": 4,
-        "Spotify_URL": "https://open.spotify.com/track/2262bWmqomIaJXwCRHr13j"
+        "Position": 4
     },
     {
         "SongID": 501456,
-        "Title": "Houdini",
-        "Artist": "Eminem",
-        "Position": 80,
-        "Spotify_URL": "https://open.spotify.com/track/1CDQzbCz4KSQxHe7LMEgRM"
+        "Position": 80
     },
     {
         "SongID": 501607,
-        "Title": "Guy For That (Feat. Luke Combs)",
-        "Artist": "Post Malone",
-        "Position": 168,
-        "Spotify_URL": "https://open.spotify.com/track/6StwwqB84sJeLr7tZDTxEX"
+        "Position": 168
     },
     {
         "SongID": 501619,
-        "Title": "Evergreen",
-        "Artist": "Richy Mitch & The Coal Miners",
-        "Position": 99,
-        "Spotify_URL": "https://open.spotify.com/track/6me7F0aaZjwDo6RJ5MrfBD"
+        "Position": 99
     },
     {
         "SongID": 501723,
-        "Title": "Så længe jeg er sexy.",
-        "Artist": "Annika",
-        "Position": 20,
-        "Spotify_URL": "https://open.spotify.com/track/0fFMt9cc1EEQDIWLGDcqKd"
+        "Position": 20
     },
     {
         "SongID": 502445,
-        "Title": "Carry You Home",
-        "Artist": "Alex Warren",
-        "Position": 51,
-        "Spotify_URL": "https://open.spotify.com/track/4uzKAj0mIyYmyhsRRyPXaQ"
+        "Position": 51
     },
     {
         "SongID": 502463,
-        "Title": "Let's Go",
-        "Artist": "Arif Murakami",
-        "Position": 59,
-        "Spotify_URL": "https://open.spotify.com/track/21RCoKctRVVVG8nt8r5dsU"
+        "Position": 59
     },
     {
         "SongID": 502464,
-        "Title": "Sigg",
-        "Artist": "Ballinciaga",
-        "Position": 27,
-        "Spotify_URL": "https://open.spotify.com/track/4u6STUR9fsBQozW1S40BTN"
+        "Position": 27
     },
     {
         "SongID": 502465,
-        "Title": "24/7",
-        "Artist": "Rakkere",
-        "Position": 78,
-        "Spotify_URL": "https://open.spotify.com/track/2dYb67obBN7SiDbOQaBeI0"
+        "Position": 78
     },
     {
         "SongID": 502466,
-        "Title": "Utested",
-        "Artist": "Ari Bajgora",
-        "Position": 43,
-        "Spotify_URL": "https://open.spotify.com/track/19188WQf2DrNMfI1XLDnYF"
+        "Position": 43
     },
     {
         "SongID": 502469,
-        "Title": "BlimE! - Ferdig Snakka",
-        "Artist": "Ane Norum Kvistad",
-        "Position": 50,
-        "Spotify_URL": "https://open.spotify.com/track/7c9gD7aefFGPnVgZke7raf"
+        "Position": 50
     },
     {
         "SongID": 502471,
-        "Title": "Sucker For Pain",
-        "Artist": "Golfklubb",
-        "Position": 48,
-        "Spotify_URL": "https://open.spotify.com/track/7uAgfJh0XZWxHYHEf8Y3Ti"
+        "Position": 48
     },
     {
         "SongID": 502472,
-        "Title": "Se på meg",
-        "Artist": "Tigergutt101",
-        "Position": 121,
-        "Spotify_URL": "https://open.spotify.com/track/7IYXHtvFO3qZfe6In07sKE"
+        "Position": 121
     },
     {
         "SongID": 502476,
-        "Title": "BLINKEGEOX (Pleasuredome)",
-        "Artist": "BERGREM",
-        "Position": 132,
-        "Spotify_URL": "https://open.spotify.com/track/1Ig7GfJxjxBmNhwgR8aXPf"
+        "Position": 132
     },
     {
         "SongID": 502647,
-        "Title": "I Might",
-        "Artist": "Sarettii",
-        "Position": 73,
-        "Spotify_URL": "https://open.spotify.com/track/2UX821OXiIYGp67PdMqmoe"
+        "Position": 73
     },
     {
         "SongID": 502677,
-        "Title": "Diet Pepsi",
-        "Artist": "Addison Rae",
-        "Position": 125,
-        "Spotify_URL": "https://open.spotify.com/track/6MzofobZt2dm0Kf1hTThFz"
+        "Position": 125
     },
     {
         "SongID": 503616,
-        "Title": "It's ok I'm ok",
-        "Artist": "Tate McRae",
-        "Position": 115,
-        "Spotify_URL": "https://open.spotify.com/track/24XihnoVPWXlKJ4BgXqjVM"
+        "Position": 115
     },
     {
         "SongID": 503653,
-        "Title": "Embrace It",
-        "Artist": "Ndotz",
-        "Position": 123,
-        "Spotify_URL": "https://open.spotify.com/track/0io16MKpbeDIdYzmGpQaES"
+        "Position": 123
     },
     {
         "SongID": 504620,
-        "Title": "Bad Dreams",
-        "Artist": "Teddy Swims",
-        "Position": 11,
-        "Spotify_URL": "https://open.spotify.com/track/3nHuKdFJZm78CoeBnDcFKe"
+        "Position": 11
     },
     {
         "SongID": 504707,
-        "Title": "Talk My Shit",
-        "Artist": "Roc Boyz",
-        "Position": 32,
-        "Spotify_URL": "https://open.spotify.com/track/0w2rnChlsC41RjhxBFwufW"
+        "Position": 32
     },
     {
         "SongID": 504890,
-        "Title": "Vanilj",
-        "Artist": "BoBa",
-        "Position": 63,
-        "Spotify_URL": "https://open.spotify.com/track/2CBuonjhTSzjzDBKNhjxlF"
+        "Position": 63
     },
     {
         "SongID": 531197,
-        "Title": "Burning Down",
-        "Artist": "Alex Warren",
-        "Position": 42,
-        "Spotify_URL": "https://open.spotify.com/track/0ydx75YiFzLjjQknKFNFwt"
+        "Position": 42
     },
     {
         "SongID": 531364,
-        "Title": "Lost and found",
-        "Artist": "Molly Sandén",
-        "Position": 100,
-        "Spotify_URL": "https://open.spotify.com/track/5GdAGqF9ZI4gADtpVAxqe7"
+        "Position": 100
     },
     {
         "SongID": 531739,
-        "Title": "Heavy Is the Crown",
-        "Artist": "Linkin Park",
-        "Position": 167,
-        "Spotify_URL": "https://open.spotify.com/track/3fgehc497TFqKH1zBL2YNK"
+        "Position": 167
     },
     {
         "SongID": 536529,
-        "Title": "Samme for meg",
-        "Artist": "Søte og Rare Gutter",
-        "Position": 176,
-        "Spotify_URL": "https://open.spotify.com/track/3tQCTjEhxFpokKjOvRIsAV"
+        "Position": 176
     },
     {
         "SongID": 536530,
-        "Title": "Pleasuredome 2025: Hjemmesnekk",
-        "Artist": "Festefar",
-        "Position": 145,
-        "Spotify_URL": "https://open.spotify.com/track/76RCMJF5jwXmDOeddjCAoc"
+        "Position": 145
     },
     {
         "SongID": 536539,
-        "Title": "Heim te ståvo",
-        "Artist": "Tobias Sten",
-        "Position": 87,
-        "Spotify_URL": "https://open.spotify.com/track/07F3aHvvLxqV5Fp49pkwpZ"
+        "Position": 87
     },
     {
         "SongID": 536547,
-        "Title": "Vin",
-        "Artist": "Beathoven",
-        "Position": 192,
-        "Spotify_URL": "https://open.spotify.com/track/4UGiylwOx9pBF0D6VlnhpR"
+        "Position": 192
     },
     {
         "SongID": 538733,
-        "Title": "AYT",
-        "Artist": "Ballinciaga",
-        "Position": 23,
-        "Spotify_URL": "https://open.spotify.com/track/6XkqKHyHdIKBZC8qeMHsPv"
+        "Position": 23
     },
     {
         "SongID": 538737,
-        "Title": "Timeless",
-        "Artist": "The Weeknd",
-        "Position": 15,
-        "Spotify_URL": "https://open.spotify.com/track/1Es7AUAhQvapIcoh3qMKDL"
+        "Position": 15
     },
     {
         "SongID": 538897,
-        "Title": "A Lot More Free",
-        "Artist": "Max McNown",
-        "Position": 164,
-        "Spotify_URL": "https://open.spotify.com/track/3i86MS9vF1VCf0h2IEpKWY"
+        "Position": 164
     },
     {
         "SongID": 538936,
-        "Title": "Thick Of It",
-        "Artist": "KSI",
-        "Position": 103,
-        "Spotify_URL": "https://open.spotify.com/track/1xmvq1fYLs9TEgikaFilGW"
+        "Position": 103
     },
     {
         "SongID": 539097,
-        "Title": "Sees Igjen",
-        "Artist": "Golfklubb",
-        "Position": 3,
-        "Spotify_URL": "https://open.spotify.com/track/2QyL2WhZmOfpVSxy2BaI8U"
+        "Position": 3
     },
     {
         "SongID": 539098,
-        "Title": "Hånd I Hanske (Brottsmann)",
-        "Artist": "Sleiken",
-        "Position": 31,
-        "Spotify_URL": "https://open.spotify.com/track/6RoSerWCwfdjlRxACcV5r7"
+        "Position": 31
     },
     {
         "SongID": 539099,
-        "Title": "PLEASUREDOME",
-        "Artist": "Streetboys",
-        "Position": 142,
-        "Spotify_URL": "https://open.spotify.com/track/2F3yQZubukl4L9BHnqtEs7"
+        "Position": 142
     },
     {
         "SongID": 539100,
-        "Title": "Fargepalett",
-        "Artist": "Nessi",
-        "Position": 199,
-        "Spotify_URL": "https://open.spotify.com/track/7r8FITLqf8562PHKShR9gc"
-    },
-    {
-        "SongID": 539950,
-        "Title": "FE!N",
-        "Artist": "Travis Scott",
-        "Position": 91,
-        "Spotify_URL": "https://open.spotify.com/track/42VsgItocQwOQC3XWZ8JNA"
+        "Position": 199
     },
     {
         "SongID": 543569,
-        "Title": "Stay",
-        "Artist": "Rihanna",
-        "Position": 85,
-        "Spotify_URL": "https://open.spotify.com/track/789CxjEOtO76BVD1A9yJQH"
+        "Position": 85
     },
     {
         "SongID": 562382,
-        "Title": "Cecilia Lind",
-        "Artist": "Yasin",
-        "Position": 104,
-        "Spotify_URL": "https://open.spotify.com/track/1nPjwnKrO6imcSiaXNu8CX"
+        "Position": 104
     },
     {
         "SongID": 573019,
-        "Title": "Run It Up",
-        "Artist": "Problembarn",
-        "Position": 16,
-        "Spotify_URL": "https://open.spotify.com/track/3zylEBiAOPq3OBBdtpB5M4"
+        "Position": 16
     },
     {
         "SongID": 573020,
-        "Title": "Trouble",
-        "Artist": "Erin Kinsey",
-        "Position": 81,
-        "Spotify_URL": "https://open.spotify.com/track/4IVuDp5OaR7XS4ZreqeKlC"
+        "Position": 81
     },
     {
         "SongID": 573021,
-        "Title": "Ole Dole Doff",
-        "Artist": "Asme",
-        "Position": 79,
-        "Spotify_URL": "https://open.spotify.com/track/0Pii5EXqXhPOTcX86zDxaW"
+        "Position": 79
     },
     {
         "SongID": 600127,
-        "Title": "APT.",
-        "Artist": "ROSÉ",
-        "Position": 8,
-        "Spotify_URL": "https://open.spotify.com/track/5vNRhkKd0yEAg8suGBpjeY"
+        "Position": 8
     },
     {
         "SongID": 600128,
-        "Title": "That’s So True",
-        "Artist": "Gracie Abrams",
-        "Position": 2,
-        "Spotify_URL": "https://open.spotify.com/track/7ne4VBA60CxGM75vw0EYad"
+        "Position": 2
     },
     {
         "SongID": 600139,
-        "Title": "Love Somebody",
-        "Artist": "Morgan Wallen",
-        "Position": 9,
-        "Spotify_URL": "https://open.spotify.com/track/7hR22TOX3RorxJPcsz5Wbo"
+        "Position": 9
     },
     {
         "SongID": 600386,
-        "Title": "Heidi",
-        "Artist": "Staysman",
-        "Position": 131,
-        "Spotify_URL": "https://open.spotify.com/track/6Hf47LgK7rD8sjNxPohuCe"
+        "Position": 131
     },
     {
         "SongID": 600460,
-        "Title": "St. Chroma",
-        "Artist": "Tyler, The Creator",
-        "Position": 120,
-        "Spotify_URL": "https://open.spotify.com/track/1QoyuMHNBe7lg3YW4Qtll4"
+        "Position": 120
     },
     {
         "SongID": 600484,
-        "Title": "Like Him",
-        "Artist": "Tyler, The Creator",
-        "Position": 193,
-        "Spotify_URL": "https://open.spotify.com/track/6jbYpRPTEFl1HFKHk1IC0m"
+        "Position": 193
     },
     {
         "SongID": 600502,
-        "Title": "São Paulo",
-        "Artist": "The Weeknd",
-        "Position": 126,
-        "Spotify_URL": "https://open.spotify.com/track/0xGQTpN4ESETtl1Sp6rzd2"
+        "Position": 126
     },
     {
         "SongID": 600545,
-        "Title": "SAMMEN",
-        "Artist": "Marstein",
-        "Position": 1,
-        "Spotify_URL": "https://open.spotify.com/track/7px3lmdf4nzNEMt6zaQ5yJ"
+        "Position": 1
     },
     {
         "SongID": 600681,
-        "Title": "NEPOBABY",
-        "Artist": "Marstein",
-        "Position": 36,
-        "Spotify_URL": "https://open.spotify.com/track/2T137G2j4il2iSc2md900S"
+        "Position": 36
     },
     {
         "SongID": 600682,
-        "Title": "3 VISE MENN",
-        "Artist": "Marstein",
-        "Position": 6,
-        "Spotify_URL": "https://open.spotify.com/track/3xSZnZx5QTf1qspnYd1Z9Z"
+        "Position": 6
     },
     {
         "SongID": 600683,
-        "Title": "VIS MEG DIN VERDEN",
-        "Artist": "Marstein",
-        "Position": 25,
-        "Spotify_URL": "https://open.spotify.com/track/4xqPNwRkLyiiV2oqju92ie"
+        "Position": 25
     },
     {
         "SongID": 600684,
-        "Title": "Ambassadør",
-        "Artist": "Bausa",
-        "Position": 14,
-        "Spotify_URL": "https://open.spotify.com/track/4Vrbv4EQ5kAsupUZRHHQvQ"
+        "Position": 14
     },
     {
         "SongID": 600685,
-        "Title": "BIPOLAR",
-        "Artist": "Marstein",
-        "Position": 38,
-        "Spotify_URL": "https://open.spotify.com/track/1K1MXnB7zbeouWZ0B6wlsf"
+        "Position": 38
     },
     {
         "SongID": 600686,
-        "Title": "TIKTOK SOUND",
-        "Artist": "Marstein",
-        "Position": 44,
-        "Spotify_URL": "https://open.spotify.com/track/1tZcMZuND8iYAkE1aoz1rQ"
+        "Position": 44
     },
     {
         "SongID": 600687,
-        "Title": "EMMA",
-        "Artist": "Marstein",
-        "Position": 76,
-        "Spotify_URL": "https://open.spotify.com/track/14EAtVRhkJOOIrb9be4MfS"
+        "Position": 76
     },
     {
         "SongID": 600688,
-        "Title": "ÉMILE",
-        "Artist": "Marstein",
-        "Position": 171,
-        "Spotify_URL": "https://open.spotify.com/track/0xR5ChPrzLn0HOHvgcppQX"
+        "Position": 171
     },
     {
         "SongID": 600689,
-        "Title": "COOKIE",
-        "Artist": "Marstein",
-        "Position": 174,
-        "Spotify_URL": "https://open.spotify.com/track/3tuOCsduN8bggfFc6jQCbe"
+        "Position": 174
     },
     {
         "SongID": 600692,
-        "Title": "ST. PETER",
-        "Artist": "Marstein",
-        "Position": 198,
-        "Spotify_URL": "https://open.spotify.com/track/26YcneahmD1wH40iFvJotU"
+        "Position": 198
     },
     {
         "SongID": 600996,
-        "Title": "Big Steppa",
-        "Artist": "Ari Bajgora",
-        "Position": 37,
-        "Spotify_URL": "https://open.spotify.com/track/43MYhAw47PmHz31xY3mdrI"
+        "Position": 37
     },
     {
         "SongID": 600997,
-        "Title": "F*en Ikke Kjendis",
-        "Artist": "Golfklubb",
-        "Position": 52,
-        "Spotify_URL": "https://open.spotify.com/track/36nFVYgHwi5J9DMkOl7dK6"
+        "Position": 52
     },
     {
         "SongID": 600998,
-        "Title": "Føler ikke no (Manowar)",
-        "Artist": "Kulturaften",
-        "Position": 40,
-        "Spotify_URL": "https://open.spotify.com/track/3pmaB3cwb4XWRX7aA65ez0"
+        "Position": 40
     },
     {
         "SongID": 600999,
-        "Title": "Bless Meg",
-        "Artist": "Søte og Rare Gutter",
-        "Position": 143,
-        "Spotify_URL": "https://open.spotify.com/track/0bQ6SuPWpMSFXXP3yVlexZ"
+        "Position": 143
     },
     {
         "SongID": 601000,
-        "Title": "HYSJ (N.W.A)",
-        "Artist": "Don Dicks",
-        "Position": 69,
-        "Spotify_URL": "https://open.spotify.com/track/1ijx0tdha9hXmiUxxIkYgV"
+        "Position": 69
     },
     {
         "SongID": 601001,
-        "Title": "MONEY",
-        "Artist": "Marstein",
-        "Position": 83,
-        "Spotify_URL": "https://open.spotify.com/track/6Qq4gZ3CeB9nnDIz0w8StS"
+        "Position": 83
     },
     {
         "SongID": 601084,
-        "Title": "Nice To Meet You",
-        "Artist": "Myles Smith",
-        "Position": 54,
-        "Spotify_URL": "https://open.spotify.com/track/726SEjbF3ToEbYbn43gnxl"
+        "Position": 54
     },
     {
         "SongID": 601299,
-        "Title": "Clean Fit, Fin Anledning",
-        "Artist": "Metropolen",
-        "Position": 49,
-        "Spotify_URL": "https://open.spotify.com/track/7qky42Br09C4K93lYdAXAs"
+        "Position": 49
     },
     {
         "SongID": 601302,
-        "Title": "Kjendis",
-        "Artist": "Tomine Harket",
-        "Position": 106,
-        "Spotify_URL": "https://open.spotify.com/track/02qSZOLIipk28y3MRmUSe3"
+        "Position": 106
     },
     {
         "SongID": 601303,
-        "Title": "MAYBE.",
-        "Artist": "SIENNA SPIRO",
-        "Position": 157,
-        "Spotify_URL": "https://open.spotify.com/track/54eCdfu10x7x7uHJ5TY5KZ"
+        "Position": 157
     },
     {
         "SongID": 601461,
-        "Title": "Medusa",
-        "Artist": "Cameron Whitcomb",
-        "Position": 128,
-        "Spotify_URL": "https://open.spotify.com/track/1B7xiLBhKRBpD5KlnEWtrR"
+        "Position": 128
     },
     {
         "SongID": 601462,
-        "Title": "last night's mascara",
-        "Artist": "Griff",
-        "Position": 175,
-        "Spotify_URL": "https://open.spotify.com/track/2lqoRoUIVwJZrDzmNOTQZP"
+        "Position": 175
+    },
+    {
+        "SongID": 605176,
+        "Position": 114
+    },
+    {
+        "SongID": 605178,
+        "Position": 91
+    },
+    {
+        "SongID": 605184,
+        "Position": 93
+    },
+    {
+        "SongID": 605185,
+        "Position": 180
     }
 ]
