@@ -280,20 +280,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 234,
-        "Key": "C#",
-        "Energy": 0.847,
-        "Danceability": 0.548,
-        "Loudness": -3.237,
-        "Speechiness": 0.186,
-        "Acousticness": 0.0622,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0816,
-        "Valence": 0.1,
-        "Tempo": 171.447,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 236,
         "Key": "A",
         "Energy": 0.87,
@@ -364,6 +350,20 @@
         "TimeSignature": 4
     },
     {
+        "SongID": 287,
+        "Key": "C#",
+        "Energy": 0.847,
+        "Danceability": 0.548,
+        "Loudness": -3.237,
+        "Speechiness": 0.186,
+        "Acousticness": 0.0622,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.0816,
+        "Valence": 0.1,
+        "Tempo": 171.447,
+        "TimeSignature": 4
+    },
+    {
         "SongID": 301,
         "Key": "D",
         "Energy": 0.369,
@@ -389,20 +389,6 @@
         "Liveness": 0.0779,
         "Valence": 0.969,
         "Tempo": 121.998,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 312,
-        "Key": "B",
-        "Energy": 0.95,
-        "Danceability": 0.673,
-        "Loudness": -5.149,
-        "Speechiness": 0.0488,
-        "Acousticness": 0.0229,
-        "Instrumentalness": 0.0823,
-        "Liveness": 0.398,
-        "Valence": 0.563,
-        "Tempo": 150.019,
         "TimeSignature": 4
     },
     {
@@ -448,20 +434,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 399,
-        "Key": "G#",
-        "Energy": 0.716,
-        "Danceability": 0.649,
-        "Loudness": -5.371,
-        "Speechiness": 0.0349,
-        "Acousticness": 0.0863,
-        "Instrumentalness": 2.63e-05,
-        "Liveness": 0.135,
-        "Valence": 0.163,
-        "Tempo": 99.988,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 408,
         "Key": "B",
         "Energy": 0.327,
@@ -504,20 +476,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 443,
-        "Key": "F#m",
-        "Energy": 0.825,
-        "Danceability": 0.702,
-        "Loudness": -3.787,
-        "Speechiness": 0.0601,
-        "Acousticness": 0.00883,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0674,
-        "Valence": 0.915,
-        "Tempo": 102.977,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 500,
         "Key": "Em",
         "Energy": 0.943,
@@ -543,20 +501,6 @@
         "Liveness": 0.0956,
         "Valence": 0.965,
         "Tempo": 127.975,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 513,
-        "Key": "Cm",
-        "Energy": 0.693,
-        "Danceability": 0.491,
-        "Loudness": -6.487,
-        "Speechiness": 0.0377,
-        "Acousticness": 0.211,
-        "Instrumentalness": 6.92e-06,
-        "Liveness": 0.325,
-        "Valence": 0.412,
-        "Tempo": 90.027,
         "TimeSignature": 4
     },
     {
@@ -630,20 +574,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 579,
-        "Key": "C",
-        "Energy": 0.825,
-        "Danceability": 0.65,
-        "Loudness": -4.645,
-        "Speechiness": 0.0325,
-        "Acousticness": 0.0215,
-        "Instrumentalness": 2.44e-05,
-        "Liveness": 0.0936,
-        "Valence": 0.593,
-        "Tempo": 118.091,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 631,
         "Key": "Cm",
         "Energy": 0.711,
@@ -655,6 +585,20 @@
         "Liveness": 0.12,
         "Valence": 0.875,
         "Tempo": 125.135,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 656,
+        "Key": "F#m",
+        "Energy": 0.825,
+        "Danceability": 0.702,
+        "Loudness": -3.787,
+        "Speechiness": 0.0601,
+        "Acousticness": 0.00883,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.0674,
+        "Valence": 0.915,
+        "Tempo": 102.977,
         "TimeSignature": 4
     },
     {
@@ -840,34 +784,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 981,
-        "Key": "C",
-        "Energy": 0.521,
-        "Danceability": 0.865,
-        "Loudness": -6.932,
-        "Speechiness": 0.0371,
-        "Acousticness": 0.548,
-        "Instrumentalness": 0.000115,
-        "Liveness": 0.0989,
-        "Valence": 0.748,
-        "Tempo": 129.059,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 1081,
-        "Key": "G#m",
-        "Energy": 0.631,
-        "Danceability": 0.79,
-        "Loudness": -5.549,
-        "Speechiness": 0.0425,
-        "Acousticness": 0.437,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.158,
-        "Valence": 0.889,
-        "Tempo": 94.039,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 1125,
         "Key": "D",
         "Energy": 0.735,
@@ -921,20 +837,6 @@
         "Liveness": 0.165,
         "Valence": 0.554,
         "Tempo": 75.087,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 1254,
-        "Key": "Bm",
-        "Energy": 0.666,
-        "Danceability": 0.475,
-        "Loudness": -4.962,
-        "Speechiness": 0.0312,
-        "Acousticness": 0.644,
-        "Instrumentalness": 1.2e-05,
-        "Liveness": 0.0988,
-        "Valence": 0.765,
-        "Tempo": 159.744,
         "TimeSignature": 4
     },
     {
@@ -1134,20 +1036,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 1646,
-        "Key": "G#m",
-        "Energy": 0.587,
-        "Danceability": 0.763,
-        "Loudness": -8.299,
-        "Speechiness": 0.0381,
-        "Acousticness": 0.358,
-        "Instrumentalness": 6.03e-06,
-        "Liveness": 0.13,
-        "Valence": 0.794,
-        "Tempo": 106.977,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 1677,
         "Key": "A",
         "Energy": 0.904,
@@ -1232,62 +1120,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 1926,
-        "Key": "F",
-        "Energy": 0.792,
-        "Danceability": 0.687,
-        "Loudness": -2.749,
-        "Speechiness": 0.0452,
-        "Acousticness": 0.191,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.167,
-        "Valence": 0.671,
-        "Tempo": 100.011,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 2001,
-        "Key": "G#",
-        "Energy": 0.606,
-        "Danceability": 0.262,
-        "Loudness": -6.646,
-        "Speechiness": 0.0484,
-        "Acousticness": 0.247,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.125,
-        "Valence": 0.275,
-        "Tempo": 189.857,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 2050,
-        "Key": "A#",
-        "Energy": 0.772,
-        "Danceability": 0.832,
-        "Loudness": -5.429,
-        "Speechiness": 0.1,
-        "Acousticness": 0.0559,
-        "Instrumentalness": 0.000486,
-        "Liveness": 0.44,
-        "Valence": 0.704,
-        "Tempo": 96.016,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 2059,
-        "Key": "C",
-        "Energy": 0.807,
-        "Danceability": 0.729,
-        "Loudness": -4.468,
-        "Speechiness": 0.0307,
-        "Acousticness": 0.111,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.145,
-        "Valence": 0.654,
-        "Tempo": 94.021,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 2061,
         "Key": "D",
         "Energy": 0.518,
@@ -1344,20 +1176,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 2386,
-        "Key": "B",
-        "Energy": 0.869,
-        "Danceability": 0.639,
-        "Loudness": -4.024,
-        "Speechiness": 0.147,
-        "Acousticness": 0.27,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0802,
-        "Valence": 0.767,
-        "Tempo": 169.801,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 2389,
         "Key": "B",
         "Energy": 0.605,
@@ -1386,20 +1204,6 @@
         "TimeSignature": 3
     },
     {
-        "SongID": 2557,
-        "Key": "A#m",
-        "Energy": 0.741,
-        "Danceability": 0.72,
-        "Loudness": -6.529,
-        "Speechiness": 0.0287,
-        "Acousticness": 0.101,
-        "Instrumentalness": 1.41e-05,
-        "Liveness": 0.289,
-        "Valence": 0.357,
-        "Tempo": 119.896,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 2624,
         "Key": "G",
         "Energy": 0.877,
@@ -1412,20 +1216,6 @@
         "Valence": 0.743,
         "Tempo": 139.052,
         "TimeSignature": 4
-    },
-    {
-        "SongID": 2670,
-        "Key": "A",
-        "Energy": 0.604,
-        "Danceability": 0.561,
-        "Loudness": -4.409,
-        "Speechiness": 0.0337,
-        "Acousticness": 0.199,
-        "Instrumentalness": 1.9e-05,
-        "Liveness": 0.104,
-        "Valence": 0.242,
-        "Tempo": 159.92,
-        "TimeSignature": 3
     },
     {
         "SongID": 2703,
@@ -1484,20 +1274,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 2899,
-        "Key": "Em",
-        "Energy": 0.679,
-        "Danceability": 0.775,
-        "Loudness": -4.985,
-        "Speechiness": 0.135,
-        "Acousticness": 0.18,
-        "Instrumentalness": 7.26e-05,
-        "Liveness": 0.068,
-        "Valence": 0.619,
-        "Tempo": 166.008,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 3000,
         "Key": "C#",
         "Energy": 0.864,
@@ -1526,34 +1302,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 3251,
-        "Key": "C#m",
-        "Energy": 0.581,
-        "Danceability": 0.8,
-        "Loudness": -5.925,
-        "Speechiness": 0.244,
-        "Acousticness": 0.126,
-        "Instrumentalness": 3.82e-06,
-        "Liveness": 0.224,
-        "Valence": 0.966,
-        "Tempo": 126.046,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 3300,
-        "Key": "D",
-        "Energy": 0.91,
-        "Danceability": 0.697,
-        "Loudness": -3.92,
-        "Speechiness": 0.247,
-        "Acousticness": 0.00271,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.147,
-        "Valence": 0.623,
-        "Tempo": 127.031,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 3349,
         "Key": "C#",
         "Energy": 0.752,
@@ -1565,20 +1313,6 @@
         "Liveness": 0.12,
         "Valence": 0.103,
         "Tempo": 89.917,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 3660,
-        "Key": "C#",
-        "Energy": 0.684,
-        "Danceability": 0.869,
-        "Loudness": -4.915,
-        "Speechiness": 0.0456,
-        "Acousticness": 0.362,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0737,
-        "Valence": 0.88,
-        "Tempo": 115.052,
         "TimeSignature": 4
     },
     {
@@ -1621,20 +1355,6 @@
         "Liveness": 0.118,
         "Valence": 0.556,
         "Tempo": 94.514,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 3954,
-        "Key": "E",
-        "Energy": 0.717,
-        "Danceability": 0.581,
-        "Loudness": -4.433,
-        "Speechiness": 0.0318,
-        "Acousticness": 0.0298,
-        "Instrumentalness": 0.000186,
-        "Liveness": 0.243,
-        "Valence": 0.316,
-        "Tempo": 107.884,
         "TimeSignature": 4
     },
     {
@@ -1736,20 +1456,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 4204,
-        "Key": "F#",
-        "Energy": 0.174,
-        "Danceability": 0.482,
-        "Loudness": -13.603,
-        "Speechiness": 0.0609,
-        "Acousticness": 0.875,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.147,
-        "Valence": 0.347,
-        "Tempo": 107.724,
-        "TimeSignature": 5
-    },
-    {
         "SongID": 4330,
         "Key": "C",
         "Energy": 0.577,
@@ -1776,20 +1482,6 @@
         "Valence": 0.861,
         "Tempo": 172.638,
         "TimeSignature": 4
-    },
-    {
-        "SongID": 4557,
-        "Key": "Fm",
-        "Energy": 0.876,
-        "Danceability": 0.412,
-        "Loudness": -6.008,
-        "Speechiness": 0.47,
-        "Acousticness": 0.102,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.297,
-        "Valence": 0.703,
-        "Tempo": 130.159,
-        "TimeSignature": 5
     },
     {
         "SongID": 4616,
@@ -1831,20 +1523,6 @@
         "Liveness": 0.083,
         "Valence": 0.471,
         "Tempo": 83.954,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 5041,
-        "Key": "G#",
-        "Energy": 0.74,
-        "Danceability": 0.593,
-        "Loudness": -6.12,
-        "Speechiness": 0.0339,
-        "Acousticness": 0.363,
-        "Instrumentalness": 2.22e-05,
-        "Liveness": 0.102,
-        "Valence": 0.502,
-        "Tempo": 118.008,
         "TimeSignature": 4
     },
     {
@@ -1890,20 +1568,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 5351,
-        "Key": "F#m",
-        "Energy": 0.809,
-        "Danceability": 0.724,
-        "Loudness": -5.022,
-        "Speechiness": 0.0929,
-        "Acousticness": 0.182,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0765,
-        "Valence": 0.606,
-        "Tempo": 99.005,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 5430,
         "Key": "F#m",
         "Energy": 0.28,
@@ -1943,20 +1607,6 @@
         "Liveness": 0.113,
         "Valence": 0.263,
         "Tempo": 77.756,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 5497,
-        "Key": "D",
-        "Energy": 0.551,
-        "Danceability": 0.271,
-        "Loudness": -7.48,
-        "Speechiness": 0.0457,
-        "Acousticness": 0.582,
-        "Instrumentalness": 4.16e-05,
-        "Liveness": 0.256,
-        "Valence": 0.428,
-        "Tempo": 78.111,
         "TimeSignature": 4
     },
     {
@@ -2128,18 +1778,18 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 7107,
-        "Key": "Bm",
-        "Energy": 0.876,
-        "Danceability": 0.804,
-        "Loudness": -4.386,
-        "Speechiness": 0.277,
-        "Acousticness": 0.133,
+        "SongID": 6477,
+        "Key": "F#m",
+        "Energy": 0.809,
+        "Danceability": 0.724,
+        "Loudness": -5.022,
+        "Speechiness": 0.0929,
+        "Acousticness": 0.182,
         "Instrumentalness": 0.0,
-        "Liveness": 0.142,
-        "Valence": 0.808,
-        "Tempo": 113.956,
-        "TimeSignature": 3
+        "Liveness": 0.0765,
+        "Valence": 0.606,
+        "Tempo": 99.005,
+        "TimeSignature": 4
     },
     {
         "SongID": 7108,
@@ -2153,20 +1803,6 @@
         "Liveness": 0.0903,
         "Valence": 0.691,
         "Tempo": 124.978,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 7377,
-        "Key": "C#",
-        "Energy": 0.511,
-        "Danceability": 0.629,
-        "Loudness": -8.651,
-        "Speechiness": 0.0326,
-        "Acousticness": 0.114,
-        "Instrumentalness": 3.91e-06,
-        "Liveness": 0.0588,
-        "Valence": 0.181,
-        "Tempo": 128.038,
         "TimeSignature": 4
     },
     {
@@ -2212,20 +1848,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 8468,
-        "Key": "C#",
-        "Energy": 0.881,
-        "Danceability": 0.735,
-        "Loudness": -3.339,
-        "Speechiness": 0.0894,
-        "Acousticness": 0.239,
-        "Instrumentalness": 1.21e-05,
-        "Liveness": 0.11,
-        "Valence": 0.915,
-        "Tempo": 90.009,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 8852,
         "Key": "Am",
         "Energy": 0.594,
@@ -2237,20 +1859,6 @@
         "Liveness": 0.132,
         "Valence": 0.302,
         "Tempo": 99.865,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 8854,
-        "Key": "G",
-        "Energy": 0.586,
-        "Danceability": 0.864,
-        "Loudness": -8.007,
-        "Speechiness": 0.0676,
-        "Acousticness": 0.394,
-        "Instrumentalness": 0.255,
-        "Liveness": 0.142,
-        "Valence": 0.663,
-        "Tempo": 133.976,
         "TimeSignature": 4
     },
     {
@@ -2266,20 +1874,6 @@
         "Valence": 0.836,
         "Tempo": 134.325,
         "TimeSignature": 5
-    },
-    {
-        "SongID": 9331,
-        "Key": "F#",
-        "Energy": 0.649,
-        "Danceability": 0.811,
-        "Loudness": -5.089,
-        "Speechiness": 0.111,
-        "Acousticness": 0.343,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.121,
-        "Valence": 0.756,
-        "Tempo": 96.076,
-        "TimeSignature": 4
     },
     {
         "SongID": 9342,
@@ -2391,34 +1985,6 @@
         "Liveness": 0.158,
         "Valence": 0.433,
         "Tempo": 139.99,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 12003,
-        "Key": "D",
-        "Energy": 0.506,
-        "Danceability": 0.597,
-        "Loudness": -8.05,
-        "Speechiness": 0.0267,
-        "Acousticness": 0.0611,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.119,
-        "Valence": 0.322,
-        "Tempo": 126.026,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 12044,
-        "Key": "C#",
-        "Energy": 0.715,
-        "Danceability": 0.795,
-        "Loudness": -3.582,
-        "Speechiness": 0.0838,
-        "Acousticness": 0.141,
-        "Instrumentalness": 2.12e-06,
-        "Liveness": 0.179,
-        "Valence": 0.758,
-        "Tempo": 165.941,
         "TimeSignature": 4
     },
     {
@@ -2629,20 +2195,6 @@
         "Liveness": 0.108,
         "Valence": 0.0893,
         "Tempo": 135.796,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 13271,
-        "Key": "C",
-        "Energy": 0.672,
-        "Danceability": 0.756,
-        "Loudness": -6.743,
-        "Speechiness": 0.0522,
-        "Acousticness": 0.464,
-        "Instrumentalness": 3.37e-06,
-        "Liveness": 0.108,
-        "Valence": 0.739,
-        "Tempo": 114.935,
         "TimeSignature": 4
     },
     {
@@ -3038,20 +2590,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 17871,
-        "Key": "F",
-        "Energy": 0.658,
-        "Danceability": 0.487,
-        "Loudness": -9.973,
-        "Speechiness": 0.0296,
-        "Acousticness": 0.00877,
-        "Instrumentalness": 0.00777,
-        "Liveness": 0.1,
-        "Valence": 0.282,
-        "Tempo": 142.18,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 18292,
         "Key": "G#m",
         "Energy": 0.403,
@@ -3122,34 +2660,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 21493,
-        "Key": "B",
-        "Energy": 0.712,
-        "Danceability": 0.829,
-        "Loudness": -4.959,
-        "Speechiness": 0.135,
-        "Acousticness": 0.253,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.168,
-        "Valence": 0.644,
-        "Tempo": 86.979,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 21807,
-        "Key": "D#",
-        "Energy": 0.654,
-        "Danceability": 0.66,
-        "Loudness": -6.241,
-        "Speechiness": 0.149,
-        "Acousticness": 0.362,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.452,
-        "Valence": 0.511,
-        "Tempo": 119.734,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 21866,
         "Key": "Fm",
         "Energy": 0.463,
@@ -3175,34 +2685,6 @@
         "Liveness": 0.0808,
         "Valence": 0.19,
         "Tempo": 149.973,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 22161,
-        "Key": "F#",
-        "Energy": 0.722,
-        "Danceability": 0.469,
-        "Loudness": -4.806,
-        "Speechiness": 0.0326,
-        "Acousticness": 0.232,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.123,
-        "Valence": 0.529,
-        "Tempo": 85.984,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 22821,
-        "Key": "Gm",
-        "Energy": 0.451,
-        "Danceability": 0.889,
-        "Loudness": -10.588,
-        "Speechiness": 0.0433,
-        "Acousticness": 0.262,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.146,
-        "Valence": 0.582,
-        "Tempo": 98.018,
         "TimeSignature": 4
     },
     {
@@ -3346,34 +2828,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 24965,
-        "Key": "Cm",
-        "Energy": 0.527,
-        "Danceability": 0.733,
-        "Loudness": -5.985,
-        "Speechiness": 0.0486,
-        "Acousticness": 0.364,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0999,
-        "Valence": 0.371,
-        "Tempo": 110.045,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 25093,
-        "Key": "Em",
-        "Energy": 0.451,
-        "Danceability": 0.817,
-        "Loudness": -12.74,
-        "Speechiness": 0.0594,
-        "Acousticness": 0.0383,
-        "Instrumentalness": 0.065,
-        "Liveness": 0.0544,
-        "Valence": 0.224,
-        "Tempo": 112.009,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 25192,
         "Key": "A#",
         "Energy": 0.614,
@@ -3441,6 +2895,20 @@
         "Liveness": 0.134,
         "Valence": 0.905,
         "Tempo": 109.939,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 26720,
+        "Key": "B",
+        "Energy": 0.712,
+        "Danceability": 0.829,
+        "Loudness": -4.959,
+        "Speechiness": 0.135,
+        "Acousticness": 0.253,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.168,
+        "Valence": 0.644,
+        "Tempo": 86.979,
         "TimeSignature": 4
     },
     {
@@ -3612,34 +3080,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 31714,
-        "Key": "Am",
-        "Energy": 0.703,
-        "Danceability": 0.826,
-        "Loudness": -4.956,
-        "Speechiness": 0.0398,
-        "Acousticness": 0.00102,
-        "Instrumentalness": 0.0165,
-        "Liveness": 0.0756,
-        "Valence": 0.824,
-        "Tempo": 128.001,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 31844,
-        "Key": "Cm",
-        "Energy": 0.806,
-        "Danceability": 0.779,
-        "Loudness": -6.179,
-        "Speechiness": 0.0583,
-        "Acousticness": 0.232,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.361,
-        "Valence": 0.787,
-        "Tempo": 129.906,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 32615,
         "Key": "Fm",
         "Energy": 0.598,
@@ -3651,20 +3091,6 @@
         "Liveness": 0.135,
         "Valence": 0.534,
         "Tempo": 146.995,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 33272,
-        "Key": "C",
-        "Energy": 0.451,
-        "Danceability": 0.659,
-        "Loudness": -7.87,
-        "Speechiness": 0.0411,
-        "Acousticness": 0.79,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.126,
-        "Valence": 0.461,
-        "Tempo": 129.598,
         "TimeSignature": 4
     },
     {
@@ -3735,20 +3161,6 @@
         "Liveness": 0.349,
         "Valence": 0.257,
         "Tempo": 172.148,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 34964,
-        "Key": "A#",
-        "Energy": 0.583,
-        "Danceability": 0.593,
-        "Loudness": -6.348,
-        "Speechiness": 0.0306,
-        "Acousticness": 0.4,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.194,
-        "Valence": 0.656,
-        "Tempo": 142.0,
         "TimeSignature": 4
     },
     {
@@ -3878,20 +3290,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 35498,
-        "Key": "Fm",
-        "Energy": 0.537,
-        "Danceability": 0.524,
-        "Loudness": -8.423,
-        "Speechiness": 0.0276,
-        "Acousticness": 0.206,
-        "Instrumentalness": 0.000123,
-        "Liveness": 0.134,
-        "Valence": 0.218,
-        "Tempo": 84.98,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 35950,
         "Key": "Em",
         "Energy": 0.49,
@@ -3931,20 +3329,6 @@
         "Liveness": 0.0958,
         "Valence": 0.327,
         "Tempo": 70.968,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 36515,
-        "Key": "G#m",
-        "Energy": 0.518,
-        "Danceability": 0.493,
-        "Loudness": -7.44,
-        "Speechiness": 0.0311,
-        "Acousticness": 0.563,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0755,
-        "Valence": 0.235,
-        "Tempo": 102.057,
         "TimeSignature": 4
     },
     {
@@ -4032,20 +3416,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 36792,
-        "Key": "G#",
-        "Energy": 0.871,
-        "Danceability": 0.739,
-        "Loudness": -3.499,
-        "Speechiness": 0.0678,
-        "Acousticness": 0.0883,
-        "Instrumentalness": 5.63e-06,
-        "Liveness": 0.495,
-        "Valence": 0.108,
-        "Tempo": 107.964,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 36794,
         "Key": "Em",
         "Energy": 0.533,
@@ -4058,20 +3428,6 @@
         "Valence": 0.792,
         "Tempo": 142.049,
         "TimeSignature": 4
-    },
-    {
-        "SongID": 36797,
-        "Key": "Am",
-        "Energy": 0.746,
-        "Danceability": 0.672,
-        "Loudness": -4.936,
-        "Speechiness": 0.0648,
-        "Acousticness": 0.0368,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.324,
-        "Valence": 0.344,
-        "Tempo": 95.951,
-        "TimeSignature": 3
     },
     {
         "SongID": 36798,
@@ -4211,20 +3567,6 @@
         "Liveness": 0.104,
         "Valence": 0.611,
         "Tempo": 98.487,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 40324,
-        "Key": "F#m",
-        "Energy": 0.889,
-        "Danceability": 0.705,
-        "Loudness": -3.433,
-        "Speechiness": 0.0665,
-        "Acousticness": 0.242,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.222,
-        "Valence": 0.563,
-        "Tempo": 124.95,
         "TimeSignature": 4
     },
     {
@@ -4452,20 +3794,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 47589,
-        "Key": "C#",
-        "Energy": 0.826,
-        "Danceability": 0.763,
-        "Loudness": -3.661,
-        "Speechiness": 0.156,
-        "Acousticness": 0.193,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.141,
-        "Valence": 0.553,
-        "Tempo": 135.01,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 48684,
         "Key": "C",
         "Energy": 0.741,
@@ -4550,62 +3878,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 49463,
-        "Key": "C#",
-        "Energy": 0.584,
-        "Danceability": 0.845,
-        "Loudness": -7.627,
-        "Speechiness": 0.0477,
-        "Acousticness": 0.00141,
-        "Instrumentalness": 0.0595,
-        "Liveness": 0.0661,
-        "Valence": 0.4,
-        "Tempo": 111.978,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 49464,
-        "Key": "Em",
-        "Energy": 0.564,
-        "Danceability": 0.857,
-        "Loudness": -11.427,
-        "Speechiness": 0.0566,
-        "Acousticness": 0.0103,
-        "Instrumentalness": 0.178,
-        "Liveness": 0.0187,
-        "Valence": 0.505,
-        "Tempo": 112.014,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 50599,
-        "Key": "Em",
-        "Energy": 0.699,
-        "Danceability": 0.848,
-        "Loudness": -10.771,
-        "Speechiness": 0.0567,
-        "Acousticness": 0.0567,
-        "Instrumentalness": 0.000728,
-        "Liveness": 0.138,
-        "Valence": 0.503,
-        "Tempo": 111.999,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 50692,
-        "Key": "G",
-        "Energy": 0.556,
-        "Danceability": 0.831,
-        "Loudness": -6.794,
-        "Speechiness": 0.0523,
-        "Acousticness": 0.0527,
-        "Instrumentalness": 0.0425,
-        "Liveness": 0.025,
-        "Valence": 0.478,
-        "Tempo": 113.009,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 53303,
         "Key": "E",
         "Energy": 0.81,
@@ -4617,20 +3889,6 @@
         "Liveness": 0.148,
         "Valence": 0.883,
         "Tempo": 115.035,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 55208,
-        "Key": "D#m",
-        "Energy": 0.815,
-        "Danceability": 0.716,
-        "Loudness": -4.64,
-        "Speechiness": 0.0395,
-        "Acousticness": 0.0746,
-        "Instrumentalness": 0.00108,
-        "Liveness": 0.201,
-        "Valence": 0.703,
-        "Tempo": 129.988,
         "TimeSignature": 4
     },
     {
@@ -4662,20 +3920,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 114771,
-        "Key": "D",
-        "Energy": 0.381,
-        "Danceability": 0.813,
-        "Loudness": -9.339,
-        "Speechiness": 0.0494,
-        "Acousticness": 0.276,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0985,
-        "Valence": 0.434,
-        "Tempo": 116.028,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 114836,
         "Key": "C",
         "Energy": 0.683,
@@ -4701,20 +3945,6 @@
         "Liveness": 0.168,
         "Valence": 0.708,
         "Tempo": 184.372,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 115187,
-        "Key": "Bm",
-        "Energy": 0.579,
-        "Danceability": 0.885,
-        "Loudness": -5.14,
-        "Speechiness": 0.0596,
-        "Acousticness": 0.00318,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0708,
-        "Valence": 0.817,
-        "Tempo": 123.038,
         "TimeSignature": 4
     },
     {
@@ -4788,20 +4018,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 123037,
-        "Key": "C",
-        "Energy": 0.609,
-        "Danceability": 0.856,
-        "Loudness": -7.223,
-        "Speechiness": 0.0824,
-        "Acousticness": 0.00801,
-        "Instrumentalness": 8.15e-05,
-        "Liveness": 0.0344,
-        "Valence": 0.928,
-        "Tempo": 114.988,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 123167,
         "Key": "F#m",
         "Energy": 0.765,
@@ -4830,34 +4046,6 @@
         "TimeSignature": 5
     },
     {
-        "SongID": 123690,
-        "Key": "Fm",
-        "Energy": 0.45,
-        "Danceability": 0.512,
-        "Loudness": -7.366,
-        "Speechiness": 0.103,
-        "Acousticness": 0.162,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0681,
-        "Valence": 0.417,
-        "Tempo": 79.994,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 124508,
-        "Key": "D",
-        "Energy": 0.89,
-        "Danceability": 0.557,
-        "Loudness": -5.05,
-        "Speechiness": 0.0448,
-        "Acousticness": 0.0774,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.891,
-        "Valence": 0.877,
-        "Tempo": 154.917,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 124524,
         "Key": "G#",
         "Energy": 0.705,
@@ -4869,20 +4057,6 @@
         "Liveness": 0.186,
         "Valence": 0.404,
         "Tempo": 88.715,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 124545,
-        "Key": "Bm",
-        "Energy": 0.803,
-        "Danceability": 0.561,
-        "Loudness": -5.132,
-        "Speechiness": 0.073,
-        "Acousticness": 0.146,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.188,
-        "Valence": 0.338,
-        "Tempo": 153.669,
         "TimeSignature": 4
     },
     {
@@ -5096,20 +4270,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 154579,
-        "Key": "Fm",
-        "Energy": 0.692,
-        "Danceability": 0.738,
-        "Loudness": -6.662,
-        "Speechiness": 0.0839,
-        "Acousticness": 0.092,
-        "Instrumentalness": 0.000169,
-        "Liveness": 0.264,
-        "Valence": 0.274,
-        "Tempo": 98.99,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 154589,
         "Key": "F#m",
         "Energy": 0.769,
@@ -5121,20 +4281,6 @@
         "Liveness": 0.219,
         "Valence": 0.647,
         "Tempo": 175.906,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 154646,
-        "Key": "G#",
-        "Energy": 0.905,
-        "Danceability": 0.481,
-        "Loudness": -2.941,
-        "Speechiness": 0.055,
-        "Acousticness": 0.000324,
-        "Instrumentalness": 0.0609,
-        "Liveness": 0.195,
-        "Valence": 0.698,
-        "Tempo": 134.133,
         "TimeSignature": 4
     },
     {
@@ -5306,20 +4452,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 169516,
-        "Key": "Fm",
-        "Energy": 0.871,
-        "Danceability": 0.692,
-        "Loudness": -5.469,
-        "Speechiness": 0.0405,
-        "Acousticness": 0.734,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.146,
-        "Valence": 0.929,
-        "Tempo": 105.013,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 171072,
         "Key": "G#",
         "Energy": 0.991,
@@ -5345,20 +4477,6 @@
         "Liveness": 0.172,
         "Valence": 0.748,
         "Tempo": 118.037,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 174086,
-        "Key": "D",
-        "Energy": 0.508,
-        "Danceability": 0.579,
-        "Loudness": -9.484,
-        "Speechiness": 0.027,
-        "Acousticness": 0.00574,
-        "Instrumentalness": 0.000494,
-        "Liveness": 0.0575,
-        "Valence": 0.609,
-        "Tempo": 147.125,
         "TimeSignature": 4
     },
     {
@@ -5415,48 +4533,6 @@
         "Liveness": 0.351,
         "Valence": 0.617,
         "Tempo": 100.028,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 175640,
-        "Key": "F",
-        "Energy": 0.903,
-        "Danceability": 0.679,
-        "Loudness": -5.326,
-        "Speechiness": 0.04,
-        "Acousticness": 0.00595,
-        "Instrumentalness": 4.71e-06,
-        "Liveness": 0.118,
-        "Valence": 0.84,
-        "Tempo": 127.977,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 178497,
-        "Key": "C",
-        "Energy": 0.864,
-        "Danceability": 0.676,
-        "Loudness": -4.265,
-        "Speechiness": 0.126,
-        "Acousticness": 0.534,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.103,
-        "Valence": 0.843,
-        "Tempo": 72.003,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 178693,
-        "Key": "Cm",
-        "Energy": 0.497,
-        "Danceability": 0.742,
-        "Loudness": -9.381,
-        "Speechiness": 0.0746,
-        "Acousticness": 0.249,
-        "Instrumentalness": 0.00335,
-        "Liveness": 0.0993,
-        "Valence": 0.558,
-        "Tempo": 156.013,
         "TimeSignature": 4
     },
     {
@@ -5628,48 +4704,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 187317,
-        "Key": "C#m",
-        "Energy": 0.818,
-        "Danceability": 0.831,
-        "Loudness": -6.379,
-        "Speechiness": 0.038,
-        "Acousticness": 0.00756,
-        "Instrumentalness": 0.000188,
-        "Liveness": 0.239,
-        "Valence": 0.775,
-        "Tempo": 127.013,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 187508,
-        "Key": "D",
-        "Energy": 0.584,
-        "Danceability": 0.759,
-        "Loudness": -14.264,
-        "Speechiness": 0.0519,
-        "Acousticness": 0.0104,
-        "Instrumentalness": 0.649,
-        "Liveness": 0.0643,
-        "Valence": 0.187,
-        "Tempo": 112.013,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 187661,
-        "Key": "D#",
-        "Energy": 0.639,
-        "Danceability": 0.335,
-        "Loudness": -6.598,
-        "Speechiness": 0.0369,
-        "Acousticness": 0.265,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.107,
-        "Valence": 0.381,
-        "Tempo": 139.912,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 187684,
         "Key": "Cm",
         "Energy": 0.492,
@@ -5681,34 +4715,6 @@
         "Liveness": 0.197,
         "Valence": 0.323,
         "Tempo": 140.555,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 187911,
-        "Key": "C",
-        "Energy": 0.7,
-        "Danceability": 0.571,
-        "Loudness": -7.06,
-        "Speechiness": 0.0945,
-        "Acousticness": 0.0997,
-        "Instrumentalness": 1.05e-06,
-        "Liveness": 0.109,
-        "Valence": 0.0686,
-        "Tempo": 90.02,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 191642,
-        "Key": "Am",
-        "Energy": 0.678,
-        "Danceability": 0.759,
-        "Loudness": -5.148,
-        "Speechiness": 0.314,
-        "Acousticness": 0.23,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.15,
-        "Valence": 0.327,
-        "Tempo": 89.64,
         "TimeSignature": 4
     },
     {
@@ -5782,20 +4788,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 200839,
-        "Key": "F#m",
-        "Energy": 0.913,
-        "Danceability": 0.758,
-        "Loudness": -2.926,
-        "Speechiness": 0.113,
-        "Acousticness": 0.00364,
-        "Instrumentalness": 6.92e-05,
-        "Liveness": 0.193,
-        "Valence": 0.658,
-        "Tempo": 128.04,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 202177,
         "Key": "C",
         "Energy": 0.769,
@@ -5866,20 +4858,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 203490,
-        "Key": "Cm",
-        "Energy": 0.958,
-        "Danceability": 0.786,
-        "Loudness": -7.49,
-        "Speechiness": 0.0693,
-        "Acousticness": 0.00431,
-        "Instrumentalness": 2.59e-06,
-        "Liveness": 0.0326,
-        "Valence": 0.893,
-        "Tempo": 145.011,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 203533,
         "Key": "F#m",
         "Energy": 0.547,
@@ -5922,20 +4900,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 205070,
-        "Key": "A#m",
-        "Energy": 0.833,
-        "Danceability": 0.761,
-        "Loudness": -2.936,
-        "Speechiness": 0.0512,
-        "Acousticness": 0.117,
-        "Instrumentalness": 5.72e-06,
-        "Liveness": 0.0981,
-        "Valence": 0.949,
-        "Tempo": 142.022,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 208722,
         "Key": "Fm",
         "Energy": 0.801,
@@ -5947,20 +4911,6 @@
         "Liveness": 0.199,
         "Valence": 0.325,
         "Tempo": 140.916,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 208740,
-        "Key": "G#",
-        "Energy": 0.539,
-        "Danceability": 0.513,
-        "Loudness": -7.975,
-        "Speechiness": 0.0405,
-        "Acousticness": 0.263,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.113,
-        "Valence": 0.356,
-        "Tempo": 170.39,
         "TimeSignature": 4
     },
     {
@@ -6258,6 +5208,20 @@
         "TimeSignature": 4
     },
     {
+        "SongID": 501314,
+        "Key": "C",
+        "Energy": 0.672,
+        "Danceability": 0.756,
+        "Loudness": -6.743,
+        "Speechiness": 0.0522,
+        "Acousticness": 0.464,
+        "Instrumentalness": 3.37e-06,
+        "Liveness": 0.108,
+        "Valence": 0.739,
+        "Tempo": 114.935,
+        "TimeSignature": 4
+    },
+    {
         "SongID": 501316,
         "Key": "G#m",
         "Energy": 0.782,
@@ -6328,20 +5292,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 501330,
-        "Key": "F#",
-        "Energy": 0.65,
-        "Danceability": 0.61,
-        "Loudness": -6.199,
-        "Speechiness": 0.0474,
-        "Acousticness": 0.399,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.11,
-        "Valence": 0.507,
-        "Tempo": 106.719,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 501348,
         "Key": "C",
         "Energy": 0.957,
@@ -6356,6 +5306,20 @@
         "TimeSignature": 4
     },
     {
+        "SongID": 501354,
+        "Key": "Am",
+        "Energy": 0.779,
+        "Danceability": 0.793,
+        "Loudness": -4.609,
+        "Speechiness": 0.0581,
+        "Acousticness": 0.279,
+        "Instrumentalness": 0.000311,
+        "Liveness": 0.314,
+        "Valence": 0.687,
+        "Tempo": 142.002,
+        "TimeSignature": 4
+    },
+    {
         "SongID": 501359,
         "Key": "A#m",
         "Energy": 0.634,
@@ -6367,20 +5331,6 @@
         "Liveness": 0.0908,
         "Valence": 0.352,
         "Tempo": 160.017,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 501365,
-        "Key": "C#m",
-        "Energy": 0.581,
-        "Danceability": 0.775,
-        "Loudness": -3.621,
-        "Speechiness": 0.108,
-        "Acousticness": 0.617,
-        "Instrumentalness": 8.33e-06,
-        "Liveness": 0.0957,
-        "Valence": 0.658,
-        "Tempo": 104.977,
         "TimeSignature": 4
     },
     {
@@ -6437,20 +5387,6 @@
         "Liveness": 0.0957,
         "Valence": 0.654,
         "Tempo": 99.996,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 501391,
-        "Key": "Bm",
-        "Energy": 0.787,
-        "Danceability": 0.704,
-        "Loudness": -6.751,
-        "Speechiness": 0.0462,
-        "Acousticness": 0.00926,
-        "Instrumentalness": 0.00538,
-        "Liveness": 0.159,
-        "Valence": 0.31,
-        "Tempo": 119.996,
         "TimeSignature": 4
     },
     {
@@ -6860,20 +5796,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 501594,
-        "Key": "C#m",
-        "Energy": 0.771,
-        "Danceability": 0.69,
-        "Loudness": -3.382,
-        "Speechiness": 0.445,
-        "Acousticness": 0.268,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0965,
-        "Valence": 0.454,
-        "Tempo": 116.539,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 501606,
         "Key": "F",
         "Energy": 0.761,
@@ -6899,20 +5821,6 @@
         "Liveness": 0.0733,
         "Valence": 0.795,
         "Tempo": 127.936,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 501617,
-        "Key": "A#",
-        "Energy": 0.709,
-        "Danceability": 0.872,
-        "Loudness": -7.472,
-        "Speechiness": 0.176,
-        "Acousticness": 0.336,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0998,
-        "Valence": 0.309,
-        "Tempo": 130.081,
         "TimeSignature": 4
     },
     {
@@ -7014,6 +5922,20 @@
         "TimeSignature": 4
     },
     {
+        "SongID": 501718,
+        "Key": "B",
+        "Energy": 0.95,
+        "Danceability": 0.673,
+        "Loudness": -5.149,
+        "Speechiness": 0.0488,
+        "Acousticness": 0.0229,
+        "Instrumentalness": 0.0823,
+        "Liveness": 0.398,
+        "Valence": 0.563,
+        "Tempo": 150.019,
+        "TimeSignature": 4
+    },
+    {
         "SongID": 501720,
         "Key": "Em",
         "Energy": 0.674,
@@ -7040,20 +5962,6 @@
         "Valence": 0.802,
         "Tempo": 187.345,
         "TimeSignature": 3
-    },
-    {
-        "SongID": 501758,
-        "Key": "C#m",
-        "Energy": 0.701,
-        "Danceability": 0.672,
-        "Loudness": -5.523,
-        "Speechiness": 0.305,
-        "Acousticness": 0.104,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.113,
-        "Valence": 0.399,
-        "Tempo": 91.312,
-        "TimeSignature": 4
     },
     {
         "SongID": 501764,
@@ -7096,34 +6004,6 @@
         "Valence": 0.861,
         "Tempo": 191.072,
         "TimeSignature": 3
-    },
-    {
-        "SongID": 501787,
-        "Key": "A",
-        "Energy": 0.811,
-        "Danceability": 0.841,
-        "Loudness": -2.965,
-        "Speechiness": 0.058,
-        "Acousticness": 0.206,
-        "Instrumentalness": 0.295,
-        "Liveness": 0.581,
-        "Valence": 0.919,
-        "Tempo": 110.005,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 501794,
-        "Key": "Bm",
-        "Energy": 0.727,
-        "Danceability": 0.814,
-        "Loudness": -6.423,
-        "Speechiness": 0.0579,
-        "Acousticness": 0.056,
-        "Instrumentalness": 0.00571,
-        "Liveness": 0.116,
-        "Valence": 0.588,
-        "Tempo": 124.022,
-        "TimeSignature": 4
     },
     {
         "SongID": 501803,
@@ -7179,20 +6059,6 @@
         "Liveness": 0.131,
         "Valence": 0.69,
         "Tempo": 171.691,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 501840,
-        "Key": "G",
-        "Energy": 0.893,
-        "Danceability": 0.703,
-        "Loudness": -4.378,
-        "Speechiness": 0.0352,
-        "Acousticness": 0.0547,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0703,
-        "Valence": 0.852,
-        "Tempo": 139.982,
         "TimeSignature": 4
     },
     {
@@ -7308,20 +6174,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 501951,
-        "Key": "A",
-        "Energy": 0.825,
-        "Danceability": 0.607,
-        "Loudness": -5.836,
-        "Speechiness": 0.0748,
-        "Acousticness": 0.255,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.179,
-        "Valence": 0.763,
-        "Tempo": 150.054,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 501979,
         "Key": "Fm",
         "Energy": 0.904,
@@ -7375,20 +6227,6 @@
         "Liveness": 0.196,
         "Valence": 0.53,
         "Tempo": 94.077,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502002,
-        "Key": "D",
-        "Energy": 0.698,
-        "Danceability": 0.891,
-        "Loudness": -6.507,
-        "Speechiness": 0.12,
-        "Acousticness": 0.21,
-        "Instrumentalness": 6.68e-05,
-        "Liveness": 0.0749,
-        "Valence": 0.271,
-        "Tempo": 100.026,
         "TimeSignature": 4
     },
     {
@@ -7658,20 +6496,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 502097,
-        "Key": "Am",
-        "Energy": 0.63,
-        "Danceability": 0.706,
-        "Loudness": -8.13,
-        "Speechiness": 0.0291,
-        "Acousticness": 0.0583,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0777,
-        "Valence": 0.763,
-        "Tempo": 123.99,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 502100,
         "Key": "C#m",
         "Energy": 0.476,
@@ -7770,48 +6594,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 502140,
-        "Key": "E",
-        "Energy": 0.623,
-        "Danceability": 0.677,
-        "Loudness": -7.404,
-        "Speechiness": 0.0797,
-        "Acousticness": 0.136,
-        "Instrumentalness": 5.24e-06,
-        "Liveness": 0.161,
-        "Valence": 0.616,
-        "Tempo": 145.56,
-        "TimeSignature": 3
-    },
-    {
-        "SongID": 502154,
-        "Key": "C",
-        "Energy": 0.449,
-        "Danceability": 0.822,
-        "Loudness": -6.804,
-        "Speechiness": 0.0336,
-        "Acousticness": 0.28,
-        "Instrumentalness": 1.26e-06,
-        "Liveness": 0.0981,
-        "Valence": 0.382,
-        "Tempo": 90.023,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502178,
-        "Key": "Fm",
-        "Energy": 0.941,
-        "Danceability": 0.7,
-        "Loudness": -3.629,
-        "Speechiness": 0.337,
-        "Acousticness": 0.327,
-        "Instrumentalness": 0.000961,
-        "Liveness": 0.19,
-        "Valence": 0.704,
-        "Tempo": 155.093,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 502182,
         "Key": "Bm",
         "Energy": 0.771,
@@ -7840,20 +6622,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 502214,
-        "Key": "F",
-        "Energy": 0.677,
-        "Danceability": 0.84,
-        "Loudness": -6.065,
-        "Speechiness": 0.104,
-        "Acousticness": 0.171,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0951,
-        "Valence": 0.603,
-        "Tempo": 114.013,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 502215,
         "Key": "Fm",
         "Energy": 0.674,
@@ -7879,20 +6647,6 @@
         "Liveness": 0.174,
         "Valence": 0.662,
         "Tempo": 129.905,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502221,
-        "Key": "C#",
-        "Energy": 0.891,
-        "Danceability": 0.637,
-        "Loudness": -3.479,
-        "Speechiness": 0.0777,
-        "Acousticness": 0.0942,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.589,
-        "Valence": 0.482,
-        "Tempo": 95.044,
         "TimeSignature": 4
     },
     {
@@ -7980,20 +6734,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 502235,
-        "Key": "G#",
-        "Energy": 0.899,
-        "Danceability": 0.863,
-        "Loudness": -1.884,
-        "Speechiness": 0.0787,
-        "Acousticness": 0.106,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.415,
-        "Valence": 0.965,
-        "Tempo": 140.063,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 502236,
         "Key": "A#m",
         "Energy": 0.878,
@@ -8019,20 +6759,6 @@
         "Liveness": 0.182,
         "Valence": 0.797,
         "Tempo": 139.843,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502242,
-        "Key": "G",
-        "Energy": 0.773,
-        "Danceability": 0.59,
-        "Loudness": -3.97,
-        "Speechiness": 0.0392,
-        "Acousticness": 0.0314,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.241,
-        "Valence": 0.148,
-        "Tempo": 135.986,
         "TimeSignature": 4
     },
     {
@@ -8075,20 +6801,6 @@
         "Liveness": 0.182,
         "Valence": 0.383,
         "Tempo": 94.215,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502258,
-        "Key": "Em",
-        "Energy": 0.667,
-        "Danceability": 0.486,
-        "Loudness": -5.252,
-        "Speechiness": 0.366,
-        "Acousticness": 0.108,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.109,
-        "Valence": 0.166,
-        "Tempo": 91.075,
         "TimeSignature": 4
     },
     {
@@ -8204,20 +6916,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 502379,
-        "Key": "A",
-        "Energy": 0.668,
-        "Danceability": 0.702,
-        "Loudness": -6.381,
-        "Speechiness": 0.307,
-        "Acousticness": 0.572,
-        "Instrumentalness": 0.00322,
-        "Liveness": 0.104,
-        "Valence": 0.394,
-        "Tempo": 167.989,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 502380,
         "Key": "C#",
         "Energy": 0.534,
@@ -8243,20 +6941,6 @@
         "Liveness": 0.213,
         "Valence": 0.817,
         "Tempo": 120.008,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502385,
-        "Key": "C#m",
-        "Energy": 0.524,
-        "Danceability": 0.738,
-        "Loudness": -5.991,
-        "Speechiness": 0.0435,
-        "Acousticness": 0.269,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0946,
-        "Valence": 0.13,
-        "Tempo": 106.991,
         "TimeSignature": 4
     },
     {
@@ -8383,20 +7067,6 @@
         "Liveness": 0.357,
         "Valence": 0.112,
         "Tempo": 100.119,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502485,
-        "Key": "G#",
-        "Energy": 0.755,
-        "Danceability": 0.688,
-        "Loudness": -5.914,
-        "Speechiness": 0.198,
-        "Acousticness": 0.293,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.484,
-        "Valence": 0.377,
-        "Tempo": 105.998,
         "TimeSignature": 4
     },
     {
@@ -8568,20 +7238,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 502606,
-        "Key": "C#m",
-        "Energy": 0.911,
-        "Danceability": 0.625,
-        "Loudness": -4.407,
-        "Speechiness": 0.0716,
-        "Acousticness": 0.139,
-        "Instrumentalness": 1.48e-06,
-        "Liveness": 0.111,
-        "Valence": 0.952,
-        "Tempo": 83.044,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 502610,
         "Key": "C",
         "Energy": 0.866,
@@ -8750,20 +7406,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 502700,
-        "Key": "G",
-        "Energy": 0.428,
-        "Danceability": 0.55,
-        "Loudness": -7.95,
-        "Speechiness": 0.028,
-        "Acousticness": 0.15,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.101,
-        "Valence": 0.148,
-        "Tempo": 117.567,
-        "TimeSignature": 3
-    },
-    {
         "SongID": 502715,
         "Key": "D#",
         "Energy": 0.718,
@@ -8834,20 +7476,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 502742,
-        "Key": "Fm",
-        "Energy": 0.629,
-        "Danceability": 0.705,
-        "Loudness": -8.558,
-        "Speechiness": 0.029,
-        "Acousticness": 0.119,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.114,
-        "Valence": 0.474,
-        "Tempo": 119.995,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 502808,
         "Key": "D",
         "Energy": 0.806,
@@ -8859,20 +7487,6 @@
         "Liveness": 0.292,
         "Valence": 0.922,
         "Tempo": 125.034,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502822,
-        "Key": "C#",
-        "Energy": 0.526,
-        "Danceability": 0.677,
-        "Loudness": -8.443,
-        "Speechiness": 0.0435,
-        "Acousticness": 0.787,
-        "Instrumentalness": 1.92e-05,
-        "Liveness": 0.0758,
-        "Valence": 0.217,
-        "Tempo": 121.969,
         "TimeSignature": 4
     },
     {
@@ -8932,20 +7546,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 502867,
-        "Key": "A#m",
-        "Energy": 0.662,
-        "Danceability": 0.79,
-        "Loudness": -11.636,
-        "Speechiness": 0.0495,
-        "Acousticness": 0.0727,
-        "Instrumentalness": 0.109,
-        "Liveness": 0.0261,
-        "Valence": 0.678,
-        "Tempo": 113.006,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 502868,
         "Key": "D#m",
         "Energy": 0.535,
@@ -8985,20 +7585,6 @@
         "Liveness": 0.042,
         "Valence": 0.597,
         "Tempo": 112.009,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502872,
-        "Key": "G",
-        "Energy": 0.722,
-        "Danceability": 0.571,
-        "Loudness": -9.79,
-        "Speechiness": 0.0468,
-        "Acousticness": 0.132,
-        "Instrumentalness": 0.143,
-        "Liveness": 0.627,
-        "Valence": 0.726,
-        "Tempo": 77.0,
         "TimeSignature": 4
     },
     {
@@ -9056,48 +7642,6 @@
         "Valence": 0.463,
         "Tempo": 95.009,
         "TimeSignature": 4
-    },
-    {
-        "SongID": 502888,
-        "Key": "A#m",
-        "Energy": 0.571,
-        "Danceability": 0.778,
-        "Loudness": -14.885,
-        "Speechiness": 0.0449,
-        "Acousticness": 0.0372,
-        "Instrumentalness": 0.135,
-        "Liveness": 0.0331,
-        "Valence": 0.46,
-        "Tempo": 111.996,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502895,
-        "Key": "Dm",
-        "Energy": 0.52,
-        "Danceability": 0.711,
-        "Loudness": -11.103,
-        "Speechiness": 0.0331,
-        "Acousticness": 0.102,
-        "Instrumentalness": 0.00152,
-        "Liveness": 0.13,
-        "Valence": 0.363,
-        "Tempo": 111.993,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 502899,
-        "Key": "F",
-        "Energy": 0.58,
-        "Danceability": 0.713,
-        "Loudness": -8.471,
-        "Speechiness": 0.0418,
-        "Acousticness": 0.552,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0683,
-        "Valence": 0.749,
-        "Tempo": 108.77,
-        "TimeSignature": 3
     },
     {
         "SongID": 503616,
@@ -9282,34 +7826,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 504387,
-        "Key": "Bm",
-        "Energy": 0.813,
-        "Danceability": 0.813,
-        "Loudness": -6.549,
-        "Speechiness": 0.0564,
-        "Acousticness": 0.412,
-        "Instrumentalness": 4.27e-05,
-        "Liveness": 0.214,
-        "Valence": 0.757,
-        "Tempo": 112.142,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 504481,
-        "Key": "Em",
-        "Energy": 0.768,
-        "Danceability": 0.655,
-        "Loudness": -3.918,
-        "Speechiness": 0.0478,
-        "Acousticness": 0.0119,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.422,
-        "Valence": 0.112,
-        "Tempo": 90.023,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 504487,
         "Key": "A",
         "Energy": 0.652,
@@ -9349,20 +7865,6 @@
         "Liveness": 0.0836,
         "Valence": 0.348,
         "Tempo": 104.997,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 504818,
-        "Key": "C",
-        "Energy": 0.644,
-        "Danceability": 0.724,
-        "Loudness": -6.255,
-        "Speechiness": 0.228,
-        "Acousticness": 0.474,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.109,
-        "Valence": 0.321,
-        "Tempo": 92.03,
         "TimeSignature": 4
     },
     {
@@ -9422,48 +7924,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 505057,
-        "Key": "F#",
-        "Energy": 0.635,
-        "Danceability": 0.587,
-        "Loudness": -6.275,
-        "Speechiness": 0.0446,
-        "Acousticness": 0.289,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.113,
-        "Valence": 0.237,
-        "Tempo": 127.871,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 505071,
-        "Key": "C",
-        "Energy": 0.688,
-        "Danceability": 0.559,
-        "Loudness": -5.81,
-        "Speechiness": 0.206,
-        "Acousticness": 0.345,
-        "Instrumentalness": 4.04e-05,
-        "Liveness": 0.115,
-        "Valence": 0.855,
-        "Tempo": 155.14,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 505090,
-        "Key": "Fm",
-        "Energy": 0.414,
-        "Danceability": 0.532,
-        "Loudness": -7.992,
-        "Speechiness": 0.0935,
-        "Acousticness": 0.652,
-        "Instrumentalness": 0.00264,
-        "Liveness": 0.114,
-        "Valence": 0.0987,
-        "Tempo": 159.958,
-        "TimeSignature": 3
-    },
-    {
         "SongID": 505126,
         "Key": "G#",
         "Energy": 0.605,
@@ -9475,6 +7935,20 @@
         "Liveness": 0.0471,
         "Valence": 0.762,
         "Tempo": 113.003,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 530005,
+        "Key": "C",
+        "Energy": 0.825,
+        "Danceability": 0.679,
+        "Loudness": -5.487,
+        "Speechiness": 0.0309,
+        "Acousticness": 0.0212,
+        "Instrumentalness": 1.21e-05,
+        "Liveness": 0.543,
+        "Valence": 0.644,
+        "Tempo": 118.049,
         "TimeSignature": 4
     },
     {
@@ -9504,20 +7978,6 @@
         "Valence": 0.133,
         "Tempo": 113.811,
         "TimeSignature": 4
-    },
-    {
-        "SongID": 530320,
-        "Key": "A",
-        "Energy": 0.614,
-        "Danceability": 0.631,
-        "Loudness": -4.851,
-        "Speechiness": 0.521,
-        "Acousticness": 0.326,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.622,
-        "Valence": 0.612,
-        "Tempo": 83.953,
-        "TimeSignature": 5
     },
     {
         "SongID": 530419,
@@ -9688,34 +8148,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 531540,
-        "Key": "D",
-        "Energy": 0.92,
-        "Danceability": 0.812,
-        "Loudness": -4.552,
-        "Speechiness": 0.0716,
-        "Acousticness": 0.289,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.178,
-        "Valence": 0.817,
-        "Tempo": 124.013,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 531549,
-        "Key": "C#",
-        "Energy": 0.788,
-        "Danceability": 0.856,
-        "Loudness": -5.105,
-        "Speechiness": 0.0517,
-        "Acousticness": 0.0869,
-        "Instrumentalness": 6.69e-06,
-        "Liveness": 0.184,
-        "Valence": 0.709,
-        "Tempo": 119.995,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 531599,
         "Key": "C#",
         "Energy": 0.489,
@@ -9856,20 +8288,6 @@
         "TimeSignature": 3
     },
     {
-        "SongID": 532607,
-        "Key": "G",
-        "Energy": 0.828,
-        "Danceability": 0.568,
-        "Loudness": -5.088,
-        "Speechiness": 0.0482,
-        "Acousticness": 0.535,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.511,
-        "Valence": 0.807,
-        "Tempo": 144.009,
-        "TimeSignature": 3
-    },
-    {
         "SongID": 532714,
         "Key": "C#m",
         "Energy": 0.677,
@@ -9898,20 +8316,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 532760,
-        "Key": "F#m",
-        "Energy": 0.654,
-        "Danceability": 0.637,
-        "Loudness": -4.714,
-        "Speechiness": 0.383,
-        "Acousticness": 0.353,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.12,
-        "Valence": 0.636,
-        "Tempo": 129.642,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 532765,
         "Key": "Dm",
         "Energy": 0.669,
@@ -9937,20 +8341,6 @@
         "Liveness": 0.365,
         "Valence": 0.235,
         "Tempo": 100.214,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 533114,
-        "Key": "A",
-        "Energy": 0.825,
-        "Danceability": 0.78,
-        "Loudness": -6.066,
-        "Speechiness": 0.0833,
-        "Acousticness": 0.0578,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0878,
-        "Valence": 0.777,
-        "Tempo": 98.04,
         "TimeSignature": 4
     },
     {
@@ -10038,20 +8428,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 534065,
-        "Key": "Dm",
-        "Energy": 0.703,
-        "Danceability": 0.788,
-        "Loudness": -8.115,
-        "Speechiness": 0.37,
-        "Acousticness": 0.539,
-        "Instrumentalness": 1.47e-05,
-        "Liveness": 0.0832,
-        "Valence": 0.21,
-        "Tempo": 170.015,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 534071,
         "Key": "B",
         "Energy": 0.698,
@@ -10122,20 +8498,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 534567,
-        "Key": "F#",
-        "Energy": 0.492,
-        "Danceability": 0.565,
-        "Loudness": -10.539,
-        "Speechiness": 0.0662,
-        "Acousticness": 0.278,
-        "Instrumentalness": 0.00174,
-        "Liveness": 0.206,
-        "Valence": 0.0772,
-        "Tempo": 150.016,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 534575,
         "Key": "B",
         "Energy": 0.542,
@@ -10176,34 +8538,6 @@
         "Valence": 0.406,
         "Tempo": 159.94,
         "TimeSignature": 4
-    },
-    {
-        "SongID": 534789,
-        "Key": "F#m",
-        "Energy": 0.334,
-        "Danceability": 0.698,
-        "Loudness": -6.297,
-        "Speechiness": 0.0291,
-        "Acousticness": 0.721,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0836,
-        "Valence": 0.694,
-        "Tempo": 94.123,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 534812,
-        "Key": "E",
-        "Energy": 0.623,
-        "Danceability": 0.677,
-        "Loudness": -7.404,
-        "Speechiness": 0.0797,
-        "Acousticness": 0.136,
-        "Instrumentalness": 5.24e-06,
-        "Liveness": 0.161,
-        "Valence": 0.616,
-        "Tempo": 145.56,
-        "TimeSignature": 3
     },
     {
         "SongID": 535062,
@@ -10304,20 +8638,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 535155,
-        "Key": "Cm",
-        "Energy": 0.538,
-        "Danceability": 0.515,
-        "Loudness": -5.351,
-        "Speechiness": 0.0321,
-        "Acousticness": 0.796,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.103,
-        "Valence": 0.489,
-        "Tempo": 143.611,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 535162,
         "Key": "C",
         "Energy": 0.399,
@@ -10332,20 +8652,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 535168,
-        "Key": "Cm",
-        "Energy": 0.703,
-        "Danceability": 0.479,
-        "Loudness": -5.215,
-        "Speechiness": 0.0511,
-        "Acousticness": 0.741,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.161,
-        "Valence": 0.292,
-        "Tempo": 87.8,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 535185,
         "Key": "F",
         "Energy": 0.52,
@@ -10357,6 +8663,62 @@
         "Liveness": 0.111,
         "Valence": 0.283,
         "Tempo": 143.093,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 535220,
+        "Key": "Em",
+        "Energy": 0.759,
+        "Danceability": 0.656,
+        "Loudness": -3.883,
+        "Speechiness": 0.0481,
+        "Acousticness": 0.011,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.476,
+        "Valence": 0.125,
+        "Tempo": 90.008,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 535223,
+        "Key": "F",
+        "Energy": 0.677,
+        "Danceability": 0.84,
+        "Loudness": -6.065,
+        "Speechiness": 0.104,
+        "Acousticness": 0.171,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.0951,
+        "Valence": 0.603,
+        "Tempo": 114.013,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 535243,
+        "Key": "C#",
+        "Energy": 0.891,
+        "Danceability": 0.637,
+        "Loudness": -3.479,
+        "Speechiness": 0.0777,
+        "Acousticness": 0.0942,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.589,
+        "Valence": 0.482,
+        "Tempo": 95.044,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 535246,
+        "Key": "G#",
+        "Energy": 0.899,
+        "Danceability": 0.863,
+        "Loudness": -1.884,
+        "Speechiness": 0.0787,
+        "Acousticness": 0.106,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.415,
+        "Valence": 0.965,
+        "Tempo": 140.063,
         "TimeSignature": 4
     },
     {
@@ -10386,20 +8748,6 @@
         "Valence": 0.307,
         "Tempo": 88.458,
         "TimeSignature": 3
-    },
-    {
-        "SongID": 535288,
-        "Key": "C#",
-        "Energy": 0.697,
-        "Danceability": 0.693,
-        "Loudness": -6.522,
-        "Speechiness": 0.0446,
-        "Acousticness": 0.176,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.184,
-        "Valence": 0.361,
-        "Tempo": 119.846,
-        "TimeSignature": 4
     },
     {
         "SongID": 535298,
@@ -10542,20 +8890,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 535614,
-        "Key": "Em",
-        "Energy": 0.572,
-        "Danceability": 0.758,
-        "Loudness": -7.471,
-        "Speechiness": 0.087,
-        "Acousticness": 0.19,
-        "Instrumentalness": 1.82e-05,
-        "Liveness": 0.146,
-        "Valence": 0.488,
-        "Tempo": 115.021,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 535619,
         "Key": "Gm",
         "Energy": 0.702,
@@ -10640,20 +8974,6 @@
         "TimeSignature": 3
     },
     {
-        "SongID": 536078,
-        "Key": "Em",
-        "Energy": 0.465,
-        "Danceability": 0.562,
-        "Loudness": -10.223,
-        "Speechiness": 0.551,
-        "Acousticness": 0.877,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0843,
-        "Valence": 0.489,
-        "Tempo": 142.127,
-        "TimeSignature": 3
-    },
-    {
         "SongID": 536079,
         "Key": "D#m",
         "Energy": 0.811,
@@ -10682,34 +9002,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 536209,
-        "Key": "Cm",
-        "Energy": 0.939,
-        "Danceability": 0.754,
-        "Loudness": -1.513,
-        "Speechiness": 0.0551,
-        "Acousticness": 0.798,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0985,
-        "Valence": 0.815,
-        "Tempo": 94.013,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 536249,
-        "Key": "D",
-        "Energy": 0.441,
-        "Danceability": 0.836,
-        "Loudness": -10.298,
-        "Speechiness": 0.197,
-        "Acousticness": 0.511,
-        "Instrumentalness": 0.177,
-        "Liveness": 0.0776,
-        "Valence": 0.557,
-        "Tempo": 130.105,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 536265,
         "Key": "A#m",
         "Energy": 0.765,
@@ -10722,20 +9014,6 @@
         "Valence": 0.362,
         "Tempo": 153.415,
         "TimeSignature": 5
-    },
-    {
-        "SongID": 536323,
-        "Key": "F#m",
-        "Energy": 0.719,
-        "Danceability": 0.897,
-        "Loudness": -7.164,
-        "Speechiness": 0.157,
-        "Acousticness": 0.116,
-        "Instrumentalness": 0.000531,
-        "Liveness": 0.0677,
-        "Valence": 0.546,
-        "Tempo": 113.012,
-        "TimeSignature": 4
     },
     {
         "SongID": 536324,
@@ -10764,34 +9042,6 @@
         "Valence": 0.838,
         "Tempo": 147.989,
         "TimeSignature": 4
-    },
-    {
-        "SongID": 536343,
-        "Key": "Bm",
-        "Energy": 0.501,
-        "Danceability": 0.527,
-        "Loudness": -7.81,
-        "Speechiness": 0.239,
-        "Acousticness": 0.712,
-        "Instrumentalness": 4.15e-05,
-        "Liveness": 0.123,
-        "Valence": 0.479,
-        "Tempo": 96.529,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 536383,
-        "Key": "B",
-        "Energy": 0.637,
-        "Danceability": 0.454,
-        "Loudness": -8.869,
-        "Speechiness": 0.242,
-        "Acousticness": 0.804,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.589,
-        "Valence": 0.719,
-        "Tempo": 98.659,
-        "TimeSignature": 3
     },
     {
         "SongID": 536429,
@@ -10864,20 +9114,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 537018,
-        "Key": "C#m",
-        "Energy": 0.729,
-        "Danceability": 0.549,
-        "Loudness": -5.402,
-        "Speechiness": 0.0483,
-        "Acousticness": 0.0791,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0967,
-        "Valence": 0.696,
-        "Tempo": 137.023,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 537027,
         "Key": "C#m",
         "Energy": 0.563,
@@ -10917,20 +9153,6 @@
         "Liveness": 0.225,
         "Valence": 0.769,
         "Tempo": 127.015,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 537159,
-        "Key": "C#m",
-        "Energy": 0.709,
-        "Danceability": 0.831,
-        "Loudness": -5.204,
-        "Speechiness": 0.265,
-        "Acousticness": 0.398,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.124,
-        "Valence": 0.134,
-        "Tempo": 100.97,
         "TimeSignature": 4
     },
     {
@@ -10990,34 +9212,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 537552,
-        "Key": "C#m",
-        "Energy": 0.754,
-        "Danceability": 0.773,
-        "Loudness": -7.588,
-        "Speechiness": 0.0369,
-        "Acousticness": 0.00723,
-        "Instrumentalness": 0.0405,
-        "Liveness": 0.0191,
-        "Valence": 0.528,
-        "Tempo": 112.997,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 537560,
-        "Key": "B",
-        "Energy": 0.627,
-        "Danceability": 0.805,
-        "Loudness": -9.023,
-        "Speechiness": 0.0651,
-        "Acousticness": 0.0172,
-        "Instrumentalness": 0.00418,
-        "Liveness": 0.11,
-        "Valence": 0.731,
-        "Tempo": 112.006,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 537565,
         "Key": "C",
         "Energy": 0.474,
@@ -11029,34 +9223,6 @@
         "Liveness": 0.0678,
         "Valence": 0.576,
         "Tempo": 114.001,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 537578,
-        "Key": "C#",
-        "Energy": 0.49,
-        "Danceability": 0.885,
-        "Loudness": -11.951,
-        "Speechiness": 0.0801,
-        "Acousticness": 0.0261,
-        "Instrumentalness": 0.00157,
-        "Liveness": 0.0366,
-        "Valence": 0.184,
-        "Tempo": 112.987,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 537584,
-        "Key": "C#",
-        "Energy": 0.623,
-        "Danceability": 0.904,
-        "Loudness": -7.064,
-        "Speechiness": 0.039,
-        "Acousticness": 0.0369,
-        "Instrumentalness": 4.28e-06,
-        "Liveness": 0.0453,
-        "Valence": 0.751,
-        "Tempo": 113.007,
         "TimeSignature": 4
     },
     {
@@ -11088,62 +9254,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 537596,
-        "Key": "F",
-        "Energy": 0.68,
-        "Danceability": 0.818,
-        "Loudness": -9.504,
-        "Speechiness": 0.192,
-        "Acousticness": 0.276,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0637,
-        "Valence": 0.571,
-        "Tempo": 97.983,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 537599,
-        "Key": "Em",
-        "Energy": 0.473,
-        "Danceability": 0.922,
-        "Loudness": -7.578,
-        "Speechiness": 0.0508,
-        "Acousticness": 0.00379,
-        "Instrumentalness": 0.00851,
-        "Liveness": 0.0638,
-        "Valence": 0.727,
-        "Tempo": 113.034,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 537605,
-        "Key": "A#",
-        "Energy": 0.521,
-        "Danceability": 0.819,
-        "Loudness": -7.65,
-        "Speechiness": 0.0575,
-        "Acousticness": 0.0956,
-        "Instrumentalness": 0.00218,
-        "Liveness": 0.054,
-        "Valence": 0.838,
-        "Tempo": 112.012,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 537620,
-        "Key": "C#",
-        "Energy": 0.673,
-        "Danceability": 0.866,
-        "Loudness": -12.015,
-        "Speechiness": 0.0576,
-        "Acousticness": 0.116,
-        "Instrumentalness": 2.47e-05,
-        "Liveness": 0.0878,
-        "Valence": 0.547,
-        "Tempo": 113.008,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 537623,
         "Key": "G#",
         "Energy": 0.712,
@@ -11155,20 +9265,6 @@
         "Liveness": 0.0208,
         "Valence": 0.74,
         "Tempo": 112.074,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 537636,
-        "Key": "F",
-        "Energy": 0.629,
-        "Danceability": 0.784,
-        "Loudness": -8.35,
-        "Speechiness": 0.0493,
-        "Acousticness": 0.0061,
-        "Instrumentalness": 0.264,
-        "Liveness": 0.0918,
-        "Valence": 0.515,
-        "Tempo": 117.003,
         "TimeSignature": 4
     },
     {
@@ -11256,31 +9352,59 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 538662,
-        "Key": "A#m",
-        "Energy": 0.433,
-        "Danceability": 0.687,
-        "Loudness": -14.01,
-        "Speechiness": 0.116,
-        "Acousticness": 0.325,
+        "SongID": 538486,
+        "Key": "D",
+        "Energy": 0.92,
+        "Danceability": 0.812,
+        "Loudness": -4.552,
+        "Speechiness": 0.0716,
+        "Acousticness": 0.289,
         "Instrumentalness": 0.0,
-        "Liveness": 0.107,
-        "Valence": 0.391,
-        "Tempo": 89.948,
+        "Liveness": 0.178,
+        "Valence": 0.817,
+        "Tempo": 124.013,
         "TimeSignature": 4
     },
     {
-        "SongID": 538665,
-        "Key": "G#m",
-        "Energy": 0.814,
-        "Danceability": 0.767,
-        "Loudness": -5.779,
-        "Speechiness": 0.0555,
-        "Acousticness": 0.00891,
-        "Instrumentalness": 0.000751,
-        "Liveness": 0.0668,
-        "Valence": 0.546,
-        "Tempo": 112.998,
+        "SongID": 538491,
+        "Key": "D",
+        "Energy": 0.92,
+        "Danceability": 0.812,
+        "Loudness": -4.552,
+        "Speechiness": 0.0716,
+        "Acousticness": 0.289,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.178,
+        "Valence": 0.817,
+        "Tempo": 124.013,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 538502,
+        "Key": "D",
+        "Energy": 0.92,
+        "Danceability": 0.812,
+        "Loudness": -4.552,
+        "Speechiness": 0.0716,
+        "Acousticness": 0.289,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.178,
+        "Valence": 0.817,
+        "Tempo": 124.013,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 538506,
+        "Key": "D",
+        "Energy": 0.92,
+        "Danceability": 0.812,
+        "Loudness": -4.552,
+        "Speechiness": 0.0716,
+        "Acousticness": 0.289,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.178,
+        "Valence": 0.817,
+        "Tempo": 124.013,
         "TimeSignature": 4
     },
     {
@@ -11340,48 +9464,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 538707,
-        "Key": "D",
-        "Energy": 0.799,
-        "Danceability": 0.455,
-        "Loudness": -8.831,
-        "Speechiness": 0.0359,
-        "Acousticness": 0.384,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.575,
-        "Valence": 0.868,
-        "Tempo": 99.729,
-        "TimeSignature": 3
-    },
-    {
-        "SongID": 538708,
-        "Key": "Am",
-        "Energy": 0.785,
-        "Danceability": 0.789,
-        "Loudness": -5.374,
-        "Speechiness": 0.206,
-        "Acousticness": 0.218,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0787,
-        "Valence": 0.821,
-        "Tempo": 96.019,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 538712,
-        "Key": "B",
-        "Energy": 0.509,
-        "Danceability": 0.784,
-        "Loudness": -11.203,
-        "Speechiness": 0.147,
-        "Acousticness": 0.00855,
-        "Instrumentalness": 0.0149,
-        "Liveness": 0.0557,
-        "Valence": 0.526,
-        "Tempo": 123.107,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 538715,
         "Key": "Fm",
         "Energy": 0.855,
@@ -11393,20 +9475,6 @@
         "Liveness": 0.343,
         "Valence": 0.895,
         "Tempo": 100.015,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 538721,
-        "Key": "Fm",
-        "Energy": 0.675,
-        "Danceability": 0.656,
-        "Loudness": -5.526,
-        "Speechiness": 0.0402,
-        "Acousticness": 0.337,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.187,
-        "Valence": 0.408,
-        "Tempo": 118.067,
         "TimeSignature": 4
     },
     {
@@ -11477,20 +9545,6 @@
         "Liveness": 0.12,
         "Valence": 0.366,
         "Tempo": 99.889,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 538755,
-        "Key": "F#m",
-        "Energy": 0.92,
-        "Danceability": 0.818,
-        "Loudness": 2.194,
-        "Speechiness": 0.0716,
-        "Acousticness": 0.111,
-        "Instrumentalness": 0.00122,
-        "Liveness": 0.0879,
-        "Valence": 0.793,
-        "Tempo": 110.449,
         "TimeSignature": 4
     },
     {
@@ -11589,20 +9643,6 @@
         "Liveness": 0.0358,
         "Valence": 0.844,
         "Tempo": 172.102,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 538784,
-        "Key": "F#m",
-        "Energy": 0.927,
-        "Danceability": 0.625,
-        "Loudness": -5.446,
-        "Speechiness": 0.0313,
-        "Acousticness": 0.0212,
-        "Instrumentalness": 0.011,
-        "Liveness": 0.304,
-        "Valence": 0.863,
-        "Tempo": 146.727,
         "TimeSignature": 4
     },
     {
@@ -11732,20 +9772,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 538859,
-        "Key": "G",
-        "Energy": 0.791,
-        "Danceability": 0.845,
-        "Loudness": -4.188,
-        "Speechiness": 0.312,
-        "Acousticness": 0.0497,
-        "Instrumentalness": 1.21e-05,
-        "Liveness": 0.558,
-        "Valence": 0.861,
-        "Tempo": 130.023,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 538860,
         "Key": "B",
         "Energy": 0.669,
@@ -11771,20 +9797,6 @@
         "Liveness": 0.128,
         "Valence": 0.453,
         "Tempo": 189.961,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 538874,
-        "Key": "Gm",
-        "Energy": 0.765,
-        "Danceability": 0.715,
-        "Loudness": -7.837,
-        "Speechiness": 0.0363,
-        "Acousticness": 0.124,
-        "Instrumentalness": 0.0824,
-        "Liveness": 0.0391,
-        "Valence": 0.733,
-        "Tempo": 118.026,
         "TimeSignature": 4
     },
     {
@@ -11816,20 +9828,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 538889,
-        "Key": "C#",
-        "Energy": 0.928,
-        "Danceability": 0.701,
-        "Loudness": -3.029,
-        "Speechiness": 0.286,
-        "Acousticness": 0.018,
-        "Instrumentalness": 0.00293,
-        "Liveness": 0.074,
-        "Valence": 0.451,
-        "Tempo": 150.889,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 538902,
         "Key": "C#",
         "Energy": 0.89,
@@ -11855,34 +9853,6 @@
         "Liveness": 0.189,
         "Valence": 0.828,
         "Tempo": 74.017,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 538908,
-        "Key": "B",
-        "Energy": 0.488,
-        "Danceability": 0.694,
-        "Loudness": -8.343,
-        "Speechiness": 0.45,
-        "Acousticness": 0.323,
-        "Instrumentalness": 7.94e-06,
-        "Liveness": 0.107,
-        "Valence": 0.673,
-        "Tempo": 126.032,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 538923,
-        "Key": "Fm",
-        "Energy": 0.786,
-        "Danceability": 0.733,
-        "Loudness": -3.951,
-        "Speechiness": 0.112,
-        "Acousticness": 0.128,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.31,
-        "Valence": 0.672,
-        "Tempo": 109.954,
         "TimeSignature": 4
     },
     {
@@ -11914,20 +9884,6 @@
         "TimeSignature": 3
     },
     {
-        "SongID": 538936,
-        "Key": "Bm",
-        "Energy": 0.826,
-        "Danceability": 0.588,
-        "Loudness": -3.733,
-        "Speechiness": 0.0485,
-        "Acousticness": 0.0768,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.327,
-        "Valence": 0.648,
-        "Tempo": 145.825,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 538937,
         "Key": "Bm",
         "Energy": 0.545,
@@ -11939,20 +9895,6 @@
         "Liveness": 0.101,
         "Valence": 0.374,
         "Tempo": 121.048,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 538939,
-        "Key": "G",
-        "Energy": 0.697,
-        "Danceability": 0.788,
-        "Loudness": -7.719,
-        "Speechiness": 0.185,
-        "Acousticness": 0.178,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.075,
-        "Valence": 0.709,
-        "Tempo": 93.07,
         "TimeSignature": 4
     },
     {
@@ -12068,20 +10010,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 539045,
-        "Key": "F",
-        "Energy": 0.584,
-        "Danceability": 0.468,
-        "Loudness": -7.343,
-        "Speechiness": 0.108,
-        "Acousticness": 0.25,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.271,
-        "Valence": 0.296,
-        "Tempo": 90.327,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 539050,
         "Key": "Fm",
         "Energy": 0.682,
@@ -12152,20 +10080,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 539110,
-        "Key": "A",
-        "Energy": 0.765,
-        "Danceability": 0.722,
-        "Loudness": -8.212,
-        "Speechiness": 0.145,
-        "Acousticness": 0.184,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.176,
-        "Valence": 0.41,
-        "Tempo": 128.015,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 539122,
         "Key": "F#m",
         "Energy": 0.566,
@@ -12208,34 +10122,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 539135,
-        "Key": "D#",
-        "Energy": 0.883,
-        "Danceability": 0.614,
-        "Loudness": -4.846,
-        "Speechiness": 0.0284,
-        "Acousticness": 0.0446,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.257,
-        "Valence": 0.781,
-        "Tempo": 92.003,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 539146,
-        "Key": "F",
-        "Energy": 0.709,
-        "Danceability": 0.464,
-        "Loudness": -5.431,
-        "Speechiness": 0.0545,
-        "Acousticness": 0.511,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.111,
-        "Valence": 0.275,
-        "Tempo": 180.047,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 539148,
         "Key": "C#",
         "Energy": 0.494,
@@ -12247,34 +10133,6 @@
         "Liveness": 0.0885,
         "Valence": 0.33,
         "Tempo": 160.946,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 539156,
-        "Key": "G#",
-        "Energy": 0.468,
-        "Danceability": 0.573,
-        "Loudness": -10.444,
-        "Speechiness": 0.138,
-        "Acousticness": 0.0005,
-        "Instrumentalness": 0.000278,
-        "Liveness": 0.0462,
-        "Valence": 0.621,
-        "Tempo": 149.07,
-        "TimeSignature": 5
-    },
-    {
-        "SongID": 539161,
-        "Key": "A#m",
-        "Energy": 0.642,
-        "Danceability": 0.849,
-        "Loudness": -9.304,
-        "Speechiness": 0.054,
-        "Acousticness": 0.0647,
-        "Instrumentalness": 0.0174,
-        "Liveness": 0.137,
-        "Valence": 0.663,
-        "Tempo": 112.012,
         "TimeSignature": 4
     },
     {
@@ -12334,17 +10192,17 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 539584,
+        "SongID": 539596,
         "Key": "G",
-        "Energy": 0.587,
-        "Danceability": 0.679,
-        "Loudness": -7.015,
-        "Speechiness": 0.276,
-        "Acousticness": 0.141,
-        "Instrumentalness": 6.35e-06,
-        "Liveness": 0.137,
-        "Valence": 0.486,
-        "Tempo": 186.003,
+        "Energy": 0.557,
+        "Danceability": 0.677,
+        "Loudness": -8.072,
+        "Speechiness": 0.287,
+        "Acousticness": 0.146,
+        "Instrumentalness": 8.48e-06,
+        "Liveness": 0.129,
+        "Valence": 0.501,
+        "Tempo": 186.014,
         "TimeSignature": 4
     },
     {
@@ -12415,6 +10273,48 @@
         "Liveness": 0.0815,
         "Valence": 0.838,
         "Tempo": 116.988,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 540680,
+        "Key": "Bm",
+        "Energy": 0.887,
+        "Danceability": 0.764,
+        "Loudness": -6.088,
+        "Speechiness": 0.176,
+        "Acousticness": 0.00987,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.0585,
+        "Valence": 0.816,
+        "Tempo": 126.974,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 541042,
+        "Key": "C#m",
+        "Energy": 0.701,
+        "Danceability": 0.672,
+        "Loudness": -5.523,
+        "Speechiness": 0.305,
+        "Acousticness": 0.104,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.113,
+        "Valence": 0.399,
+        "Tempo": 91.312,
+        "TimeSignature": 4
+    },
+    {
+        "SongID": 542945,
+        "Key": "C#",
+        "Energy": 0.764,
+        "Danceability": 0.692,
+        "Loudness": -5.078,
+        "Speechiness": 0.0649,
+        "Acousticness": 0.0544,
+        "Instrumentalness": 0.0,
+        "Liveness": 0.0922,
+        "Valence": 0.495,
+        "Tempo": 95.002,
         "TimeSignature": 4
     },
     {
@@ -12499,34 +10399,6 @@
         "Liveness": 0.0988,
         "Valence": 0.886,
         "Tempo": 127.132,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 562337,
-        "Key": "Cm",
-        "Energy": 0.775,
-        "Danceability": 0.655,
-        "Loudness": -6.674,
-        "Speechiness": 0.0295,
-        "Acousticness": 0.0551,
-        "Instrumentalness": 0.00398,
-        "Liveness": 0.353,
-        "Valence": 0.959,
-        "Tempo": 130.006,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 569794,
-        "Key": "Em",
-        "Energy": 0.685,
-        "Danceability": 0.897,
-        "Loudness": -4.207,
-        "Speechiness": 0.086,
-        "Acousticness": 0.0921,
-        "Instrumentalness": 6.37e-05,
-        "Liveness": 0.0961,
-        "Valence": 0.333,
-        "Tempo": 96.02,
         "TimeSignature": 4
     },
     {
@@ -12810,20 +10682,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 572996,
-        "Key": "G",
-        "Energy": 0.616,
-        "Danceability": 0.62,
-        "Loudness": -6.796,
-        "Speechiness": 0.0231,
-        "Acousticness": 0.564,
-        "Instrumentalness": 1.09e-05,
-        "Liveness": 0.222,
-        "Valence": 0.542,
-        "Tempo": 98.953,
-        "TimeSignature": 3
-    },
-    {
         "SongID": 572999,
         "Key": "G",
         "Energy": 0.715,
@@ -12838,20 +10696,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 573008,
-        "Key": "G#m",
-        "Energy": 0.634,
-        "Danceability": 0.502,
-        "Loudness": -3.367,
-        "Speechiness": 0.144,
-        "Acousticness": 0.677,
-        "Instrumentalness": 0.0341,
-        "Liveness": 0.188,
-        "Valence": 0.645,
-        "Tempo": 101.837,
-        "TimeSignature": 3
-    },
-    {
         "SongID": 573021,
         "Key": "Fm",
         "Energy": 0.535,
@@ -12863,20 +10707,6 @@
         "Liveness": 0.285,
         "Valence": 0.22,
         "Tempo": 83.701,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 573030,
-        "Key": "Bm",
-        "Energy": 0.671,
-        "Danceability": 0.803,
-        "Loudness": -6.547,
-        "Speechiness": 0.259,
-        "Acousticness": 0.153,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.344,
-        "Valence": 0.537,
-        "Tempo": 102.964,
         "TimeSignature": 4
     },
     {
@@ -13328,34 +11158,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 600330,
-        "Key": "C#",
-        "Energy": 0.692,
-        "Danceability": 0.838,
-        "Loudness": -7.099,
-        "Speechiness": 0.427,
-        "Acousticness": 0.0312,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0478,
-        "Valence": 0.649,
-        "Tempo": 108.987,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600338,
-        "Key": "C",
-        "Energy": 0.536,
-        "Danceability": 0.75,
-        "Loudness": -4.66,
-        "Speechiness": 0.228,
-        "Acousticness": 0.306,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.102,
-        "Valence": 0.842,
-        "Tempo": 83.986,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 600350,
         "Key": "C#",
         "Energy": 0.524,
@@ -13510,104 +11312,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 600451,
-        "Key": "C#",
-        "Energy": 0.622,
-        "Danceability": 0.861,
-        "Loudness": -12.417,
-        "Speechiness": 0.0727,
-        "Acousticness": 0.0632,
-        "Instrumentalness": 7.79e-05,
-        "Liveness": 0.253,
-        "Valence": 0.413,
-        "Tempo": 112.009,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600452,
-        "Key": "A#m",
-        "Energy": 0.675,
-        "Danceability": 0.837,
-        "Loudness": -15.098,
-        "Speechiness": 0.0592,
-        "Acousticness": 0.0117,
-        "Instrumentalness": 0.814,
-        "Liveness": 0.0746,
-        "Valence": 0.472,
-        "Tempo": 113.008,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600453,
-        "Key": "D",
-        "Energy": 0.759,
-        "Danceability": 0.9,
-        "Loudness": -4.459,
-        "Speechiness": 0.178,
-        "Acousticness": 0.0429,
-        "Instrumentalness": 5.67e-06,
-        "Liveness": 0.228,
-        "Valence": 0.596,
-        "Tempo": 125.001,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600454,
-        "Key": "C#",
-        "Energy": 0.382,
-        "Danceability": 0.801,
-        "Loudness": -14.935,
-        "Speechiness": 0.0613,
-        "Acousticness": 0.0126,
-        "Instrumentalness": 0.796,
-        "Liveness": 0.0771,
-        "Valence": 0.457,
-        "Tempo": 111.998,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600455,
-        "Key": "C#",
-        "Energy": 0.453,
-        "Danceability": 0.92,
-        "Loudness": -6.912,
-        "Speechiness": 0.0634,
-        "Acousticness": 0.0145,
-        "Instrumentalness": 0.0195,
-        "Liveness": 0.0699,
-        "Valence": 0.242,
-        "Tempo": 113.002,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600456,
-        "Key": "Fm",
-        "Energy": 0.539,
-        "Danceability": 0.943,
-        "Loudness": -8.398,
-        "Speechiness": 0.0632,
-        "Acousticness": 0.0512,
-        "Instrumentalness": 0.00351,
-        "Liveness": 0.041,
-        "Valence": 0.45,
-        "Tempo": 112.008,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600460,
-        "Key": "C",
-        "Energy": 0.884,
-        "Danceability": 0.576,
-        "Loudness": -5.058,
-        "Speechiness": 0.555,
-        "Acousticness": 0.357,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.368,
-        "Valence": 0.373,
-        "Tempo": 150.45,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 600463,
         "Key": "Bm",
         "Energy": 0.917,
@@ -13675,20 +11379,6 @@
         "Liveness": 0.0981,
         "Valence": 0.957,
         "Tempo": 133.994,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600488,
-        "Key": "G#m",
-        "Energy": 0.73,
-        "Danceability": 0.611,
-        "Loudness": -4.769,
-        "Speechiness": 0.147,
-        "Acousticness": 0.0222,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0984,
-        "Valence": 0.699,
-        "Tempo": 196.033,
         "TimeSignature": 4
     },
     {
@@ -13888,20 +11578,6 @@
         "TimeSignature": 5
     },
     {
-        "SongID": 600562,
-        "Key": "A#m",
-        "Energy": 0.536,
-        "Danceability": 0.771,
-        "Loudness": -11.148,
-        "Speechiness": 0.103,
-        "Acousticness": 0.061,
-        "Instrumentalness": 0.0487,
-        "Liveness": 0.318,
-        "Valence": 0.393,
-        "Tempo": 100.953,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 600570,
         "Key": "G",
         "Energy": 0.389,
@@ -14011,20 +11687,6 @@
         "Liveness": 0.101,
         "Valence": 0.685,
         "Tempo": 80.988,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600632,
-        "Key": "Cm",
-        "Energy": 0.672,
-        "Danceability": 0.717,
-        "Loudness": -4.521,
-        "Speechiness": 0.124,
-        "Acousticness": 0.17,
-        "Instrumentalness": 6.06e-06,
-        "Liveness": 0.126,
-        "Valence": 0.456,
-        "Tempo": 110.097,
         "TimeSignature": 4
     },
     {
@@ -14210,20 +11872,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 600713,
-        "Key": "F#",
-        "Energy": 0.506,
-        "Danceability": 0.727,
-        "Loudness": -6.901,
-        "Speechiness": 0.0404,
-        "Acousticness": 0.258,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.271,
-        "Valence": 0.52,
-        "Tempo": 139.949,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 600714,
         "Key": "A",
         "Energy": 0.647,
@@ -14277,20 +11925,6 @@
         "Liveness": 0.204,
         "Valence": 0.46,
         "Tempo": 107.989,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600744,
-        "Key": "G#",
-        "Energy": 0.64,
-        "Danceability": 0.766,
-        "Loudness": -14.798,
-        "Speechiness": 0.0476,
-        "Acousticness": 0.0329,
-        "Instrumentalness": 0.0726,
-        "Liveness": 0.0621,
-        "Valence": 0.535,
-        "Tempo": 112.985,
         "TimeSignature": 4
     },
     {
@@ -14532,20 +12166,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 600826,
-        "Key": "D",
-        "Energy": 0.657,
-        "Danceability": 0.727,
-        "Loudness": -7.606,
-        "Speechiness": 0.0561,
-        "Acousticness": 0.115,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.098,
-        "Valence": 0.868,
-        "Tempo": 180.055,
-        "TimeSignature": 3
-    },
-    {
         "SongID": 600827,
         "Key": "F#m",
         "Energy": 0.312,
@@ -14600,20 +12220,6 @@
         "Valence": 0.962,
         "Tempo": 142.081,
         "TimeSignature": 4
-    },
-    {
-        "SongID": 600858,
-        "Key": "C#",
-        "Energy": 0.826,
-        "Danceability": 0.733,
-        "Loudness": -2.391,
-        "Speechiness": 0.192,
-        "Acousticness": 0.168,
-        "Instrumentalness": 0.000986,
-        "Liveness": 0.102,
-        "Valence": 0.954,
-        "Tempo": 187.627,
-        "TimeSignature": 3
     },
     {
         "SongID": 600861,
@@ -14770,20 +12376,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 600912,
-        "Key": "C#m",
-        "Energy": 0.733,
-        "Danceability": 0.8,
-        "Loudness": -3.582,
-        "Speechiness": 0.0452,
-        "Acousticness": 0.147,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.0451,
-        "Valence": 0.963,
-        "Tempo": 119.988,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 600919,
         "Key": "Em",
         "Energy": 0.839,
@@ -14837,20 +12429,6 @@
         "Liveness": 0.115,
         "Valence": 0.406,
         "Tempo": 88.285,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 600946,
-        "Key": "D",
-        "Energy": 0.898,
-        "Danceability": 0.661,
-        "Loudness": -7.451,
-        "Speechiness": 0.0349,
-        "Acousticness": 0.00105,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.215,
-        "Valence": 0.421,
-        "Tempo": 124.014,
         "TimeSignature": 4
     },
     {
@@ -14910,20 +12488,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 600970,
-        "Key": "A#m",
-        "Energy": 0.759,
-        "Danceability": 0.624,
-        "Loudness": -7.053,
-        "Speechiness": 0.222,
-        "Acousticness": 0.105,
-        "Instrumentalness": 0.000103,
-        "Liveness": 0.375,
-        "Valence": 0.458,
-        "Tempo": 91.9,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 600972,
         "Key": "F#m",
         "Energy": 0.868,
@@ -14966,20 +12530,6 @@
         "TimeSignature": 4
     },
     {
-        "SongID": 600985,
-        "Key": "G#",
-        "Energy": 0.767,
-        "Danceability": 0.469,
-        "Loudness": -5.953,
-        "Speechiness": 0.269,
-        "Acousticness": 0.309,
-        "Instrumentalness": 6.2e-05,
-        "Liveness": 0.106,
-        "Valence": 0.915,
-        "Tempo": 199.608,
-        "TimeSignature": 5
-    },
-    {
         "SongID": 601004,
         "Key": "C",
         "Energy": 0.784,
@@ -14991,20 +12541,6 @@
         "Liveness": 0.0909,
         "Valence": 0.405,
         "Tempo": 99.968,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 601006,
-        "Key": "F#m",
-        "Energy": 0.545,
-        "Danceability": 0.548,
-        "Loudness": -9.857,
-        "Speechiness": 0.197,
-        "Acousticness": 0.75,
-        "Instrumentalness": 0.000427,
-        "Liveness": 0.103,
-        "Valence": 0.455,
-        "Tempo": 76.23,
         "TimeSignature": 4
     },
     {
@@ -15106,34 +12642,6 @@
         "TimeSignature": 3
     },
     {
-        "SongID": 601050,
-        "Key": "Am",
-        "Energy": 0.583,
-        "Danceability": 0.681,
-        "Loudness": -8.854,
-        "Speechiness": 0.327,
-        "Acousticness": 0.297,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.312,
-        "Valence": 0.54,
-        "Tempo": 148.711,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 601053,
-        "Key": "Bm",
-        "Energy": 0.692,
-        "Danceability": 0.677,
-        "Loudness": -7.526,
-        "Speechiness": 0.253,
-        "Acousticness": 0.28,
-        "Instrumentalness": 0.0,
-        "Liveness": 0.351,
-        "Valence": 0.598,
-        "Tempo": 139.954,
-        "TimeSignature": 4
-    },
-    {
         "SongID": 601055,
         "Key": "G#",
         "Energy": 0.691,
@@ -15146,34 +12654,6 @@
         "Valence": 0.66,
         "Tempo": 149.245,
         "TimeSignature": 1
-    },
-    {
-        "SongID": 601056,
-        "Key": "F#",
-        "Energy": 0.765,
-        "Danceability": 0.679,
-        "Loudness": -4.937,
-        "Speechiness": 0.0658,
-        "Acousticness": 0.351,
-        "Instrumentalness": 0.00189,
-        "Liveness": 0.0864,
-        "Valence": 0.793,
-        "Tempo": 150.011,
-        "TimeSignature": 4
-    },
-    {
-        "SongID": 601059,
-        "Key": "Am",
-        "Energy": 0.573,
-        "Danceability": 0.867,
-        "Loudness": -14.403,
-        "Speechiness": 0.088,
-        "Acousticness": 0.00378,
-        "Instrumentalness": 0.0015,
-        "Liveness": 0.119,
-        "Valence": 0.728,
-        "Tempo": 112.995,
-        "TimeSignature": 4
     },
     {
         "SongID": 601218,
