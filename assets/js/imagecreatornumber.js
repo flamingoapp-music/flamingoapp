@@ -71,8 +71,14 @@ document.addEventListener("DOMContentLoaded", function () {
 		return countryCode || promptForCountry();
 	}
 
+	function promptForPosition() {
+		let userInput = prompt("Enter a position number:");
+		return parseInt(userInput.trim(), 10) || promptForPosition();
+	}
+
 	const selectedPlatform = promptForPlatform();
 	const countryCode = promptForCountry();
+	let currentPosition = promptForPosition();
 	const dataFile = `${platformOptions[selectedPlatform]}${countryCode}.json`;
 	const siFile = siTsFiles[selectedPlatform].si;
 	const tsFile = siTsFiles[selectedPlatform].ts;
@@ -104,7 +110,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	let mergedData = [];
-	let currentIndex = 0;
 
 	Promise.all([
 		fetch(dataFile).then((res) => res.json()),
@@ -113,10 +118,11 @@ document.addEventListener("DOMContentLoaded", function () {
 	])
 		.then(([data, siData, tsData]) => {
 			mergedData = mergeData(data, siData, tsData).sort((a, b) => a.Position - b.Position);
-			if (mergedData.length > 0) {
-				updateUI(mergedData[currentIndex]);
+			const song = mergedData.find(item => item.Position === currentPosition);
+			if (song) {
+				updateUI(song);
 			} else {
-				console.error("No data found");
+				console.error("Position not found in data");
 			}
 		})
 		.catch((error) => console.error("Error fetching data:", error));
@@ -150,11 +156,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	document.addEventListener("keydown", (event) => {
 		if (event.key === "ArrowRight" && mergedData.length > 0) {
-			currentIndex = (currentIndex + 1) % mergedData.length;
-			updateUI(mergedData[currentIndex]);
+			currentPosition = (currentPosition % mergedData.length) + 1;
+			const song = mergedData.find(item => item.Position === currentPosition);
+			if (song) updateUI(song);
 		} else if (event.key === "ArrowLeft" && mergedData.length > 0) {
-			currentIndex = (currentIndex - 1 + mergedData.length) % mergedData.length;
-			updateUI(mergedData[currentIndex]);
+			currentPosition = (currentPosition - 2 + mergedData.length) % mergedData.length + 1;
+			const song = mergedData.find(item => item.Position === currentPosition);
+			if (song) updateUI(song);
 		}
 	});
 });

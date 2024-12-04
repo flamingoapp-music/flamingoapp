@@ -1,4 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
+	// Set the date in format "DD - Month(in words) of YYYY"
+	const dateElement = document.getElementById("headerDate");
+	const currentDate = new Date();
+	const day = currentDate.getDate();
+	const monthNames = [
+		"January", "February", "March", "April", "May", "June",
+		"July", "August", "September", "October", "November", "December"
+	];
+	const month = monthNames[currentDate.getMonth()];
+	const year = currentDate.getFullYear();
+	const formattedDate = `Week from ${day} of ${month} of ${year}`;
+	dateElement.textContent = formattedDate;
+
 	const platformOptions = {
 		spotifyDaily: "DATABASES/SPOTIFY/daily/SP_",
 		spotifyWeekly: "DATABASES/SPOTIFY/weekly/SP_",
@@ -90,10 +103,15 @@ document.addEventListener("DOMContentLoaded", function () {
 	const countryNameElement = document.getElementById("countryName");
 	const countryIcon = document.getElementById("countryIcon");
 	const platformLogo = document.getElementById("platformLogo");
+	const topImage = document.getElementById("topImage");
 
 	countryNameElement.textContent = `${platformNameMap[selectedPlatform].toUpperCase()} ${countryOptions[countryCode].toUpperCase()}`;
 	platformLogo.src = platformLogos[selectedPlatform];
 	platformLogo.alt = `${platformNameMap[selectedPlatform]} Logo`;
+
+	if (selectedPlatform === "youtubeInsights") {
+		platformLogo.classList.add("youtube-logo");
+	}
 
 	if (countryCode === "Global") {
 		countryIcon.style.display = "none";
@@ -103,21 +121,15 @@ document.addEventListener("DOMContentLoaded", function () {
 		countryIcon.style.display = "inline";
 	}
 
-	let mergedData = [];
-	let currentIndex = 0;
-
 	Promise.all([
 		fetch(dataFile).then((res) => res.json()),
 		fetch(siFile).then((res) => res.json()),
 		fetch(tsFile).then((res) => res.json())
 	])
 		.then(([data, siData, tsData]) => {
-			mergedData = mergeData(data, siData, tsData).sort((a, b) => a.Position - b.Position);
-			if (mergedData.length > 0) {
-				updateUI(mergedData[currentIndex]);
-			} else {
-				console.error("No data found");
-			}
+			const mergedData = mergeData(data, siData, tsData).sort((a, b) => a.Position - b.Position);
+			updateTopImage(mergedData[0]);
+			updateSongListUI(mergedData.slice(0, 10)); // Display positions 2-10
 		})
 		.catch((error) => console.error("Error fetching data:", error));
 
@@ -140,21 +152,72 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	}
 
-	function updateUI(song) {
-		document.getElementById("topTitle").textContent = `${song.Position}: ${song.Title || "Unknown Title"}`;
-		document.getElementById("topArtist").textContent = song.Artist || "Unknown Artist";
-		const coverImage = document.getElementById("topImage");
-		coverImage.src = song.CoverImage || "images/default_cover.jpg";
-		coverImage.alt = `${song.Title || "Unknown Title"} Cover Image`;
+	function updateTopImage(song) {
+		topImage.src = song.CoverImage;
+		topImage.alt = `${song.Title} Cover`;
 	}
 
-	document.addEventListener("keydown", (event) => {
-		if (event.key === "ArrowRight" && mergedData.length > 0) {
-			currentIndex = (currentIndex + 1) % mergedData.length;
-			updateUI(mergedData[currentIndex]);
-		} else if (event.key === "ArrowLeft" && mergedData.length > 0) {
-			currentIndex = (currentIndex - 1 + mergedData.length) % mergedData.length;
-			updateUI(mergedData[currentIndex]);
-		}
-	});
+	function updateSongListUI(songs) {
+		const songList = document.getElementById("songList");
+		songList.innerHTML = '';
+
+		const firstColumnSongs = songs.slice(0, 5);
+		const secondColumnSongs = songs.slice(5, 10);
+
+		const columnsContainer = document.createElement('div');
+		columnsContainer.className = 'columns-container';
+
+		const firstColumn = document.createElement('div');
+		firstColumn.className = 'column';
+		const firstList = document.createElement('ul');
+		firstList.className = 'song-list';
+		firstColumnSongs.forEach(song => {
+			const listItem = createSongListItem(song);
+			firstList.appendChild(listItem);
+		});
+		firstColumn.appendChild(firstList);
+
+		const secondColumn = document.createElement('div');
+		secondColumn.className = 'column';
+		const secondList = document.createElement('ul');
+		secondList.className = 'song-list';
+		secondColumnSongs.forEach(song => {
+			const listItem = createSongListItem(song);
+			secondList.appendChild(listItem);
+		});
+		secondColumn.appendChild(secondList);
+
+		columnsContainer.appendChild(firstColumn);
+		columnsContainer.appendChild(secondColumn);
+
+		songList.appendChild(columnsContainer);
+	}
+
+	function createSongListItem(song) {
+		const listItem = document.createElement("li");
+
+		const img = document.createElement("img");
+		img.src = song.CoverImage;
+		img.alt = `${song.Title} Cover`;
+
+		const songInfo = document.createElement("div");
+		songInfo.className = "song-info-list";
+
+		const title = document.createElement("span");
+		title.className = "song-title";
+		title.textContent = `${song.Position}. ${song.Title}`;
+
+		const artist = document.createElement("span");
+		artist.className = "song-artist";
+		artist.textContent = song.Artist;
+
+		songInfo.appendChild(title);
+		songInfo.appendChild(document.createElement("br"));
+		songInfo.appendChild(artist);
+
+		listItem.appendChild(img);
+		listItem.appendChild(songInfo);
+
+		return listItem;
+	}
 });
