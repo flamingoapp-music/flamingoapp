@@ -56,14 +56,26 @@
 						<div id="topAlbum" class="album">Album</div>
 						<div class="dropdown-container">
 							<select id="countrySelect">
-								<option value="Global" selected>🌍 Global</option>
+								<option value="index" selected>🌍 Global</option>
 
-								<!-- North America and Central America -->
-								<optgroup label="North America and Central America">
+								<!-- North America -->
+								<optgroup label="North America">
 									<option value="us">🇺🇸 United States</option>
 									<option value="ca">🇨🇦 Canada</option>
 									<option value="mx">🇲🇽 Mexico</option>
+								</optgroup>
+
+								<!-- Central America & Caribbean -->
+								<optgroup label="Central America & Caribbean">
+									<option value="bz">🇧🇿 Belize</option>
 									<option value="cr">🇨🇷 Costa Rica</option>
+									<option value="sv">🇸🇻 El Salvador</option>
+									<option value="gt">🇬🇹 Guatemala</option>
+									<option value="hn">🇭🇳 Honduras</option>
+									<option value="ni">🇳🇮 Nicaragua</option>
+									<option value="pa">🇵🇦 Panama</option>
+									<option value="do">🇩🇴 Dominican Republic</option>
+									<option value="tt">🇹🇹 Trinidad and Tobago</option>
 								</optgroup>
 
 								<!-- South America -->
@@ -73,9 +85,11 @@
 									<option value="cl">🇨🇱 Chile</option>
 									<option value="co">🇨🇴 Colombia</option>
 									<option value="ec">🇪🇨 Ecuador</option>
+									<option value="py">🇵🇾 Paraguay</option>
 									<option value="pe">🇵🇪 Peru</option>
 									<option value="uy">🇺🇾 Uruguay</option>
 									<option value="ve">🇻🇪 Venezuela</option>
+									<option value="bo">🇧🇴 Bolivia</option>
 								</optgroup>
 
 								<!-- Europe -->
@@ -87,28 +101,41 @@
 									<option value="pt">🇵🇹 Portugal</option>
 									<option value="be">🇧🇪 Belgium</option>
 									<option value="nl">🇳🇱 Netherlands</option>
-									<option value="pl">🇵🇱 Poland</option>
+									<option value="at">🇦🇹 Austria</option>
+									<option value="ch">🇨🇭 Switzerland</option>
+									<option value="ie">🇮🇪 Ireland</option>
+									<option value="dk">🇩🇰 Denmark</option>
+									<option value="fi">🇫🇮 Finland</option>
 									<option value="se">🇸🇪 Sweden</option>
 									<option value="no">🇳🇴 Norway</option>
-									<option value="fi">🇫🇮 Finland</option>
-									<option value="ch">🇨🇭 Switzerland</option>
-									<option value="at">🇦🇹 Austria</option>
-									<option value="ie">🇮🇪 Ireland</option>
+									<option value="pl">🇵🇱 Poland</option>
+									<option value="hu">🇭🇺 Hungary</option>
+									<option value="cz">🇨🇿 Czech Republic</option>
+									<option value="sk">🇸🇰 Slovakia</option>
+									<option value="lu">🇱🇺 Luxembourg</option>
 								</optgroup>
 
 								<!-- Asia -->
 								<optgroup label="Asia">
-									<option value="cn">🇨🇳 China</option>
 									<option value="jp">🇯🇵 Japan</option>
+									<option value="cn">🇨🇳 China</option>
 									<option value="in">🇮🇳 India</option>
 									<option value="kr">🇰🇷 South Korea</option>
 									<option value="tw">🇹🇼 Taiwan</option>
-									<option value="sg">🇸🇬 Singapore</option>
-									<option value="my">🇲🇾 Malaysia</option>
 									<option value="th">🇹🇭 Thailand</option>
-									<option value="vn">🇻🇳 Vietnam</option>
-									<option value="ph">🇵🇭 Philippines</option>
+									<option value="hk">🇭🇰 Hong Kong</option>
 									<option value="id">🇮🇩 Indonesia</option>
+									<option value="ph">🇵🇭 Philippines</option>
+								</optgroup>
+
+								<!-- Middle East -->
+								<optgroup label="Middle East">
+									<option value="tr">🇹🇷 Turkey</option>
+									<option value="sa">🇸🇦 Saudi Arabia</option>
+									<option value="ae">🇦🇪 United Arab Emirates</option>
+									<option value="bh">🇧🇭 Bahrain</option>
+									<option value="am">🇦🇲 Armenia</option>
+									<option value="az">🇦🇿 Azerbaijan</option>
 								</optgroup>
 
 								<!-- Africa -->
@@ -116,8 +143,6 @@
 									<option value="za">🇿🇦 South Africa</option>
 									<option value="ng">🇳🇬 Nigeria</option>
 									<option value="eg">🇪🇬 Egypt</option>
-									<option value="ke">🇰🇪 Kenya</option>
-									<option value="gh">🇬🇭 Ghana</option>
 								</optgroup>
 
 								<!-- Oceania -->
@@ -125,11 +150,12 @@
 									<option value="au">🇦🇺 Australia</option>
 									<option value="nz">🇳🇿 New Zealand</option>
 								</optgroup>
+
 							</select>
 						</div>
 						<div class="icons">
 							<a href="#" id="spotifyButton" target="_blank" style="display: none;">
-								<img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/spotify_logo_icon_189218.png" alt="Spotify">
+								<img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify">
 							</a>
 						</div>
 					</div>
@@ -186,6 +212,6 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="assets/js/iTunes.js"></script>
+<script src="assets/js/itunes.js"></script>
 </body>
 </html>

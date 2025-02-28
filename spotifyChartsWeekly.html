@@ -12,10 +12,7 @@
 <body class="is-preload">
 <div id="wrapper">
 	<header id="header" class="alt">
-		<a href="index.html" class="logo"><strong>F L A M I N G O  A P P</strong> </a>
-		<!--<nav>
-            <a href="#menu">Menu</a>
-        </nav>-->
+		<a href="index.html" class="logo"><strong>F L A M I N G O  A P P</strong></a>
 	</header>
 	<nav id="menu">
 		<ul class="links">
@@ -34,9 +31,6 @@
 			<header class="major">
 				<h1>Spotify Weekly Charts</h1>
 			</header>
-			<div class="content">
-				<p></p>
-			</div>
 		</div>
 	</section>
 	<div id="main">
@@ -59,74 +53,7 @@
 						<div id="topAlbum" class="album">Album</div>
 						<div class="dropdown-container">
 							<input type="text" id="countrySelect" class="display-select" placeholder="Select Country..." readonly>
-							<div class="dropdown-list" id="countryOptions">
-								<div value="global">🌍 Global</div>
-								<h6><b>North America and Central America</b></h6>
-								<div value="us">🇺🇸 United States</div>
-								<div value="ca">🇨🇦 Canada</div>
-								<div value="mx">🇲🇽 Mexico</div>
-								<div value="gt">🇬🇹 Guatemala</div>
-								<div value="hn">🇭🇳 Honduras</div>
-								<div value="sv">🇸🇻 El Salvador</div>
-								<div value="ni">🇳🇮 Nicaragua</div>
-								<div value="cr">🇨🇷 Costa Rica</div>
-								<div value="pa">🇵🇦 Panama</div>
-								<div value="do">🇩🇴 Dominican Republic</div>
-								<h6><b>South America</b></h6>
-								<div value="ar">🇦🇷 Argentina</div>
-								<div value="bo">🇧🇴 Bolivia</div>
-								<div value="br">🇧🇷 Brazil</div>
-								<div value="cl">🇨🇱 Chile</div>
-								<div value="co">🇨🇴 Colombia</div>
-								<div value="ec">🇪🇨 Ecuador</div>
-								<div value="py">🇵🇾 Paraguay</div>
-								<div value="pe">🇵🇪 Peru</div>
-								<div value="uy">🇺🇾 Uruguay</div>
-								<div value="ve">🇻🇪 Venezuela</div>
-								<h6><b>Europe</b></h6>
-								<div value="gb">🇬🇧 United Kingdom</div>
-								<div value="at">🇦🇹 Austria</div>
-								<div value="be">🇧🇪 Belgium</div>
-								<div value="bg">🇧🇬 Bulgaria</div>
-								<div value="cz">🇨🇿 Czech Republic</div>
-								<div value="dk">🇩🇰 Denmark</div>
-								<div value="fi">🇫🇮 Finland</div>
-								<div value="fr">🇫🇷 France</div>
-								<div value="de">🇩🇪 Germany</div>
-								<div value="gr">🇬🇷 Greece</div>
-								<div value="hu">🇭🇺 Hungary</div>
-								<div value="ie">🇮🇪 Ireland</div>
-								<div value="it">🇮🇹 Italy</div>
-								<div value="lv">🇱🇻 Latvia</div>
-								<div value="lt">🇱🇹 Lithuania</div>
-								<div value="lu">🇱🇺 Luxembourg</div>
-								<div value="nl">🇳🇱 Netherlands</div>
-								<div value="pl">🇵🇱 Poland</div>
-								<div value="pt">🇵🇹 Portugal</div>
-								<div value="ro">🇷🇴 Romania</div>
-								<div value="ru">🇷🇺 Russia</div>
-								<div value="sk">🇸🇰 Slovakia</div>
-								<h6><b>Asia</b></h6>
-								<div value="hk">🇭🇰 Hong Kong</div>
-								<div value="in">🇮🇳 India</div>
-								<div value="id">🇮🇩 Indonesia</div>
-								<div value="il">🇮🇱 Israel</div>
-								<div value="jp">🇯🇵 Japan</div>
-								<div value="kz">🇰🇿 Kazakhstan</div>
-								<div value="my">🇲🇾 Malaysia</div>
-								<div value="ph">🇵🇭 Philippines</div>
-								<div value="sg">🇸🇬 Singapore</div>
-								<div value="kr">🇰🇷 South Korea</div>
-								<div value="tw">🇹🇼 Taiwan</div>
-								<div value="th">🇹🇭 Thailand</div>
-								<div value="vn">🇻🇳 Vietnam</div>
-								<h6><b>Oceania and Africa</b></h6>
-								<div value="au">🇦🇺 Australia</div>
-								<div value="nz">🇳🇿 New Zealand</div>
-								<div value="eg">🇪🇬 Egypt</div>
-								<div value="ma">🇲🇦 Morocco</div>
-								<div value="za">🇿🇦 South Africa</div>
-							</div>
+							<div class="dropdown-list" id="countryOptions"></div>
 							<div class="icons">
 								<a href="https://open.spotify.com" id="spotifyButton" target="_blank">
 									<img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png" alt="Spotify">
@@ -179,5 +106,50 @@
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/spotify.js"></script>
+<script>
+	const countriesByRegion = {
+		"Global": { "Global": "global" },
+		"North America and Central America": {
+			"United States": "us", "Canada": "ca", "Mexico": "mx", "Guatemala": "gt", "Honduras": "hn",
+			"El Salvador": "sv", "Nicaragua": "ni", "Costa Rica": "cr", "Panama": "pa", "Dominican Republic": "do"
+		},
+		"South America": {
+			"Argentina": "ar", "Bolivia": "bo", "Brazil": "br", "Chile": "cl", "Colombia": "co",
+			"Ecuador": "ec", "Paraguay": "py", "Peru": "pe", "Uruguay": "uy", "Venezuela": "ve"
+		},
+		"Europe": {
+			"United Kingdom": "gb", "Germany": "de", "France": "fr", "Italy": "it", "Spain": "es",
+			"Poland": "pl", "Netherlands": "nl", "Austria": "at", "Belgium": "be", "Bulgaria": "bg",
+			"Czech Republic": "cz", "Denmark": "dk", "Finland": "fi", "Greece": "gr", "Hungary": "hu",
+			"Ireland": "ie", "Latvia": "lv", "Lithuania": "lt", "Luxembourg": "lu", "Portugal": "pt",
+			"Romania": "ro", "Russia": "ru", "Slovakia": "sk", "Sweden": "se", "Switzerland": "ch"
+		},
+		"Asia": {
+			"India": "in", "Japan": "jp", "South Korea": "kr", "Hong Kong": "hk", "Singapore": "sg",
+			"Thailand": "th", "Indonesia": "id", "Israel": "il", "Kazakhstan": "kz", "Malaysia": "my",
+			"Philippines": "ph", "Taiwan": "tw", "Turkey": "tr", "United Arab Emirates": "ae", "Vietnam": "vn"
+		},
+		"Oceania": {
+			"Australia": "au", "New Zealand": "nz"
+		},
+		"Africa": {
+			"Egypt": "eg", "Morocco": "ma", "Nigeria": "ng", "South Africa": "za"
+		}
+	};
+
+	const countryOptions = document.getElementById("countryOptions");
+	for (const [region, countries] of Object.entries(countriesByRegion)) {
+		const regionHeader = document.createElement("h6");
+		regionHeader.innerHTML = `<b>${region}</b>`;
+		countryOptions.appendChild(regionHeader);
+
+		for (const [name, code] of Object.entries(countries)) {
+			const div = document.createElement("div");
+			div.textContent = name;
+			div.setAttribute("value", code);
+			countryOptions.appendChild(div);
+		}
+	}
+</script>
 </body>
 </html>
