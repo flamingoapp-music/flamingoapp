@@ -225,75 +225,76 @@ function populateCountryDropdown() {
 	const countrySelect = document.getElementById('countrySelect');
 	if (countrySelect) {
 		countrySelect.innerHTML = `
-            <option value="Global" selected>🌍 Global</option>
-            <!-- North America and Central America -->
-            <optgroup label="North America and Central America">
-                <option value="us">🇺🇸 United States</option>
-                <option value="ca">🇨🇦 Canada</option>
-                <option value="mx">🇲🇽 Mexico</option>
-                <option value="cr">🇨🇷 Costa Rica</option>
-                <option value="sv">🇸🇻 El Salvador</option>
-                <option value="gt">🇬🇹 Guatemala</option>
-                <option value="hn">🇭🇳 Honduras</option>
-                <option value="jm">🇯🇲 Jamaica</option>
-            </optgroup>
+            <option value="ww" selected>🌍 Global</option>
 
-            <!-- South America -->
-            <optgroup label="South America">
-                <option value="ar">🇦🇷 Argentina</option>
-                <option value="br">🇧🇷 Brazil</option>
-                <option value="cl">🇨🇱 Chile</option>
-                <option value="co">🇨🇴 Colombia</option>
-                <option value="ec">🇪🇨 Ecuador</option>
-                <option value="py">🇵🇾 Paraguay</option>
-                <option value="pe">🇵🇪 Peru</option>
-                <option value="ve">🇻🇪 Venezuela</option>
-                <option value="bo">🇧🇴 Bolivia</option>
-            </optgroup>
+<!-- North America and Central America -->
+<optgroup label="North America and Central America">
+<option value="us">🇺🇸 United States</option>
+<option value="ca">🇨🇦 Canada</option>
+<option value="mx">🇲🇽 Mexico</option>
+<option value="cr">🇨🇷 Costa Rica</option>
+<option value="sv">🇸🇻 El Salvador</option>
+<option value="gt">🇬🇹 Guatemala</option>
+<option value="hn">🇭🇳 Honduras</option>
+<option value="jm">🇯🇲 Jamaica</option>
+</optgroup>
 
-            <!-- Europe -->
-            <optgroup label="Europe">
-                <option value="de">🇩🇪 Germany</option>
-                <option value="fr">🇫🇷 France</option>
-                <option value="it">🇮🇹 Italy</option>
-                <option value="es">🇪🇸 Spain</option>
-                <option value="pt">🇵🇹 Portugal</option>
-                <option value="be">🇧🇪 Belgium</option>
-                <option value="nl">🇳🇱 Netherlands</option>
-                <option value="pl">🇵🇱 Poland</option>
-                <option value="se">🇸🇪 Sweden</option>
-                <option value="no">🇳🇴 Norway</option>
-                <option value="fi">🇫🇮 Finland</option>
-                <option value="ch">🇨🇭 Switzerland</option>
-                <option value="at">🇦🇹 Austria</option>
-                <option value="ie">🇮🇪 Ireland</option>
-            </optgroup>
+<!-- South America -->
+<optgroup label="South America">
+<option value="ar">🇦🇷 Argentina</option>
+<option value="br">🇧🇷 Brazil</option>
+<option value="cl">🇨🇱 Chile</option>
+<option value="co">🇨🇴 Colombia</option>
+<option value="ec">🇪🇨 Ecuador</option>
+<option value="py">🇵🇾 Paraguay</option>
+<option value="pe">🇵🇪 Peru</option>
+<option value="ve">🇻🇪 Venezuela</option>
+<option value="bo">🇧🇴 Bolivia</option>
+</optgroup>
 
-            <!-- Asia -->
-            <optgroup label="Asia">
-                <option value="jp">🇯🇵 Japan</option>
-                <option value="kr">🇰🇷 South Korea</option>
-                <option value="sg">🇸🇬 Singapore</option>
-                <option value="my">🇲🇾 Malaysia</option>
-                <option value="th">🇹🇭 Thailand</option>
-                <option value="ph">🇵🇭 Philippines</option>
-                <option value="id">🇮🇩 Indonesia</option>
-            </optgroup>
+<!-- Europe -->
+<optgroup label="Europe">
+<option value="de">🇩🇪 Germany</option>
+<option value="fr">🇫🇷 France</option>
+<option value="it">🇮🇹 Italy</option>
+<option value="es">🇪🇸 Spain</option>
+<option value="pt">🇵🇹 Portugal</option>
+<option value="be">🇧🇪 Belgium</option>
+<option value="nl">🇳🇱 Netherlands</option>
+<option value="pl">🇵🇱 Poland</option>
+<option value="se">🇸🇪 Sweden</option>
+<option value="no">🇳🇴 Norway</option>
+<option value="fi">🇫🇮 Finland</option>
+<option value="ch">🇨🇭 Switzerland</option>
+<option value="at">🇦🇹 Austria</option>
+<option value="ie">🇮🇪 Ireland</option>
+</optgroup>
 
-            <!-- Africa -->
-            <optgroup label="Africa">
-                <option value="za">🇿🇦 South Africa</option>
-                <option value="ng">🇳🇬 Nigeria</option>
-                <option value="eg">🇪🇬 Egypt</option>
-                <option value="ke">🇰🇪 Kenya</option>
-                <option value="gh">🇬🇭 Ghana</option>
-            </optgroup>
+<!-- Asia -->
+<optgroup label="Asia">
+<option value="jp">🇯🇵 Japan</option>
+<option value="kr">🇰🇷 South Korea</option>
+<option value="sg">🇸🇬 Singapore</option>
+<option value="my">🇲🇾 Malaysia</option>
+<option value="th">🇹🇭 Thailand</option>
+<option value="ph">🇵🇭 Philippines</option>
+<option value="id">🇮🇩 Indonesia</option>
+</optgroup>
 
-            <!-- Oceania -->
-            <optgroup label="Oceania">
-                <option value="au">🇦🇺 Australia</option>
-                <option value="nz">🇳🇿 New Zealand</option>
-            </optgroup>
+<!-- Africa -->
+<optgroup label="Africa">
+<option value="za">🇿🇦 South Africa</option>
+<option value="ng">🇳🇬 Nigeria</option>
+<option value="eg">🇪🇬 Egypt</option>
+<option value="ke">🇰🇪 Kenya</option>
+<option value="gh">🇬🇭 Ghana</option>
+</optgroup>
+
+<!-- Oceania -->
+<optgroup label="Oceania">
+<option value="au">🇦🇺 Australia</option>
+<option value="nz">🇳🇿 New Zealand</option>
+</optgroup>
         `;
 	}
 }
